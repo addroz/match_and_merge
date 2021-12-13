@@ -16,6 +16,9 @@ COUNTRIES_NAME_TO_ABBR = {'Austria':'AT', 'Belgium':'BE', 'Bulgaria':'BG', 'Croa
     'Malta':'MT', 'Netherlands':'NT', 'Norway':'NO', 'Poland':'PO', 'Portugal':'PT', 'Romania':'RO',
     'Slovakia':'SK', 'Slovenia':'SO', 'Spain':'ES', 'Sweden':'SW', 'United Kingdom':'UK'}
 
+TYPES = ['Lignite', 'Coal', 'Hydro', 'Biomass', 'Wind', 'Gas', 'Waste', 'Oil', 'Storage', 'Other',
+    'Wave and Tidal', 'Nuclear', 'Geothermal', 'Solar', 'Cogeneration']
+
 TYPES_JRC_DICT = {
     'Fossil Brown coal/Lignite': 'Lignite',
     'Fossil Hard coal': 'Coal',
@@ -83,12 +86,34 @@ def merge_db_by_type_and_country(db1, db2):
     pass
 
 def merge_db_by_type(db1, db2):
-    pass
+    db1_by_country = dict([(y, x) for y, x in db1.groupby(db1['country'])])
+    db2_by_country = dict([(y, x) for y, x in db1.groupby(db1['country'])])
+
+    for country in COUNTRIES:
+        if country not in db1_by_country.keys():
+            if country not in db2_by_country.keys():
+                return None
+            return db2_by_country[country]
+
+        elif country not in db2_by_country.keys():
+            return db1_by_country[country]
+        else:
+            return merge_db_by_type(db1_by_country[country], db2_by_country[country])
 
 def merge_db(db1, db2):
     db1_by_type = dict([(y, x) for y, x in db1.groupby(db1['type'])])
     db2_by_type = dict([(y, x) for y, x in db1.groupby(db1['type'])])
 
+    for type in TYPES:
+        if type not in db1_by_type.keys():
+            if type not in db2_by_type.keys():
+                return None
+            return db2_by_type[type]
+
+        elif type not in db2_by_type.keys():
+            return db1_by_type[type]
+        else:
+            return merge_db_by_type(db1_by_type[type], db2_by_type[type])
 
 if __name__ == '__main__':
     jrc_db, wri_db = read_and_prepare_data()
