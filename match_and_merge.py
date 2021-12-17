@@ -82,7 +82,29 @@ def read_and_prepare_data():
     return jrc_db, wri_db
 
 def is_the_same(plant1,  plant2):
-    return(False)
+    coord1 = (plant1.iloc[0]['lat'], plant1.iloc[0]['lon'])
+    coord2 = (plant2.iloc[0]['lat'], plant2.iloc[0]['lon'])
+
+    distance = geopy.distance.distance(coord1, coord2).km
+
+    if distance > 1:
+        return False
+
+    if plant1.iloc[0]['cap']/plant2.iloc[0]['cap'] < 0.9 or \
+        plant1.iloc[0]['cap']/plant2.iloc[0]['cap'] > 1.1:
+        return False
+
+    if plant1.iloc[0]['commissioned'] is not None and \
+        plant2.iloc[0]['commissioned'] is not None and \
+        plant1.iloc[0]['commissioned'] != plant2.iloc[0]['commissioned']:
+        return False
+
+    if plant1.iloc[0]['decommissioned'] is not None and \
+        plant2.iloc[0]['decommissioned'] is not None and \
+        plant1.iloc[0]['decommissioned'] != plant2.iloc[0]['decommissioned']:
+        return False
+
+    return(True)
 
 
 def merge_db_by_type_and_country(db1, db2):
