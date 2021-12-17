@@ -30,7 +30,7 @@ TYPES_JRC_DICT = {
     'Waste': 'Waste',
     'Fossil Gas': 'Gas',
     'Fossil Oil shale': 'Oil',
-    'Hydro Pumped Storage': 'Storage',
+    'Hydro Pumped Storage': 'Hydro',
     'Fossil Peat': 'Other',
     'Other': 'Other',
     'Marine': 'Wave and Tidal',
@@ -181,11 +181,26 @@ def merge_db(db1, db2):
 
     return db_merged_by_type
 
+def group_db(db, years):
+    cap_by_year = pd.DataFrame(columns=['year'] + TYPES)
+    for year in years:
+        row = (db[((db['commissioned'].isna()) | (db['commissioned'] <= year)) &
+            ((db['decommissioned'].isna()) | (db['decommissioned'] >= year))].groupby(['type']).sum())['cap']
+        print(row)
+
+    return cap_by_year
+
 if __name__ == '__main__':
     jrc_db, wri_db = read_and_prepare_data()
 
     merged = merge_db(jrc_db, wri_db)
 
-    print(merged)
+    print("Merged data:")
+    print(merged.head())
     merged.to_csv("merged.csv")
+
+    grouped = group_db(merged[merged['country'] == 'Poland'], [2000, 2005, 2010, 2015, 2020])
+    print("Grouped data:")
+    print(grouped)
+    merged.to_csv("grouped.csv")
 
