@@ -83,45 +83,53 @@ def read_and_prepare_data():
 
 
 def merge_db_by_type_and_country(db1, db2):
-    pass
+    return db1
 
 def merge_db_by_type(db1, db2):
     db1_by_country = dict([(y, x) for y, x in db1.groupby(db1['country'])])
-    db2_by_country = dict([(y, x) for y, x in db1.groupby(db1['country'])])
+    db2_by_country = dict([(y, x) for y, x in db1.groupby(db2['country'])])
 
+    db_merged_by_country = pd.DataFrame(columns = db1.columns)
     for country in COUNTRIES:
         if country not in db1_by_country.keys():
-            if country not in db2_by_country.keys():
-                return None
-            return db2_by_country[country]
-
+            if country in db2_by_country.keys():
+                db_merged_by_country = pd.concat([db_merged_by_country, db2_by_country[country]])
         elif country not in db2_by_country.keys():
-            return db1_by_country[country]
+            db_merged_by_country = pd.concat([db_merged_by_country, db1_by_country[country]])
         else:
-            return merge_db_by_type(db1_by_country[country], db2_by_country[country])
+            db_merged_by_country = pd.concat([db_merged_by_country,
+                merge_db_by_type_and_country(db1_by_country[country], db2_by_country[country])])
+
+    return db_merged_by_country
 
 def merge_db(db1, db2):
     db1_by_type = dict([(y, x) for y, x in db1.groupby(db1['type'])])
-    db2_by_type = dict([(y, x) for y, x in db1.groupby(db1['type'])])
+    db2_by_type = dict([(y, x) for y, x in db1.groupby(db2['type'])])
 
+    db_merged_by_type = pd.DataFrame(columns = db1.columns)
     for type in TYPES:
         if type not in db1_by_type.keys():
-            if type not in db2_by_type.keys():
-                return None
-            return db2_by_type[type]
-
+            if type in db2_by_type.keys():
+                db_merged_by_type = pd.concat([db_merged_by_type, db2_by_type[type]])
         elif type not in db2_by_type.keys():
-            return db1_by_type[type]
+            db_merged_by_type = pd.concat([db_merged_by_type, db1_by_type[type]])
         else:
-            return merge_db_by_type(db1_by_type[type], db2_by_type[type])
+            db_merged_by_type = pd.concat([db_merged_by_type,
+                merge_db_by_type(db1_by_type[type], db2_by_type[type])])
+
+    db_merged_by_type = db_merged_by_type[db_merged_by_type['country'].notna()]
+    db_merged_by_type = db_merged_by_type[db_merged_by_type['type'].notna()]
+    db_merged_by_type = db_merged_by_type[db_merged_by_type['lat'].notna()]
+    db_merged_by_type = db_merged_by_type[db_merged_by_type['lon'].notna()]
+    db_merged_by_type = db_merged_by_type[db_merged_by_type['cap'].notna()]
+    db_merged_by_type = db_merged_by_type[db_merged_by_type['commissioned'].notna()]
+    return db_merged_by_type
 
 if __name__ == '__main__':
     jrc_db, wri_db = read_and_prepare_data()
 
-    print(set(jrc_db['type']))
-    print(set(wri_db['type']))
-    print(len(jrc_db['type']))
-    print(len(wri_db['type']))
+    merged = merge_db(jrc_db, wri_db)
 
-    print(wri_db.head())
-    print(jrc_db.head())
+    print(merged)
+    merged.to_csv("merged.csv")
+
