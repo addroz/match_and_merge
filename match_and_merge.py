@@ -3,13 +3,16 @@ import numpy as np
 import pandas as pd
 from pandas.core.reshape import concat
 import config
+import sys
 
 def read_and_prepare_data():
-    jrc_db = pd.read_csv(config.JRC_FILE_PATH)
-    wri_db = pd.read_csv(config.WRI_FILE_PATH)
+    jrc_db = pd.read_csv(config.JRC_FILE_PATH, low_memory = False)
+    wri_db = pd.read_csv(config.WRI_FILE_PATH, low_memory = False)
 
-    jrc_db = jrc_db[['country', 'type_g', 'lat', 'lon', 'capacity_p', 'year_commissioned', 'year_decommissioned']]
-    wri_db = wri_db[['country_long', 'primary_fuel', 'latitude', 'longitude', 'capacity_mw', 'commissioning_year']]
+    jrc_db = jrc_db[['country', 'type_g', 'lat', 'lon', 'capacity_p', 'year_commissioned',
+        'year_decommissioned']]
+    wri_db = wri_db[['country_long', 'primary_fuel', 'latitude', 'longitude', 'capacity_mw',
+        'commissioning_year']]
 
     jrc_db.columns = ['country', 'type', 'lat', 'lon', 'cap', 'commissioned', 'decommissioned']
     wri_db.columns = ['country', 'type', 'lat', 'lon', 'cap', 'commissioned']
@@ -20,8 +23,8 @@ def read_and_prepare_data():
     wri_db = wri_db[wri_db['country'].isin(config.COUNTRIES)]
     jrc_db = jrc_db[jrc_db['country'].isin(config.COUNTRIES)]
 
-    jrc_db = jrc_db.replace({"type": config.TYPES_JRC_DICT})
-    wri_db = wri_db.replace({"type": config.TYPES_WRI_DICT})
+    jrc_db = jrc_db.replace({'type': config.TYPES_JRC_DICT})
+    wri_db = wri_db.replace({'type': config.TYPES_WRI_DICT})
 
     return jrc_db, wri_db
 
@@ -50,11 +53,7 @@ def is_the_same(plant1,  plant2):
 
     return(True)
 
-
 def merge_db_by_type_and_country(db1, db2):
-    if(not db1.empty and not db2.empty):
-        print(db1.shape[0] * db2.shape[0])
-
     result = pd.DataFrame(columns = db1.columns)
 
     db1 = db1.sort_values(by = ['lat'])
@@ -96,6 +95,12 @@ def merge_db_by_type(db1, db2):
 
     return db_merged_by_country
 
+def show_progress_bar(i, n):
+    j = (i + 1) / n
+    sys.stdout.write('\r')
+    sys.stdout.write('[%-20s] %d%%' % ('='*(int(20*j)), 100*j))
+    sys.stdout.flush()
+
 def merge_db(db1, db2):
     db1 = db1[db1['country'].notna()]
     db1 = db1[db1['type'].notna()]
@@ -113,7 +118,10 @@ def merge_db(db1, db2):
     db2_by_type = dict([(y, x) for y, x in db2.groupby(db2['type'])])
 
     db_merged_by_type = pd.DataFrame(columns = db1.columns)
-    for type in config.TYPES:
+
+    n = len(config.TYPES)
+    for (type, i) in zip(config.TYPES, list(range(n))):
+        show_progress_bar(i, n)
         if type not in db1_by_type.keys():
             if type in db2_by_type.keys():
                 db_merged_by_type = pd.concat([db_merged_by_type, db2_by_type[type]])
@@ -123,28 +131,37 @@ def merge_db(db1, db2):
             db_merged_by_type = pd.concat([db_merged_by_type,
                 merge_db_by_type(db1_by_type[type], db2_by_type[type])])
 
+    print('\n')
     return db_merged_by_type
 
 def group_db(db, years):
     cap_by_year = pd.DataFrame(columns=['year'] + config.TYPES)
     for year in years:
         row = (db[((db['commissioned'].isna()) | (db['commissioned'] <= year)) &
-            ((db['decommissioned'].isna()) | (db['decommissioned'] >= year))].groupby(['type']).sum())['cap']
-        print(row)
+            ((db['decommissioned'].isna()) | (db['decommissioned'] >= year))]\
+                .groupby(['type']).sum())['cap']
+        row['year'] = year
+        cap_by_year = cap_by_year.append(row)
 
+    cap_by_year = cap_by_year.fillna(0)
     return cap_by_year
 
 if __name__ == '__main__':
+    print('Merging databases')
     jrc_db, wri_db = read_and_prepare_data()
 
     merged = merge_db(jrc_db, wri_db)
+    merged = merged.reset_index()
+    merged = merged.drop(columns = ['index'])
+    merged.to_csv('merged.csv')
 
-    print("Merged data:")
-    print(merged.head())
-    merged.to_csv("merged.csv")
+    writer = pd.ExcelWriter('grouped.xlsx', engine='xlsxwriter')
+    for country in config.COUNTRIES:
+        print(f'Preparing output for {country}')
+        grouped = group_db(merged[merged['country'] == country], [2000, 2005, 2010, 2015, 2020])
+        grouped = grouped.reset_index()
+        grouped = grouped.drop(columns = ['index'])
+        grouped.to_excel(writer, sheet_name = config.COUNTRIES_NAME_TO_ABBR[country], index = False)
 
-    grouped = group_db(merged[merged['country'] == 'Poland'], [2000, 2005, 2010, 2015, 2020])
-    print("Grouped data:")
-    print(grouped)
-    merged.to_csv("grouped.csv")
-
+    print('Results saved to: grouped.xlsx')
+    writer.save()
