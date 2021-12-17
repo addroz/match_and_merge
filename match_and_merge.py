@@ -1,6 +1,7 @@
 import geopy.distance
 import numpy as np
 import pandas as pd
+from pandas.core.reshape import concat
 
 JRC_FILE_PATH = './jrc_db_original/JRC_OPEN_UNITS.csv'
 WRI_FILE_PATH = './wri_db_original/global_power_plant_database.csv'
@@ -60,7 +61,6 @@ TYPES_WRI_DICT = {
 
 
 def read_and_prepare_data():
-
     jrc_db = pd.read_csv(JRC_FILE_PATH)
     wri_db = pd.read_csv(WRI_FILE_PATH)
 
@@ -81,13 +81,41 @@ def read_and_prepare_data():
 
     return jrc_db, wri_db
 
+def is_the_same(plant1,  plant2):
+    return(False)
+
 
 def merge_db_by_type_and_country(db1, db2):
+    if(not db1.empty and not db2.empty):
+        print(db1.shape[0] * db2.shape[0])
+
+    result = pd.DataFrame(columns = db1.columns)
+
+    db1 = db1.sort_values(by = ['lat'])
+    db2 = db2.sort_values(by = ['lat'])
+
+    i = 0
+    j = 0
+    while i < db1.shape[0] and j < db2.shape[0]:
+        row1 = db1.iloc[[i]]
+        row2 = db2.iloc[[j]]
+
+        if(is_the_same(row1, row2)):
+            result = result.append(row1)
+            i = i + 1
+            j = j + 1
+        elif row1.iloc[0]['lat'] < row2.iloc[0]['lat']:
+            result = result.append(row1)
+            i = i + 1
+        else:
+            result = result.append(row2)
+            j = j + 1
+
     return db1
 
 def merge_db_by_type(db1, db2):
     db1_by_country = dict([(y, x) for y, x in db1.groupby(db1['country'])])
-    db2_by_country = dict([(y, x) for y, x in db1.groupby(db2['country'])])
+    db2_by_country = dict([(y, x) for y, x in db2.groupby(db2['country'])])
 
     db_merged_by_country = pd.DataFrame(columns = db1.columns)
     for country in COUNTRIES:
@@ -103,8 +131,20 @@ def merge_db_by_type(db1, db2):
     return db_merged_by_country
 
 def merge_db(db1, db2):
+    db1 = db1[db1['country'].notna()]
+    db1 = db1[db1['type'].notna()]
+    db1 = db1[db1['lat'].notna()]
+    db1 = db1[db1['lon'].notna()]
+    db1 = db1[db1['cap'].notna()]
+
+    db2 = db2[db2['country'].notna()]
+    db2 = db2[db2['type'].notna()]
+    db2 = db2[db2['lat'].notna()]
+    db2 = db2[db2['lon'].notna()]
+    db2 = db2[db2['cap'].notna()]
+
     db1_by_type = dict([(y, x) for y, x in db1.groupby(db1['type'])])
-    db2_by_type = dict([(y, x) for y, x in db1.groupby(db2['type'])])
+    db2_by_type = dict([(y, x) for y, x in db2.groupby(db2['type'])])
 
     db_merged_by_type = pd.DataFrame(columns = db1.columns)
     for type in TYPES:
@@ -117,12 +157,6 @@ def merge_db(db1, db2):
             db_merged_by_type = pd.concat([db_merged_by_type,
                 merge_db_by_type(db1_by_type[type], db2_by_type[type])])
 
-    db_merged_by_type = db_merged_by_type[db_merged_by_type['country'].notna()]
-    db_merged_by_type = db_merged_by_type[db_merged_by_type['type'].notna()]
-    db_merged_by_type = db_merged_by_type[db_merged_by_type['lat'].notna()]
-    db_merged_by_type = db_merged_by_type[db_merged_by_type['lon'].notna()]
-    db_merged_by_type = db_merged_by_type[db_merged_by_type['cap'].notna()]
-    db_merged_by_type = db_merged_by_type[db_merged_by_type['commissioned'].notna()]
     return db_merged_by_type
 
 if __name__ == '__main__':
