@@ -9,7 +9,7 @@ def read_and_prepare_data():
     jrc_db = pd.read_csv(config.JRC_FILE_PATH, low_memory = False)
     wri_db = pd.read_csv(config.WRI_FILE_PATH, low_memory = False)
 
-    jrc_db = jrc_db[['country', 'type_g', 'lat', 'lon', 'capacity_p', 'year_commissioned',
+    jrc_db = jrc_db[['country', 'type_g', 'lat', 'lon', 'capacity_g', 'year_commissioned',
         'year_decommissioned']]
     wri_db = wri_db[['country_long', 'primary_fuel', 'latitude', 'longitude', 'capacity_mw',
         'commissioning_year']]
@@ -44,11 +44,6 @@ def is_the_same(plant1,  plant2):
     if plant1.iloc[0]['commissioned'] is not None and \
         plant2.iloc[0]['commissioned'] is not None and \
         plant1.iloc[0]['commissioned'] != plant2.iloc[0]['commissioned']:
-        return False
-
-    if plant1.iloc[0]['decommissioned'] is not None and \
-        plant2.iloc[0]['decommissioned'] is not None and \
-        plant1.iloc[0]['decommissioned'] != plant2.iloc[0]['decommissioned']:
         return False
 
     return(True)
@@ -146,15 +141,16 @@ def merge_db(db1, db2):
     return db_merged_by_type
 
 def group_db(db, years):
-    cap_by_year = pd.DataFrame(columns=['year'] + config.TYPES)
+    cap_by_year = pd.DataFrame(columns=['year', 'ID-year'] + config.TYPES)
     for year in years:
         row = (db[((db['commissioned'].isna()) | (db['commissioned'] <= year)) &
             ((db['decommissioned'].isna()) | (db['decommissioned'] >= year))]\
                 .groupby(['type']).sum())['cap']
-        row['year'] = year
+        row['ID-year'] = year
         cap_by_year = cap_by_year.append(row)
 
     cap_by_year = cap_by_year.fillna(0)
+    cap_by_year['year'] = config.DATA_YEAR
     return cap_by_year
 
 if __name__ == '__main__':

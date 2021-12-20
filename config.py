@@ -13,52 +13,55 @@ COUNTRIES_NAME_TO_ABBR = {'Austria':'AT', 'Belgium':'BE', 'Bulgaria':'BG', 'Croa
     'Slovakia':'SK', 'Slovenia':'SO', 'Spain':'ES', 'Sweden':'SW', 'United Kingdom':'UK'}
 
 # Names of all the types of plants/fuels used in the output file
-TYPES = ['Lignite', 'Coal', 'Hydro', 'Biomass', 'Wind', 'Gas', 'Waste', 'Oil', 'Storage', 'Other',
-    'Wave and Tidal', 'Nuclear', 'Geothermal', 'Solar', 'Cogeneration']
+TYPES = ['Bio_CCS', 'Bioenergy', 'Coal', 'Coal_CCS', 'Gas_CCGT', 'Gas_CCS', 'Gas_OCGT',
+    'Gas_ST', 'Geothermal', 'Lignite', 'Nuclear', 'OilOther']
 
 # Map of types of plants/fuels used in JRC database and their output file counterparts
 TYPES_JRC_DICT = {
     'Fossil Brown coal/Lignite': 'Lignite',
     'Fossil Hard coal': 'Coal',
     'Hydro Run-of-river and poundage': 'Hydro',
-    'Biomass': 'Biomass',
+    'Biomass': 'Bioenergy',
     'Wind Onshore': 'Wind',
-    'Fossil gas': 'Gas',
+    'Fossil gas': 'Gas_CCGT',
     'Waste': 'Waste',
-    'Fossil Gas': 'Gas',
-    'Fossil Oil shale': 'Oil',
+    'Fossil Gas': 'Gas_CCGT',
+    'Fossil Oil shale': 'OilOther',
     'Hydro Pumped Storage': 'Hydro',
     'Fossil Peat': 'Other',
-    'Other': 'Other',
+    'Other': 'OilOther',
     'Marine': 'Wave and Tidal',
     'Nuclear': 'Nuclear',
     'Wind Offshore': 'Wind',
     'Fossil Hard Coal': 'Coal',
     'Geothermal': 'Geothermal',
-    'Fossil Coal-derived gas': 'Gas',
-    'Fossil Oil': 'Oil',
+    'Fossil Coal-derived gas': 'Gas_CCGT',
+    'Fossil Oil': 'OilOther',
     'Hydro Water Reservoir': 'Hydro',
     'Solar': 'Solar'}
 
 # Map of types of plants/fuels used in WRI database and their output file counterparts
 TYPES_WRI_DICT = {
     'Geothermal': 'Geothermal',
-    'Biomass': 'Biomass',
+    'Biomass': 'Bioenergy',
     'Wind': 'Wind',
     'Nuclear': 'Nuclear',
     'Storage': 'Storage',
     'Hydro': 'Hydro',
     'Cogeneration': 'Cogeneration',
-    'Gas': 'Gas',
+    'Gas': 'Gas_CCGT',
     'Waste': 'Waste',
     'Coal': 'Coal',
     'Wave and Tidal': 'Wave and Tidal',
     'Solar': 'Solar',
-    'Other': 'Other',
-    'Oil': 'Oil'}
+    'Other': 'OilOther',
+    'Oil': 'OilOther'}
 
 # years for which the ouptut is generated
-YEARS = [2000, 2005, 2010, 2015, 2020]
+YEARS = [1960, 1965, 1970, 1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2020]
+
+# year of the data
+DATA_YEAR = 2020
 
 # Relative paths to original databases
 JRC_FILE_PATH = './jrc_db_original/JRC_OPEN_UNITS.csv'
