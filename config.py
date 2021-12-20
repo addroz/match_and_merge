@@ -57,6 +57,13 @@ TYPES_WRI_DICT = {
     'Other': 'Other',
     'Oil': 'Oil'}
 
+# years for which the ouptut is generated
+YEARS = [2000, 2005, 2010, 2015, 2020]
+
 # Relative paths to original databases
 JRC_FILE_PATH = './jrc_db_original/JRC_OPEN_UNITS.csv'
 WRI_FILE_PATH = './wri_db_original/global_power_plant_database.csv'
+
+# links to the websites from which we download both databases
+WRI_DB_LINK = "https://wri-dataportal-prod.s3.amazonaws.com/manual/global_power_plant_database_v_1_3.zip?download=1"
+JRC_DB_LINK = "https://zenodo.org/record/3574566/files/JRC-PPDB-OPEN.ver1.0.zip?download=1"

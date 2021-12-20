@@ -169,7 +169,7 @@ if __name__ == '__main__':
     writer = pd.ExcelWriter('grouped.xlsx', engine='xlsxwriter')
     for country in config.COUNTRIES:
         print(f'Preparing output for {country}')
-        grouped = group_db(merged[merged['country'] == country], [2000, 2005, 2010, 2015, 2020])
+        grouped = group_db(merged[merged['country'] == country], config.YEARS)
         grouped = grouped.reset_index()
         grouped = grouped.drop(columns = ['index'])
         grouped.to_excel(writer, sheet_name = config.COUNTRIES_NAME_TO_ABBR[country], index = False)
