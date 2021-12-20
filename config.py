@@ -9,7 +9,7 @@ COUNTRIES = ['Austria', 'Belgium', 'Bulgaria', 'Croatia', 'Czechia', 'Denmark', 
 COUNTRIES_NAME_TO_ABBR = {'Austria':'AT', 'Belgium':'BE', 'Bulgaria':'BG', 'Croatia':'CH', 'Czechia':'CZ',
     'Denmark':'DK', 'Estonia':'ET', 'Finland':'FI', 'France':'FR', 'Germany':'DE', 'Greece':'HL',
     'Ireland':'IR', 'Hungary':'HU', 'Italy':'IT', 'Latvia':'LV', 'Lithuania':'LI', 'Luxembourg':'LU',
-    'Malta':'MT', 'Netherlands':'NT', 'Norway':'NO', 'Poland':'PO', 'Portugal':'PT', 'Romania':'RO',
+    'Malta':'MT', 'Netherlands':'NT', 'Norway':'NO', 'Poland':'PL', 'Portugal':'PT', 'Romania':'RO',
     'Slovakia':'SK', 'Slovenia':'SO', 'Spain':'ES', 'Sweden':'SW', 'United Kingdom':'UK'}
 
 # Names of all the types of plants/fuels used in the output file

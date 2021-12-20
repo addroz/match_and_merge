@@ -53,6 +53,17 @@ def is_the_same(plant1,  plant2):
 
     return(True)
 
+def get_row_with_better_information(row1, row2):
+    if row1.iloc[0]['commissioned'] is not None:
+        if row1.iloc[0]['decommissioned'] is not None or \
+            row2.iloc[0]['decommissioned'] is None:
+            return row1
+    elif row2.iloc[0]['commissioned'] is not None:
+        return row2
+    elif row2.iloc[0]['decommissioned'] is not None:
+        return row2
+    return row1
+
 def merge_db_by_type_and_country(db1, db2):
     result = pd.DataFrame(columns = db1.columns)
 
@@ -66,7 +77,7 @@ def merge_db_by_type_and_country(db1, db2):
         row2 = db2.iloc[[j]]
 
         if(is_the_same(row1, row2)):
-            result = result.append(row1)
+            result.append(get_row_with_better_information(row1, row2))
             i = i + 1
             j = j + 1
         elif row1.iloc[0]['lat'] < row2.iloc[0]['lat']:
@@ -98,7 +109,7 @@ def merge_db_by_type(db1, db2):
 def show_progress_bar(i, n):
     j = (i + 1) / n
     sys.stdout.write('\r')
-    sys.stdout.write('[%-20s] %d%%' % ('='*(int(20*j)), 100*j))
+    sys.stdout.write('[%-50s] %d%%' % ('='*(int(50*j)), 100*j))
     sys.stdout.flush()
 
 def merge_db(db1, db2):
