@@ -9,10 +9,15 @@ def read_and_prepare_data():
     jrc_db = pd.read_csv(config.JRC_FILE_PATH, low_memory = False)
     wri_db = pd.read_csv(config.WRI_FILE_PATH, low_memory = False)
 
-    jrc_db = jrc_db[['country', 'type_g', 'lat', 'lon', 'capacity_g', 'year_commissioned',
+    jrc_db = jrc_db[['eic_p', 'country', 'type_g', 'lat', 'lon', 'capacity_g', 'year_commissioned',
         'year_decommissioned']]
     wri_db = wri_db[['country_long', 'primary_fuel', 'latitude', 'longitude', 'capacity_mw',
         'commissioning_year']]
+
+    jrc_db = jrc_db.groupby(by=['eic_p', 'country', 'type_g']).agg({'lat': 'mean', 'lon': 'mean',
+        'capacity_g': 'sum', 'year_commissioned': 'min', 'year_decommissioned': 'max'})
+    jrc_db.reset_index(inplace=True)
+    jrc_db = jrc_db.drop(columns=['eic_p'])
 
     jrc_db.columns = ['country', 'type', 'lat', 'lon', 'cap', 'commissioned', 'decommissioned']
     wri_db.columns = ['country', 'type', 'lat', 'lon', 'cap', 'commissioned']
