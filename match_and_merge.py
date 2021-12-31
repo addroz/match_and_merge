@@ -1,20 +1,25 @@
+import sys
+
 import geopy.distance
 import numpy as np
 import pandas as pd
 from pandas.core.reshape import concat
+
 import config
-import sys
+
 
 def read_and_prepare_data():
     jrc_db = pd.read_csv(config.JRC_FILE_PATH, low_memory = False)
     wri_db = pd.read_csv(config.WRI_FILE_PATH, low_memory = False)
-
+    cpp_db = pd.read_csv(config.CPP_FILE_PATH, low_memory = False)
 
     jrc_db = jrc_db[(jrc_db['year_commissioned'].isna()) |
                     jrc_db['year_commissioned'] >= config.DATA_YEAR]
     jrc_db = jrc_db[['eic_p', 'country', 'type_g', 'lat', 'lon', 'capacity_g', 'year_commissioned']]
     wri_db = wri_db[['country_long', 'primary_fuel', 'latitude', 'longitude', 'capacity_mw',
         'commissioning_year']]
+
+    cpp_db = cpp_db[['country', 'energy_source', 'technology', 'lat', 'lon', 'capacity', 'commissioned']]
 
     jrc_db = jrc_db.groupby(by=['eic_p', 'country', 'type_g']).agg({'lat': 'mean', 'lon': 'mean',
         'capacity_g': 'sum', 'year_commissioned': 'min'})
@@ -32,7 +37,7 @@ def read_and_prepare_data():
     jrc_db = jrc_db.replace({'type': config.TYPES_JRC_DICT})
     wri_db = wri_db.replace({'type': config.TYPES_WRI_DICT})
 
-    return jrc_db, wri_db
+    return jrc_db, wri_db, cpp_db
 
 def is_the_same(plant1,  plant2):
     coord1 = (plant1.iloc[0]['lat'], plant1.iloc[0]['lon'])
@@ -154,7 +159,7 @@ def group_db(db, years):
 
 if __name__ == '__main__':
     print('Merging databases')
-    jrc_db, wri_db = read_and_prepare_data()
+    jrc_db, wri_db, cpp_db = read_and_prepare_data()
 
     merged = merge_db(jrc_db, wri_db)
     merged = merged.reset_index()
@@ -171,3 +176,6 @@ if __name__ == '__main__':
 
     print('Results saved to: grouped.xlsx')
     writer.save()
+
+
+    print(cpp_db.head())

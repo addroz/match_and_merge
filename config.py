@@ -66,6 +66,7 @@ DATA_YEAR = 2020
 # Relative paths to original databases
 JRC_FILE_PATH = './jrc_db_original/JRC_OPEN_UNITS.csv'
 WRI_FILE_PATH = './wri_db_original/global_power_plant_database.csv'
+CPP_FILE_PATH = './cpp_db_original/opsd-conventional_power_plants-2020-10-01/conventional_power_plants_EU.csv'
 
 # links to the websites from which we download both databases
 WRI_DB_LINK = 'https://wri-dataportal-prod.s3.amazonaws.com/manual/global_power_plant_database_v_1_3.zip?download=1'
