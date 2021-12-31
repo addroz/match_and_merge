@@ -5,12 +5,15 @@ COUNTRIES = ['Austria', 'Belgium', 'Bulgaria', 'Croatia', 'Czechia', 'Denmark', 
     'Malta', 'Netherlands', 'Norway', 'Poland', 'Portugal', 'Romania', 'Slovakia', 'Slovenia', 'Spain',
     'Sweden', 'United Kingdom']
 
-# The map of countries names and their coresponding abbreviations, used in the output excel file
+# The map of countries names to their coresponding abbreviations, used in the output excel file
 COUNTRIES_NAME_TO_ABBR = {'Austria':'AT', 'Belgium':'BE', 'Bulgaria':'BG', 'Croatia':'CH', 'Czechia':'CZ',
     'Denmark':'DK', 'Estonia':'ET', 'Finland':'FI', 'France':'FR', 'Germany':'DE', 'Greece':'HL',
     'Ireland':'IR', 'Hungary':'HU', 'Italy':'IT', 'Latvia':'LV', 'Lithuania':'LI', 'Luxembourg':'LU',
-    'Malta':'MT', 'Netherlands':'NT', 'Norway':'NO', 'Poland':'PL', 'Portugal':'PT', 'Romania':'RO',
-    'Slovakia':'SK', 'Slovenia':'SO', 'Spain':'ES', 'Sweden':'SW', 'United Kingdom':'UK'}
+    'Malta':'MT', 'Netherlands':'NL', 'Norway':'NO', 'Poland':'PL', 'Portugal':'PT', 'Romania':'RO',
+    'Slovakia':'SK', 'Slovenia':'SI', 'Spain':'ES', 'Sweden':'SE', 'United Kingdom':'UK'}
+
+# Reverse of the COUNTRIES_NAME_TO_ABBR: map of countries abbreviations to their coresponding names
+COUNTRIES_ABBR_TO_NAME = {v: k for k, v in COUNTRIES_NAME_TO_ABBR.items()}
 
 # Names of all the types of plants/fuels used in the output file
 TYPES = ['Bio_CCS', 'Bioenergy', 'Coal', 'Coal_CCS', 'Gas_CCGT', 'Gas_CCS', 'Gas_OCGT',

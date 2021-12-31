@@ -8,10 +8,13 @@ from pandas.core.reshape import concat
 import config
 
 
+def remove_trailing_whitespaces(df):
+    return df.replace({"^\s*|\s*$":""}, regex=True)
+
 def read_and_prepare_data():
-    jrc_db = pd.read_csv(config.JRC_FILE_PATH, low_memory = False)
-    wri_db = pd.read_csv(config.WRI_FILE_PATH, low_memory = False)
-    cpp_db = pd.read_csv(config.CPP_FILE_PATH, low_memory = False)
+    jrc_db = remove_trailing_whitespaces(pd.read_csv(config.JRC_FILE_PATH, low_memory = False))
+    wri_db = remove_trailing_whitespaces(pd.read_csv(config.WRI_FILE_PATH, low_memory = False))
+    cpp_db = remove_trailing_whitespaces(pd.read_csv(config.CPP_FILE_PATH, low_memory = False))
 
     jrc_db = jrc_db[(jrc_db['year_commissioned'].isna()) |
                     jrc_db['year_commissioned'] >= config.DATA_YEAR]
@@ -20,6 +23,7 @@ def read_and_prepare_data():
         'commissioning_year']]
 
     cpp_db = cpp_db[['country', 'energy_source', 'technology', 'lat', 'lon', 'capacity', 'commissioned']]
+    cpp_db = cpp_db.replace(config.COUNTRIES_ABBR_TO_NAME)
 
     jrc_db = jrc_db.groupby(by=['eic_p', 'country', 'type_g']).agg({'lat': 'mean', 'lon': 'mean',
         'capacity_g': 'sum', 'year_commissioned': 'min'})
@@ -177,5 +181,5 @@ if __name__ == '__main__':
     print('Results saved to: grouped.xlsx')
     writer.save()
 
-
     print(cpp_db.head())
+    print(set(cpp_db['country']))
