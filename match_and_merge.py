@@ -9,7 +9,7 @@ import config
 
 
 def remove_trailing_whitespaces(df):
-    return df.replace({"^\s*|\s*$":""}, regex=True)
+    return df.replace({"^\s*|\s*$":""}, regex = True)
 
 def read_and_prepare_data():
     jrc_db = remove_trailing_whitespaces(pd.read_csv(config.JRC_FILE_PATH, low_memory = False))
@@ -24,22 +24,28 @@ def read_and_prepare_data():
 
     cpp_db = cpp_db[['country', 'energy_source', 'technology', 'lat', 'lon', 'capacity', 'commissioned']]
     cpp_db = cpp_db.replace(config.COUNTRIES_ABBR_TO_NAME)
+    cpp_db['energy_source'] = cpp_db['energy_source'] + ' ' + cpp_db['technology']
+    cpp_db.drop(columns=['technology'], inplace=True)
+    cpp_db = cpp_db[~cpp_db['energy_source'].isna()]
 
     jrc_db = jrc_db.groupby(by=['eic_p', 'country', 'type_g']).agg({'lat': 'mean', 'lon': 'mean',
         'capacity_g': 'sum', 'year_commissioned': 'min'})
     jrc_db.reset_index(inplace=True)
-    jrc_db = jrc_db.drop(columns=['eic_p'])
+    jrc_db.drop(columns=['eic_p'], inplace=True)
 
     jrc_db.columns = ['country', 'type', 'lat', 'lon', 'cap', 'commissioned']
     wri_db.columns = ['country', 'type', 'lat', 'lon', 'cap', 'commissioned']
+    cpp_db.columns = ['country', 'type', 'lat', 'lon', 'cap', 'commissioned']
 
     wri_db.loc[wri_db['country'] == 'Czech Republic', 'country'] = 'Czechia'
 
     wri_db = wri_db[wri_db['country'].isin(config.COUNTRIES)]
     jrc_db = jrc_db[jrc_db['country'].isin(config.COUNTRIES)]
+    cpp_db = cpp_db[cpp_db['country'].isin(config.COUNTRIES)]
 
     jrc_db = jrc_db.replace({'type': config.TYPES_JRC_DICT})
     wri_db = wri_db.replace({'type': config.TYPES_WRI_DICT})
+    cpp_db = cpp_db.replace({'type': config.TYPES_CPP_DICT})
 
     return jrc_db, wri_db, cpp_db
 
@@ -116,18 +122,20 @@ def show_progress_bar(i, n):
     sys.stdout.write('[%-50s] %d%%' % ('='*(int(50*j)), 100*j))
     sys.stdout.flush()
 
-def merge_db(db1, db2):
-    db1 = db1[db1['country'].notna()]
-    db1 = db1[db1['type'].notna()]
-    db1 = db1[db1['lat'].notna()]
-    db1 = db1[db1['lon'].notna()]
-    db1 = db1[db1['cap'].notna()]
+def remove_nans(db):
+    db = db[db['country'].notna()]
+    db = db[db['type'].notna()]
+    db = db[db['lat'].notna()]
+    db = db[db['lon'].notna()]
+    db = db[db['cap'].notna()]
+    return db
 
-    db2 = db2[db2['country'].notna()]
-    db2 = db2[db2['type'].notna()]
-    db2 = db2[db2['lat'].notna()]
-    db2 = db2[db2['lon'].notna()]
-    db2 = db2[db2['cap'].notna()]
+def merge_db(db1, db2, db3):
+    db1 = remove_nans(db1)
+    db2 = remove_nans(db2)
+    db3 = remove_nans(db3)
+
+    db3.to_csv('cpp_db.csv')
 
     db1_by_type = dict([(y, x) for y, x in db1.groupby(db1['type'])])
     db2_by_type = dict([(y, x) for y, x in db2.groupby(db2['type'])])
@@ -165,7 +173,7 @@ if __name__ == '__main__':
     print('Merging databases')
     jrc_db, wri_db, cpp_db = read_and_prepare_data()
 
-    merged = merge_db(jrc_db, wri_db)
+    merged = merge_db(jrc_db, wri_db, cpp_db)
     merged = merged.reset_index()
     merged = merged.drop(columns = ['index'])
     merged.to_csv('merged.csv')
@@ -183,3 +191,5 @@ if __name__ == '__main__':
 
     print(cpp_db.head())
     print(set(cpp_db['country']))
+    print(set(cpp_db['type']))
+    # print(set((cpp_db[cpp_db['energy_source'] == 'Natural gas'])['technology']))

@@ -60,6 +60,42 @@ TYPES_WRI_DICT = {
     'Other': 'OilOther',
     'Oil': 'OilOther'}
 
+# Map of types of plants/fuels used in CPP database and their output file counterparts
+TYPES_CPP_DICT = {
+    'Oil Combined cycle': 'OilOther',
+    'Hydro Pumped storage': 'Hydro',
+    'Biomass and biogas Combustion Engine': 'Bioenergy',
+    'Biomass and biogas Steam turbine': 'Bioenergy',
+    'Oil Gas turbine': 'OilOther',
+    'Lignite Steam turbine': 'Lignite',
+    'Natural gas Steam turbine': 'Gas_ST',
+    'Hard coal chp': 'Coal',
+    'Other fuels Storage technologies': 'Storage',
+    'Natural gas Gas turbine': 'Gas_OCGT',
+    'Hydro RES': 'Hydro',
+    'Other fuels Gas turbine': 'OilOther',
+    'Other fuels Combined cycle': 'OilOther',
+    'Hard coal Combined cycle': 'Coal',
+    'Hard coal Gas turbine': 'Coal',
+    'Nuclear Steam turbine': 'Nuclear',
+    'Waste Combined cycle': 'Waste',
+    'Waste Steam turbine': 'Waste',
+    'Other fossil fuels Combustion Engine': 'OilOther',
+    'Natural gas Combustion Engine': 'Gas_OCGT',
+    'Natural gas Combined cycle': 'Gas_CCGT',
+    'Non-renewable waste Combined cycle': 'Waste',
+    'Hydro Run-of-river': 'Hydro',
+    'Other fuels Steam turbine': 'OilOther',
+    'Non-renewable waste Steam turbine': 'Waste',
+    'Mixed fossil fuels Steam turbine': 'OilOther',
+    'Hydro Reservoir': 'Hydro',
+    'Hard coal Steam turbine': 'Coal',
+    'Other fossil fuels Steam turbine': 'OilOther',
+    'Biomass and biogas Gas turbine': 'Bioenergy',
+    'Oil Steam turbine': 'OilOther',
+    'Bioenergy Steam turbine': 'Bioenergy',
+    'Hydro Pumped storage with natural inflow': 'Hydro'}
+
 # years for which the ouptut is generated
 YEARS = [1960, 1965, 1970, 1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2020]
 
