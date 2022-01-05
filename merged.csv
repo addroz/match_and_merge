@@ -1,1513 +1,2406 @@
 ,country,type,lat,lon,cap,commissioned
-0,Belgium,Bioenergy,50.5851,5.418,95.0,2005.0
-1,Belgium,Bioenergy,51.1341,3.777,268.0,
-2,Denmark,Bioenergy,56.1214,9.0068,88.0,2009.0
-3,Finland,Bioenergy,62.8924,27.677,118.1,
-4,Finland,Bioenergy,64.1333,25.3667,154.0,
-5,Finland,Bioenergy,61.2167,26.0333,3.5,
-6,Finland,Bioenergy,61.2167,26.0333,19.0,
-7,Finland,Bioenergy,64.6667,27.1333,2.8,
-8,Finland,Bioenergy,61.118,28.5076,85.0,
-9,Finland,Bioenergy,61.8162,25.2353,25.0,
-10,Finland,Bioenergy,61.1,22.1667,19.0,
-11,Finland,Bioenergy,64.2273,27.7285,85.0,
-12,Finland,Bioenergy,65.7364,24.5637,75.0,
-13,Finland,Bioenergy,60.4034,25.105,19.04,
-14,Finland,Bioenergy,63.8333,23.0333,30.0,
-15,Finland,Bioenergy,63.8333,23.0333,19.5,
-16,Finland,Bioenergy,60.4667,26.9167,72.0,
-17,Finland,Bioenergy,62.8799,27.6768,20.5,
-18,Finland,Bioenergy,65.9667,29.1833,6.0,
-19,Finland,Bioenergy,60.9,26.6333,76.0,
-20,Finland,Bioenergy,61.0587,28.1887,119.0,
-21,Finland,Bioenergy,61.0587,28.1887,67.3,
-22,Finland,Bioenergy,65.0124,25.4682,105.0,
-23,Finland,Bioenergy,65.0124,25.4682,28.0,
-24,Finland,Bioenergy,63.7019,22.7097,116.0,
-25,Finland,Bioenergy,61.4833,21.7833,81.4,
-26,Finland,Bioenergy,61.6886,27.2723,59.7,
-27,Finland,Bioenergy,62.2333,25.7333,80.0,
-28,Finland,Bioenergy,61.1272,21.5113,71.5,
-29,Finland,Bioenergy,61.1272,21.5113,75.0,
-30,Finland,Bioenergy,63.1,28.1833,8.5,
-31,Finland,Bioenergy,60.3833,23.1333,13.5,
-32,Finland,Bioenergy,61.4333,29.3667,34.5,
-33,Finland,Bioenergy,64.1333,28.4167,1.3,
-34,Finland,Bioenergy,61.0,28.3,35.7,
-35,Finland,Bioenergy,60.3923,25.6651,11.3,
-36,Finland,Bioenergy,60.3923,25.6651,7.8,
-37,Finland,Bioenergy,65.0124,25.4682,195.0,
-38,Finland,Bioenergy,65.8481,24.1466,39.3,
-39,Finland,Bioenergy,62.9167,30.25,105.0,
-40,Finland,Bioenergy,65.7364,24.5637,90.0,
-41,Finland,Bioenergy,64.0833,24.55,6.2,
-42,France,Bioenergy,43.5361,5.3984,4.245,
-43,France,Bioenergy,49.4624,3.4535,1.26,
-44,France,Bioenergy,49.1599,6.0462,1.06,
-45,France,Bioenergy,49.9003,2.2907,2.83,
-46,France,Bioenergy,43.5876,7.1054,11.44,
-47,France,Bioenergy,48.9518,2.2406,10.3,
-48,France,Bioenergy,44.8759,2.4647,4.41,
-49,France,Bioenergy,50.7409,2.3196,8.9,
-50,France,Bioenergy,43.6533,0.5751,1.067,
-51,France,Bioenergy,49.3852,2.231,2.478,
-52,France,Bioenergy,48.234,4.7152,1.5,
-53,France,Bioenergy,43.4923,-1.4662,3.567,
-54,France,Bioenergy,46.3692,-0.6137,2.126,
-55,France,Bioenergy,50.5409,1.9089,1.0,
-56,France,Bioenergy,50.69,2.4088,3.193,
-57,France,Bioenergy,44.8579,-0.5736,1.253,
-58,France,Bioenergy,45.6027,5.2738,14.6,
-59,France,Bioenergy,47.5647,6.9062,8.862,
-60,France,Bioenergy,49.8414,2.3826,1.903,
-61,France,Bioenergy,43.1526,0.0292,1.67,
-62,France,Bioenergy,50.9501,1.8759,1.043,
-63,France,Bioenergy,42.748,2.7564,22.485,
-64,France,Bioenergy,44.8544,-0.5215,4.268,
-65,France,Bioenergy,46.8989,4.7747,1.165,
-66,France,Bioenergy,45.5837,5.9088,10.336,
-67,France,Bioenergy,47.67,-0.6537,1.902,
-68,France,Bioenergy,47.1413,0.9398,1.021,
-69,France,Bioenergy,48.1077,-0.7997,9.0,
-70,France,Bioenergy,45.0113,5.0967,3.915,
-71,France,Bioenergy,48.0976,5.1399,4.2,
-72,France,Bioenergy,46.6124,3.459,1.2,
-73,France,Bioenergy,45.7859,3.1156,18.62,
-74,France,Bioenergy,45.171,-0.2346,1.2,
-75,France,Bioenergy,47.7068,-1.02,1.063,
-76,France,Bioenergy,47.8962,-3.9075,2.895,
-77,France,Bioenergy,47.2305,-1.7304,6.3,
-78,France,Bioenergy,49.2361,2.8967,3.35,
-79,France,Bioenergy,46.1372,3.4831,1.065,
-80,France,Bioenergy,50.5928,1.6061,1.56,
-81,France,Bioenergy,47.3231,5.0374,9.02,
-82,France,Bioenergy,44.4318,4.7088,1.9,
-83,France,Bioenergy,50.2994,3.3894,6.37,
-84,France,Bioenergy,47.3344,5.3791,1.415,
-85,France,Bioenergy,51.0306,2.337,7.15,
-86,France,Bioenergy,43.9956,4.9328,1.67,
-87,France,Bioenergy,49.2717,-0.6229,1.432,
-88,France,Bioenergy,48.7931,0.1124,1.095,
-89,France,Bioenergy,45.8905,2.1825,3.49,
-90,France,Bioenergy,47.2295,2.8663,1.067,
-91,France,Bioenergy,49.4937,-1.3081,2.376,
-92,France,Bioenergy,14.6409,-61.0692,6.6,
-93,France,Bioenergy,43.4534,4.8995,40.462,
-94,France,Bioenergy,48.588,2.7654,1.672,
-95,France,Bioenergy,47.0169,3.0902,3.26,
-96,France,Bioenergy,49.8873,1.4359,2.001,
-97,France,Bioenergy,49.4853,0.2219,1.063,
-98,France,Bioenergy,50.1424,3.0976,1.067,
-99,France,Bioenergy,46.737,4.7519,1.897,
-100,France,Bioenergy,48.0915,-2.811,1.065,
-101,France,Bioenergy,48.9802,1.179,8.75,
-102,France,Bioenergy,50.4451,2.6423,1.75,
-103,France,Bioenergy,48.6213,-1.1828,1.215,
-104,France,Bioenergy,48.998,3.0133,1.9,
-105,France,Bioenergy,48.8231,2.2645,55.0,
-106,France,Bioenergy,47.6173,-1.456,2.134,
-107,France,Bioenergy,43.5547,5.2024,1.091,
-108,France,Bioenergy,45.2097,5.744,5.7,
-109,France,Bioenergy,49.0371,4.3337,9.1,
-110,France,Bioenergy,47.6899,-2.5187,1.115,
-111,France,Bioenergy,43.8005,2.0196,3.675,
-112,France,Bioenergy,49.1832,5.8724,1.675,
-113,France,Bioenergy,45.1106,-0.2861,8.74,
-114,France,Bioenergy,47.5441,0.0063,9.19,
-115,France,Bioenergy,43.5635,3.9025,1.954,
-116,France,Bioenergy,43.6896,1.7946,1.021,
-117,France,Bioenergy,47.9889,0.2,14.375,
-118,France,Bioenergy,49.0361,2.415,17.6,
-119,France,Bioenergy,46.2205,0.6375,2.8,
-120,France,Bioenergy,43.4032,5.3154,3.38,
-121,France,Bioenergy,43.3404,-0.4283,5.85,
-122,France,Bioenergy,48.9314,6.1108,1.008,
-123,France,Bioenergy,50.3367,3.1689,3.35,
-124,France,Bioenergy,45.8544,1.249,1.5,
-125,France,Bioenergy,46.6749,5.5582,1.0,
-126,France,Bioenergy,47.0175,-0.1809,2.126,
-127,France,Bioenergy,48.4623,1.4458,8.7,
-128,France,Bioenergy,50.6744,3.0604,1.25,
-129,France,Bioenergy,-21.32,55.47,11.2,
-130,France,Bioenergy,43.9523,1.2374,7.6,
-131,France,Bioenergy,48.3901,2.9618,6.3,
-132,France,Bioenergy,43.6132,3.8694,3.666,
-133,France,Bioenergy,48.2167,4.2856,2.11,
-134,France,Bioenergy,44.0411,-0.8884,12.0,
-135,France,Bioenergy,49.1679,6.866,1.737,
-136,France,Bioenergy,43.1651,3.02,2.284,
-137,France,Bioenergy,43.7123,7.2375,12.992,
-138,France,Bioenergy,47.5675,5.9482,2.75,
-139,France,Bioenergy,50.4288,2.8754,8.325,
-140,France,Bioenergy,50.004,3.0158,1.021,
-141,France,Bioenergy,43.8445,4.3476,11.382,
-142,France,Bioenergy,44.129,4.8104,1.0,
-143,France,Bioenergy,47.8825,1.9166,12.0,
-144,France,Bioenergy,44.3609,4.6872,12.0,
-145,France,Bioenergy,48.1802,2.249,4.97,
-146,France,Bioenergy,44.255,-1.0878,2.5,
-147,France,Bioenergy,48.3462,6.6317,6.176,
-148,France,Bioenergy,47.6292,7.0884,2.71,
-149,France,Bioenergy,48.2063,7.2867,1.413,
-150,France,Bioenergy,44.4426,4.7873,1.737,
-151,France,Bioenergy,48.4831,3.5535,1.095,
-152,France,Bioenergy,47.4739,-0.4858,2.97,
-153,France,Bioenergy,48.3492,-0.5744,1.415,
-154,France,Bioenergy,43.1196,0.7268,1.74,
-155,France,Bioenergy,48.2434,-2.5508,1.6,
-156,France,Bioenergy,49.5056,0.4998,18.484,
-157,France,Bioenergy,45.6956,-0.3948,1.0,
-158,France,Bioenergy,43.6121,4.8564,4.999,
-159,France,Bioenergy,48.9097,2.3332,13.4,
-160,France,Bioenergy,-21.325,55.4909,2.13,
-161,France,Bioenergy,43.3561,-1.5553,1.119,
-162,France,Bioenergy,45.2776,5.548,1.8,
-163,France,Bioenergy,46.8024,0.6456,1.065,
-164,France,Bioenergy,48.8642,2.6766,11.52,
-165,France,Bioenergy,49.3814,1.09,1.105,
-166,France,Bioenergy,50.8923,2.1517,1.5,
-167,France,Bioenergy,-20.9511,55.5908,1.898,
-168,France,Bioenergy,45.3441,4.8089,14.6,
-169,France,Bioenergy,48.9903,2.3813,4.4,
-170,France,Bioenergy,45.6828,5.1256,1.064,
-171,France,Bioenergy,47.7822,7.4003,11.7,
-172,France,Bioenergy,48.8174,7.7393,2.4,
-173,France,Bioenergy,43.3933,5.3809,3.326,
-174,France,Bioenergy,48.6452,2.708,1.415,
-175,France,Bioenergy,47.5131,0.4774,1.26,
-176,France,Bioenergy,48.5716,7.7678,19.446,
-177,France,Bioenergy,42.1844,9.4658,1.688,
-178,France,Bioenergy,49.0533,6.6686,2.72,
-179,France,Bioenergy,48.6807,2.5625,2.7,
-180,France,Bioenergy,48.5244,2.6979,14.302,
-181,France,Bioenergy,43.971,4.9031,4.64,
-182,France,Bioenergy,48.584,2.3673,21.166,
-183,France,Bioenergy,45.9872,4.7309,7.823,
-184,France,Bioenergy,48.6784,2.2233,3.605,
-185,France,Bioenergy,49.2885,2.493,14.3,
-186,France,Bioenergy,46.2508,5.2232,1.39,
-187,France,Bioenergy,48.4218,2.1378,2.126,
-188,France,Bioenergy,49.8907,4.4031,1.48,
-189,France,Bioenergy,49.38,0.6558,1.063,
-190,Germany,Bioenergy,50.1294,8.7679,12.4,2004.0
-191,Germany,Bioenergy,48.7912,11.5068,15.1,2007.0
-192,Germany,Bioenergy,51.604,7.2508,14.0,2004.0
-193,Germany,Bioenergy,51.614,7.4813,20.0,2006.0
-194,Germany,Bioenergy,51.637,7.6188,17.7,2005.0
-195,Germany,Bioenergy,50.0226,8.3772,12.6,2003.0
-196,Germany,Bioenergy,52.3048,13.636,17.1,2003.0
-197,Germany,Bioenergy,49.5164,8.4602,17.9,2003.0
-198,Germany,Bioenergy,48.6285,10.2009,14.0,2004.0
-199,Germany,Bioenergy,53.3,14.25,17.8,2006.0
-200,Germany,Bioenergy,48.397,9.9648,13.2,2003.0
-201,Germany,Bioenergy,50.4978,11.6562,12.9,2008.0
-202,Germany,Bioenergy,49.5154,9.3252,28.4,2003.0
-203,Germany,Bioenergy,51.9201,11.8018,10.2,1996.0
-204,Germany,Bioenergy,51.5152,12.3248,40.0,2004.0
-205,Germany,Bioenergy,52.8515,13.7781,20.0,2006.0
-206,Germany,Bioenergy,48.6283,10.2008,15.7,2004.0
-207,Germany,Bioenergy,51.4662,13.5046,12.6,2004.0
-208,Germany,Bioenergy,52.1827,14.2584,18.3,2001.0
-209,Germany,Bioenergy,51.4901,10.4129,53.5,1999.0
-210,Germany,Bioenergy,51.8554,6.8887,11.4,2006.0
-211,Germany,Bioenergy,53.1511,12.3771,19.7,2002.0
-212,Germany,Bioenergy,51.8848,8.9567,19.9,2000.0
-213,Germany,Bioenergy,49.9713,8.0606,12.4,2004.0
-214,Germany,Bioenergy,48.4933,11.1766,9.6,2007.0
-215,Germany,Bioenergy,51.205,6.7085,12.1,2008.0
-216,Germany,Bioenergy,50.7021,8.0732,14.0,2006.0
-217,Germany,Bioenergy,49.0115,9.6718,18.8,2000.0
-218,Germany,Bioenergy,53.7419,12.783,9.8,2003.0
-219,Germany,Bioenergy,51.35,7.45,20.0,2004.0
-220,Germany,Bioenergy,51.8712,12.6185,18.1,2009.0
-221,Germany,Bioenergy,51.4899,10.4131,18.1,2006.0
-222,Germany,Bioenergy,49.9882,9.1558,2.0,
-223,Germany,Bioenergy,53.2656,13.95,20.0,2003.0
-224,Germany,Bioenergy,51.4067,8.6012,18.0,1990.0
-225,Germany,Bioenergy,53.3422,7.2062,20.0,2005.0
-226,Germany,Bioenergy,53.149,12.3797,18.6,2002.0
-227,Germany,Bioenergy,52.4253,13.5173,16.5,2005.0
-228,Germany,Bioenergy,47.7971,10.8587,9.8,1999.0
-229,Germany,Bioenergy,48.8971,8.725,12.3,2004.0
-230,Germany,Bioenergy,51.9154,8.4003,12.1,2001.0
-231,Germany,Bioenergy,49.2613,11.4516,15.6,1997.0
-232,Germany,Bioenergy,52.577,9.1101,20.0,2005.0
-233,Germany,Bioenergy,53.5319,10.0746,20.0,2005.0
-234,Germany,Bioenergy,49.5349,8.4636,59.2,
-235,Germany,Bioenergy,49.0393,8.3113,78.0,2010.0
-236,Germany,Bioenergy,53.0867,14.3194,13.3,2009.0
-237,Germany,Bioenergy,52.0778,13.5173,16.0,2002.0
-238,Germany,Bioenergy,51.9848,9.8228,16.8,1988.0
-239,Germany,Bioenergy,48.267,9.7262,21.2,
-240,Germany,Bioenergy,50.0405,8.2532,31.7,
-241,Germany,Bioenergy,52.7271,12.0112,138.9,
-242,Germany,Bioenergy,48.4554,11.7995,528.0,1986.0
-243,Ireland,Bioenergy,53.2735,-8.0403,137.0,
-244,Poland,Bioenergy,50.8959,20.6118,10.0,2008.0
-245,Poland,Bioenergy,50.4374,21.3404,205.0,2012.0
-246,Portugal,Bioenergy,40.9821,-8.5465,1.1,2004.0
-247,Portugal,Bioenergy,39.4723,-8.3327,9.0,2001.0
-248,Portugal,Bioenergy,40.0522,-8.8763,70.0,1987.0
-249,Portugal,Bioenergy,39.6622,-7.672,30.0,1992.0
-250,Portugal,Bioenergy,41.6996,-8.7139,38.8,2002.0
-251,Portugal,Bioenergy,40.5848,-7.7916,4.0,1996.0
-252,Portugal,Bioenergy,40.0576,-8.8595,95.0,2004.0
-253,Portugal,Bioenergy,40.687,-8.5897,35.1,2005.0
-254,Portugal,Bioenergy,38.4935,-8.8108,53.9,2004.0
-255,Portugal,Bioenergy,39.6566,-7.657,6.0,1998.0
-256,Portugal,Bioenergy,40.886,-8.4285,10.0,2008.0
-257,Portugal,Bioenergy,40.0529,-8.8762,34.3,2009.0
-258,Portugal,Bioenergy,39.8163,-8.1062,3.0,2010.0
-259,Portugal,Bioenergy,40.3659,-7.3541,2.0,2010.0
-260,Portugal,Bioenergy,40.6852,-8.591,12.5,2009.0
-261,Portugal,Bioenergy,39.4723,-8.3327,13.7,2009.0
-262,Portugal,Bioenergy,40.3778,-8.1864,9.0,1999.0
-263,Portugal,Bioenergy,39.6621,-7.6715,13.0,2007.0
-264,Portugal,Bioenergy,38.4916,-8.8113,12.5,2009.0
-265,Spain,Bioenergy,37.6167,-4.3225,20.0,
-266,Sweden,Bioenergy,59.5883,16.5136,94.0,
-267,Sweden,Bioenergy,59.3623,17.8241,75.0,1959.0
-268,Sweden,Bioenergy,58.743,17.0006,35.0,1997.0
-269,Sweden,Bioenergy,59.1497,18.1167,20.0,1968.0
-270,Sweden,Bioenergy,58.5371,15.0365,3.7,1998.0
-271,Sweden,Bioenergy,59.8514,17.6783,130.0,
-272,Sweden,Bioenergy,59.352,18.101,130.0,
-273,Sweden,Bioenergy,59.3532,18.0985,389.0,2013.0
-274,United Kingdom,Bioenergy,54.6221,-6.7398,1.0,
-275,United Kingdom,Bioenergy,52.586,-1.2375,2.5,
-276,United Kingdom,Bioenergy,52.8543,-2.8986,1.1,
-277,United Kingdom,Bioenergy,52.839,-2.93,1.0,
-278,United Kingdom,Bioenergy,51.3875,-3.4066,35.0,
-279,United Kingdom,Bioenergy,56.4529,-4.3342,5.6,
-280,United Kingdom,Bioenergy,54.626,-5.8729,1.2,
-281,United Kingdom,Bioenergy,54.0326,-1.3805,1.1,
-282,United Kingdom,Bioenergy,52.175,-1.679,1.6,
-283,United Kingdom,Bioenergy,51.8206,-0.7382,5.0,
-284,United Kingdom,Bioenergy,54.7581,-3.3309,5.0,
-285,United Kingdom,Bioenergy,52.6438,-1.558,1.5,
-286,United Kingdom,Bioenergy,55.9903,-3.6789,2.0,
-287,United Kingdom,Bioenergy,51.5097,-2.6908,6.5,
-288,United Kingdom,Bioenergy,51.5097,-2.6908,6.5,
-289,United Kingdom,Bioenergy,54.6193,-5.7889,2.1,
-290,United Kingdom,Bioenergy,51.0112,-2.1828,1.5,
-291,United Kingdom,Bioenergy,54.3073,-7.6639,2.5,
-292,United Kingdom,Bioenergy,53.048,-0.8107,20.3,
-293,United Kingdom,Bioenergy,55.7181,-4.7186,2.2,
-294,United Kingdom,Bioenergy,53.568,-1.5146,9.0,
-295,United Kingdom,Bioenergy,51.2917,-1.0343,1.2,
-296,United Kingdom,Bioenergy,51.5182,0.0885,19.0,
-297,United Kingdom,Bioenergy,51.5178,0.0935,8.0,
-298,United Kingdom,Bioenergy,52.1299,1.4303,4.6,
-299,United Kingdom,Bioenergy,52.13,1.4303,2.0,
-300,United Kingdom,Bioenergy,52.1253,1.4428,1.8,
-301,United Kingdom,Bioenergy,52.4624,-1.8417,10.3,
-302,United Kingdom,Bioenergy,53.4201,-1.3985,33.0,
-303,United Kingdom,Bioenergy,53.1213,-3.323,3.0,
-304,United Kingdom,Bioenergy,53.508,-1.3157,4.0,
-305,United Kingdom,Bioenergy,50.7771,-2.3941,1.1,
-306,United Kingdom,Bioenergy,53.4274,-2.1143,2.0,
-307,United Kingdom,Bioenergy,53.5423,-0.5096,40.0,
-308,United Kingdom,Bioenergy,51.5128,-2.67,10.0,
-309,United Kingdom,Bioenergy,52.2543,0.727,5.0,
-310,United Kingdom,Bioenergy,50.8736,-0.8489,2.2,
-311,United Kingdom,Bioenergy,53.7782,-0.6639,3.5,
-312,United Kingdom,Bioenergy,51.3917,-2.0373,1.5,
-313,United Kingdom,Bioenergy,52.7752,-2.2312,1.3,
-314,United Kingdom,Bioenergy,51.1028,-0.3263,4.5,
-315,United Kingdom,Bioenergy,52.9625,-2.6624,2.4,
-316,United Kingdom,Bioenergy,51.7383,-3.436,1.0,
-317,United Kingdom,Bioenergy,53.8143,-1.5426,2.0,
-318,United Kingdom,Bioenergy,51.9469,-0.0487,1.1,
-319,United Kingdom,Bioenergy,52.0025,-0.1428,2.3,
-320,United Kingdom,Bioenergy,55.5796,-4.6395,26.0,
-321,United Kingdom,Bioenergy,51.1444,-3.0969,3.3,
-322,United Kingdom,Bioenergy,51.4772,-3.1365,2.0,
-323,United Kingdom,Bioenergy,51.2184,-1.1299,1.5,
-324,United Kingdom,Bioenergy,53.7485,-2.9288,1.0,
-325,United Kingdom,Bioenergy,53.0709,-0.0531,3.0,
-326,United Kingdom,Bioenergy,51.7996,-1.3303,2.1,
-327,United Kingdom,Bioenergy,51.696,-0.1116,1.5,
-328,United Kingdom,Bioenergy,55.5605,-2.6533,10.0,
-329,United Kingdom,Bioenergy,51.4045,-0.4407,1.7,
-330,United Kingdom,Bioenergy,54.668,-1.5666,18.0,
-331,United Kingdom,Bioenergy,51.1725,-2.0152,1.5,
-332,United Kingdom,Bioenergy,52.519,-1.7116,2.4,
-333,United Kingdom,Bioenergy,52.9523,-1.0578,2.0,
-334,United Kingdom,Bioenergy,51.7267,-0.2575,3.0,
-335,United Kingdom,Bioenergy,56.0769,-3.8639,15.0,
-336,United Kingdom,Bioenergy,52.4686,-2.082,1.1,
-337,United Kingdom,Bioenergy,51.611,-1.1033,2.3,
-338,United Kingdom,Bioenergy,55.9704,-3.9575,2.4,
-339,United Kingdom,Bioenergy,50.4514,-4.1128,3.9,
-340,United Kingdom,Bioenergy,52.2563,-1.187,1.0,
-341,United Kingdom,Bioenergy,54.6477,-1.2058,5.1,
-342,United Kingdom,Bioenergy,52.6969,-0.1371,1.8,
-343,United Kingdom,Bioenergy,51.6265,-0.0415,3.0,
-344,United Kingdom,Bioenergy,55.9704,-3.9575,1.0,
-345,United Kingdom,Bioenergy,50.4167,-4.1137,1.5,
-346,United Kingdom,Bioenergy,56.1897,-3.0559,5.5,
-347,United Kingdom,Bioenergy,51.0801,-2.5561,3.0,
-348,United Kingdom,Bioenergy,51.2839,1.3457,16.0,
-349,United Kingdom,Bioenergy,50.7508,-1.6781,1.5,
-350,United Kingdom,Bioenergy,54.8563,-3.3586,1.0,
-351,United Kingdom,Bioenergy,51.5212,0.1375,1.4,
-352,United Kingdom,Bioenergy,52.8746,-2.2467,2.6,
-353,United Kingdom,Bioenergy,50.786,-1.8569,3.2,
-354,United Kingdom,Bioenergy,52.3979,0.1297,38.0,
-355,United Kingdom,Bioenergy,55.9697,-3.958,2.4,
-356,United Kingdom,Bioenergy,53.7585,-0.3304,25.0,
-357,United Kingdom,Bioenergy,53.7585,-0.3304,3.0,
-358,United Kingdom,Bioenergy,50.7077,-3.4406,2.0,
-359,United Kingdom,Bioenergy,55.0346,-7.2512,15.0,
-360,United Kingdom,Bioenergy,52.3334,1.1278,14.3,
-361,United Kingdom,Bioenergy,53.703,-2.7373,1.9,
-362,United Kingdom,Bioenergy,52.1972,-4.1689,3.2,
-363,United Kingdom,Bioenergy,52.568,0.0621,1.5,
-364,United Kingdom,Bioenergy,52.4119,-0.7662,1.5,
-365,United Kingdom,Bioenergy,53.7164,-1.2819,79.0,
-366,United Kingdom,Bioenergy,51.6645,-3.2693,1.4,
-367,United Kingdom,Bioenergy,53.5411,-0.5056,14.0,
-368,United Kingdom,Bioenergy,55.834,-4.2447,5.0,
-369,United Kingdom,Bioenergy,55.5945,-4.6302,1.0,
-370,United Kingdom,Bioenergy,57.4549,-3.123,1.5,
-371,United Kingdom,Bioenergy,52.0207,-0.5994,16.0,
-372,United Kingdom,Bioenergy,50.6756,-1.2524,2.2,
-373,United Kingdom,Bioenergy,54.2195,-7.5402,1.5,
-374,United Kingdom,Bioenergy,53.3525,-2.7467,5.0,
-375,United Kingdom,Bioenergy,54.491,-6.8121,3.0,
-376,United Kingdom,Bioenergy,54.02,-0.9579,1.0,
-377,United Kingdom,Bioenergy,51.0051,-3.8238,1.3,
-378,United Kingdom,Bioenergy,51.2168,-1.0653,1.2,
-379,United Kingdom,Bioenergy,52.724,-1.3125,2.0,
-380,United Kingdom,Bioenergy,50.7219,-1.2896,1.0,
-381,United Kingdom,Bioenergy,51.9421,0.6578,2.0,
-382,United Kingdom,Bioenergy,55.5471,-4.6814,2.6,
-383,United Kingdom,Bioenergy,51.4592,-0.4595,1.8,
-384,United Kingdom,Bioenergy,50.6928,-3.3841,1.0,
-385,United Kingdom,Bioenergy,53.3308,-1.3323,6.5,
-386,United Kingdom,Bioenergy,53.819,-0.1465,22.0,
-387,United Kingdom,Bioenergy,54.664,-3.5473,49.0,
-388,United Kingdom,Bioenergy,54.5822,-1.185,5.1,
-389,United Kingdom,Bioenergy,53.2827,-2.8189,21.5,
-390,United Kingdom,Bioenergy,56.1782,-3.2115,2.0,
-391,United Kingdom,Bioenergy,57.7054,-4.1599,5.0,
-392,United Kingdom,Bioenergy,52.0568,1.1979,2.6,
-393,United Kingdom,Bioenergy,53.2138,-0.7981,12.0,
-394,United Kingdom,Bioenergy,53.7424,-0.2835,9.0,
-395,United Kingdom,Bioenergy,51.5359,-0.0056,3.0,
-396,United Kingdom,Bioenergy,53.7815,-1.4912,4.0,
-397,United Kingdom,Bioenergy,54.8548,-1.8143,1.0,
-398,United Kingdom,Bioenergy,54.9733,-2.0818,1.5,
-399,United Kingdom,Bioenergy,53.3361,-0.5363,1.1,
-400,United Kingdom,Bioenergy,53.2638,-2.4824,5.0,
-401,United Kingdom,Bioenergy,54.2912,-1.5425,1.5,
-402,United Kingdom,Bioenergy,55.779,-3.678,12.5,
-403,United Kingdom,Bioenergy,55.7884,-3.9822,17.0,
-404,United Kingdom,Bioenergy,51.5611,-2.9625,9.0,
-405,United Kingdom,Bioenergy,56.0969,-3.4694,1.7,
-406,United Kingdom,Bioenergy,53.4443,-1.4523,8.0,
-407,United Kingdom,Bioenergy,50.8832,-2.3022,1.3,
-408,United Kingdom,Bioenergy,56.9152,-2.3876,1.2,
-409,United Kingdom,Bioenergy,52.8353,0.0816,1.5,
-410,United Kingdom,Bioenergy,51.5633,-3.7479,40.0,
-411,United Kingdom,Bioenergy,51.8101,-2.282,2.1,
-412,United Kingdom,Bioenergy,53.0336,0.1569,1.4,
-413,United Kingdom,Bioenergy,52.4546,0.3521,2.4,
-414,United Kingdom,Bioenergy,52.5594,-0.1752,1.0,
-415,United Kingdom,Bioenergy,52.4284,0.0878,14.4,
-416,United Kingdom,Bioenergy,52.5711,-1.5867,2.0,
-417,United Kingdom,Bioenergy,53.1334,-0.4721,6.5,
-418,United Kingdom,Bioenergy,55.9255,-3.0834,1.5,
-419,United Kingdom,Bioenergy,52.0672,-0.8149,7.0,
-420,United Kingdom,Bioenergy,57.5182,-4.0889,2.0,
-421,United Kingdom,Bioenergy,54.2175,-6.3367,2.0,
-422,United Kingdom,Bioenergy,53.5745,-0.7941,4.0,
-423,United Kingdom,Bioenergy,50.828,-4.352,1.4,
-424,United Kingdom,Bioenergy,52.2365,-0.8819,1.9,
-425,United Kingdom,Bioenergy,52.7686,1.3564,2.0,
-426,United Kingdom,Bioenergy,52.5169,-2.0288,40.0,
-427,United Kingdom,Bioenergy,52.455,-1.0283,4.0,
-428,United Kingdom,Bioenergy,50.1422,-5.3398,1.0,
-429,United Kingdom,Bioenergy,51.6908,-2.5877,1.5,
-430,United Kingdom,Bioenergy,52.6841,-2.01,6.0,
-431,United Kingdom,Bioenergy,54.6058,-1.5803,2.8,
-432,United Kingdom,Bioenergy,53.5369,-1.1374,2.0,
-433,United Kingdom,Bioenergy,53.5369,-1.1374,3.0,
-434,United Kingdom,Bioenergy,58.4347,-3.0855,3.5,
-435,United Kingdom,Bioenergy,55.9566,-2.7707,1.5,
-436,United Kingdom,Bioenergy,53.2904,-0.8382,1.2,
-437,United Kingdom,Bioenergy,51.7671,0.0003,3.0,
-438,United Kingdom,Bioenergy,51.5241,0.1364,1.4,
-439,United Kingdom,Bioenergy,52.7008,1.2028,1.5,
-440,United Kingdom,Bioenergy,53.5041,-2.1807,2.0,
-441,United Kingdom,Bioenergy,54.3203,-6.2893,1.1,
-442,United Kingdom,Bioenergy,51.3823,0.7588,25.0,
-443,United Kingdom,Bioenergy,52.9572,-0.0129,10.5,
-444,United Kingdom,Bioenergy,57.5264,-3.2078,8.3,
-445,United Kingdom,Bioenergy,51.7749,0.0171,2.3,
-446,United Kingdom,Bioenergy,53.4251,-2.4195,41.6,
-447,United Kingdom,Bioenergy,51.8978,-2.1717,3.6,
-448,United Kingdom,Bioenergy,53.4953,-2.2873,2.0,
-449,United Kingdom,Bioenergy,53.992,-0.4985,2.0,
-450,United Kingdom,Bioenergy,50.789,-0.7373,1.0,
-451,United Kingdom,Bioenergy,52.893,-1.4795,7.5,
-452,United Kingdom,Bioenergy,53.5909,-0.3571,1.5,
-453,United Kingdom,Bioenergy,52.999,-0.3827,40.0,
-454,United Kingdom,Bioenergy,52.4791,0.9544,44.2,
-455,United Kingdom,Bioenergy,53.6027,-1.3407,6.0,
-456,United Kingdom,Bioenergy,53.3944,-2.2461,2.0,
-457,United Kingdom,Bioenergy,54.2703,-0.7586,2.0,
-458,United Kingdom,Bioenergy,57.4947,-3.2089,12.5,
-459,United Kingdom,Bioenergy,52.7013,1.195,1.0,
-460,United Kingdom,Bioenergy,51.3561,1.244,1.2,
-461,United Kingdom,Bioenergy,53.0346,0.0312,1.4,
-462,United Kingdom,Bioenergy,51.9485,0.3275,1.0,
-463,United Kingdom,Bioenergy,52.9759,-1.0396,2.0,
-464,United Kingdom,Bioenergy,51.5072,-3.6713,3.0,
-465,United Kingdom,Bioenergy,53.1583,-1.0285,2.2,
-466,United Kingdom,Bioenergy,53.3631,-0.9601,3.0,
-467,United Kingdom,Bioenergy,52.5427,-2.3814,1.2,
-468,United Kingdom,Bioenergy,52.5428,-2.3818,2.2,
-469,United Kingdom,Bioenergy,51.5679,-1.8085,1.2,
-470,United Kingdom,Bioenergy,52.2572,0.6371,1.4,
-471,United Kingdom,Bioenergy,54.5815,-1.2469,4.8,
-472,United Kingdom,Bioenergy,53.4226,-1.3734,42.0,
-473,United Kingdom,Bioenergy,51.8459,0.0918,1.2,
-474,United Kingdom,Bioenergy,52.8404,-1.0338,6.8,
-475,United Kingdom,Bioenergy,52.4486,0.7253,41.5,
-476,United Kingdom,Bioenergy,53.8819,-2.9975,9.0,
-477,United Kingdom,Bioenergy,53.8948,-3.0151,1.9,
-478,United Kingdom,Bioenergy,51.4604,0.3497,43.0,
-479,United Kingdom,Bioenergy,51.9188,-0.5656,1.1,
-480,United Kingdom,Bioenergy,51.382,-0.5722,2.4,
-481,United Kingdom,Bioenergy,54.8371,-6.1986,3.0,
-482,United Kingdom,Bioenergy,54.8521,-7.4065,2.1,
-483,United Kingdom,Bioenergy,51.5485,-2.9492,18.0,
-484,United Kingdom,Bioenergy,53.2632,-3.4263,1.0,
-485,United Kingdom,Bioenergy,51.614,-1.1122,2.4,
-486,United Kingdom,Bioenergy,51.1839,-2.9829,1.6,
-487,United Kingdom,Bioenergy,55.0951,-3.5336,1.2,
-488,United Kingdom,Bioenergy,51.8499,-0.9785,2.0,
-489,United Kingdom,Bioenergy,51.5675,-3.7626,14.0,
-490,United Kingdom,Bioenergy,56.1417,-3.3051,12.5,
-491,United Kingdom,Bioenergy,52.2622,-0.5634,2.0,
-492,United Kingdom,Bioenergy,53.8146,-0.9922,18.0,
-493,United Kingdom,Bioenergy,53.3546,-2.7513,20.0,
-494,United Kingdom,Bioenergy,52.3867,-2.6987,1.1,
-495,United Kingdom,Bioenergy,50.8923,-3.3801,2.0,
-496,United Kingdom,Bioenergy,54.5674,-1.0967,38.0,
-497,United Kingdom,Bioenergy,51.9461,-2.0833,1.6,
-498,United Kingdom,Bioenergy,53.877,-1.3939,1.0,
-499,United Kingdom,Bioenergy,51.1117,-2.4819,1.0,
-500,Belgium,Coal,50.9405,5.4906,470.0,1968.0
-501,Bulgaria,Coal,42.1573,25.9084,670.0,2011.0
-502,Bulgaria,Coal,42.2855,23.0342,630.0,1974.0
-503,Bulgaria,Coal,42.1551,25.9072,240.0,1961.0
-504,Bulgaria,Coal,43.1964,27.6327,174.0,2009.0
-505,Bulgaria,Coal,42.0519,25.6231,120.0,1971.0
-506,Bulgaria,Coal,42.2541,26.134,1602.0,1979.0
-507,Bulgaria,Coal,42.145,26.0025,908.0,1980.0
-508,Bulgaria,Coal,43.8662,26.0093,180.0,
-509,Bulgaria,Coal,42.6064,23.0784,105.0,1951.0
-510,Bulgaria,Coal,42.2569,26.136,110.0,
-511,Bulgaria,Coal,43.9484,22.8509,120.0,1970.0
-512,Croatia,Coal,45.137,14.164,330.0,
-513,Czechia,Coal,49.2159,16.6064,72.0,1984.0
-514,Czechia,Coal,50.0275,15.4505,820.0,1978.0
-515,Czechia,Coal,49.9072,18.4646,800.0,1976.0
-516,Czechia,Coal,48.8474,17.1197,105.0,1957.0
-517,Czechia,Coal,50.1532,14.129,404.0,2014.0
-518,Czechia,Coal,50.522,13.5718,210.0,1956.0
-519,Czechia,Coal,50.5763,13.7803,640.0,1969.0
-520,Czechia,Coal,50.085,14.5253,165.0,1969.0
-521,Czechia,Coal,50.4131,14.4158,960.0,1973.0
-522,Czechia,Coal,50.1265,15.7933,360.0,1959.0
-523,Czechia,Coal,49.7542,13.3988,137.0,
-524,Czechia,Coal,49.7395,13.3455,65.0,1972.0
-525,Czechia,Coal,50.4278,13.6777,1000.0,1973.0
-526,Czechia,Coal,50.5727,15.9634,165.0,1957.0
-527,Czechia,Coal,50.4178,13.2592,750.0,2016.0
-528,Czechia,Coal,50.4125,14.9044,70.0,1999.0
-529,Czechia,Coal,50.4616,14.38,144.0,
-530,Czechia,Coal,50.1496,12.6108,296.0,1960.0
-531,Czechia,Coal,49.8319,18.2113,177.0,1994.0
-532,Czechia,Coal,50.645,13.9865,159.0,
-533,Czechia,Coal,50.381,13.3399,800.0,1974.0
-534,Czechia,Coal,49.2257,17.654,64.0,2001.0
-535,Denmark,Coal,55.6859,12.6277,330.0,1982.0
-536,Denmark,Coal,55.6615,11.0809,787.0,1975.0
-537,Denmark,Coal,55.6035,12.4812,815.0,
-538,Denmark,Coal,55.0206,9.4419,626.0,1979.0
-539,Denmark,Coal,55.4552,8.4544,407.0,1992.0
-540,Denmark,Coal,55.4292,10.4104,362.0,1984.0
-541,Denmark,Coal,57.0736,10.0416,716.0,1989.0
-542,Denmark,Coal,56.4584,10.0475,52.0,
-543,Denmark,Coal,55.2079,11.2528,264.0,1970.0
-544,Denmark,Coal,56.2521,10.3423,730.0,
-545,Finland,Coal,60.1841,24.9711,212.0,
-546,Finland,Coal,61.6317,21.4068,565.0,
-547,Finland,Coal,60.1656,24.9048,163.0,
-548,Finland,Coal,60.1483,24.7183,170.0,1981.0
-549,Finland,Coal,63.0914,21.5539,230.0,
-550,France,Coal,47.2756,-1.8779,1160.0,
-551,France,Coal,49.151,6.697,995.0,
-552,France,Coal,49.4757,0.1491,580.0,
-553,France,Coal,46.667,4.351,245.0,
-554,France,Coal,43.4672,5.4875,595.0,
-555,Germany,Coal,48.7176,9.3749,769.0,1992.0
-556,Germany,Coal,51.637,7.6191,717.0,1981.0
-557,Germany,Coal,52.5374,13.3461,89.0,1990.0
-558,Germany,Coal,52.5321,13.2461,124.0,1969.0
-559,Germany,Coal,52.5351,13.2426,564.0,1988.0
-560,Germany,Coal,51.0365,6.6133,2100.0,2012.0
-561,Germany,Coal,51.4163,14.5619,2585.0,1989.0
-562,Germany,Coal,51.1821,12.3733,875.0,1999.0
-563,Germany,Coal,53.2021,8.5162,350.0,1969.0
-564,Germany,Coal,51.6028,7.0094,70.0,1985.0
-565,Germany,Coal,52.1724,10.9768,352.0,1985.0
-566,Germany,Coal,51.6846,7.1,136.0,1974.0
-567,Germany,Coal,50.857,12.9231,56.8,1989.0
-568,Germany,Coal,51.0489,12.1104,17.5,2005.0
-569,Germany,Coal,48.5272,8.0868,18.5,1986.0
-570,Germany,Coal,51.0178,6.9643,75.3,2010.0
-571,Germany,Coal,51.7602,14.37,74.0,1999.0
-572,Germany,Coal,51.8269,12.23,49.0,1996.0
-573,Germany,Coal,51.1119,12.0762,86.0,1936.0
-574,Germany,Coal,51.0489,12.1104,18.5,1993.0
-575,Germany,Coal,51.2791,9.484,33.5,1988.0
-576,Germany,Coal,54.8049,9.4324,195.0,1986.0
-577,Germany,Coal,50.9456,6.6636,15.0,1984.0
-578,Germany,Coal,51.0574,6.5771,562.0,1962.0
-579,Germany,Coal,51.3689,6.6541,103.0,1962.0
-580,Germany,Coal,52.42,9.6486,272.0,1989.0
-581,Germany,Coal,49.4452,8.4891,1958.0,1980.0
-582,Germany,Coal,51.4627,11.714,49.0,1979.0
-583,Germany,Coal,49.5928,11.0015,17.4,1980.0
-584,Germany,Coal,51.4293,6.752,95.0,1985.0
-585,Germany,Coal,49.4346,7.7582,13.4,1996.0
-586,Germany,Coal,52.4328,10.7861,61.5,2000.0
-587,Germany,Coal,51.2529,9.438,200.0,
-588,Germany,Coal,51.4409,6.7054,27.5,1962.0
-589,Germany,Coal,52.4422,10.7645,138.5,1985.0
-590,Germany,Coal,50.0984,8.6531,123.0,1989.0
-591,Germany,Coal,53.1249,8.7287,427.0,1973.0
-592,Germany,Coal,53.489,9.949,1600.0,2015.0
-593,Germany,Coal,53.0601,8.8733,119.0,1989.0
-594,Germany,Coal,49.1773,9.2063,778.0,1977.0
-595,Germany,Coal,49.249,6.8792,211.0,1989.0
-596,Germany,Coal,52.346,14.546,45.0,1997.0
-597,Germany,Coal,48.397,9.9648,20.7,1978.0
-598,Germany,Coal,48.7825,9.2315,22.6,2009.0
-599,Germany,Coal,49.9774,9.0687,24.8,1969.0
-600,Germany,Coal,51.5508,7.1875,729.0,1976.0
-601,Germany,Coal,52.3828,8.996,875.0,1987.0
-602,Germany,Coal,50.0652,8.769,54.0,1988.0
-603,Germany,Coal,50.8614,6.8407,52.0,1991.0
-604,Germany,Coal,52.2888,7.7479,794.0,1985.0
-605,Germany,Coal,51.5649,6.5782,79.0,1975.0
-606,Germany,Coal,51.8344,14.459,2790.0,1985.0
-607,Germany,Coal,51.5765,6.6894,1390.0,
-608,Germany,Coal,51.5267,6.7187,1200.0,
-609,Germany,Coal,51.5796,6.6789,640.0,1971.0
-610,Germany,Coal,52.315,10.0914,690.0,1979.0
-611,Germany,Coal,50.777,6.486,9.3,1983.0
-612,Germany,Coal,54.3394,10.1766,323.0,1970.0
-613,Germany,Coal,52.4889,13.497,164.0,1981.0
-614,Germany,Coal,50.7055,6.6536,14.4,2010.0
-615,Germany,Coal,50.9456,6.665,10.0,1995.0
-616,Germany,Coal,49.3635,7.2371,721.0,1983.0
-617,Germany,Coal,49.2932,6.7709,389.0,
-618,Germany,Coal,51.6804,7.0969,296.2,1966.0
-619,Germany,Coal,51.3698,6.6615,26.0,1957.0
-620,Germany,Coal,51.3698,6.6615,110.0,1971.0
-621,Germany,Coal,51.2764,7.7057,310.0,1982.0
-622,Germany,Coal,51.1821,12.3733,875.0,2000.0
-623,Germany,Coal,51.614,7.4643,473.0,1967.0
-624,Germany,Coal,49.249,6.8792,179.0,1982.0
-625,Germany,Coal,51.0395,6.615,2068.0,1974.0
-626,Germany,Coal,50.993,6.6685,3430.0,1979.0
-627,Germany,Coal,48.1805,11.6393,332.7,1991.0
-628,Germany,Coal,50.658,6.8101,14.5,
-629,Germany,Coal,50.9152,6.3693,24.6,2004.0
-630,Germany,Coal,51.6978,11.7581,20.3,1993.0
-631,Germany,Coal,48.8973,8.7245,26.9,1990.0
-632,Germany,Coal,51.3914,8.073,19.0,
-633,Germany,Coal,49.0134,8.3065,1547.0,
-634,Germany,Coal,54.1428,12.1329,514.0,1994.0
-635,Germany,Coal,51.3985,11.9504,900.0,1996.0
-636,Germany,Coal,51.6024,7.0099,690.0,1973.0
-637,Germany,Coal,51.5348,14.3531,1500.0,1998.0
-638,Germany,Coal,50.0886,8.9534,1132.0,1992.0
-639,Germany,Coal,48.8158,9.2211,159.9,1983.0
-640,Germany,Coal,53.5262,10.0632,194.0,1993.0
-641,Germany,Coal,51.6124,7.4653,746.0,2013.0
-642,Germany,Coal,50.8976,6.7931,118.0,1959.0
-643,Germany,Coal,51.1666,12.0762,31.0,1994.0
-644,Germany,Coal,49.0177,9.1577,267.0,1966.0
-645,Germany,Coal,53.567,9.7244,260.0,1961.0
-646,Germany,Coal,49.3341,7.0314,655.6,1976.0
-647,Germany,Coal,50.8392,6.3211,1800.0,1968.0
-648,Germany,Coal,51.6805,7.9696,1049.0,2014.0
-649,Germany,Coal,53.5658,8.1462,757.0,1976.0
-650,Germany,Coal,51.2484,7.1187,85.0,1989.0
-651,Greece,Coal,40.3941,21.9256,1595.0,1988.0
-652,Greece,Coal,40.6192,21.6832,600.0,1987.0
-653,Greece,Coal,40.8122,21.6027,330.0,2003.0
-654,Greece,Coal,40.4102,21.7856,1250.0,1978.0
-655,Greece,Coal,37.4174,22.1079,600.0,1979.0
-656,Greece,Coal,40.4809,21.7274,620.0,
-657,Hungary,Coal,47.0956,17.5584,60.0,1957.0
-658,Hungary,Coal,47.7886,20.066,884.0,1983.0
-659,Hungary,Coal,47.5017,18.2701,250.0,1962.0
-660,Ireland,Coal,52.6074,-9.4237,915.0,1986.0
-661,Italy,Coal,45.4314,12.2468,976.0,1971.0
-662,Italy,Coal,40.6432,17.9802,640.0,1974.0
-663,Italy,Coal,40.5632,18.0318,2640.0,1992.0
-664,Italy,Coal,40.8461,8.3068,640.0,1992.0
-665,Italy,Coal,44.1118,9.8743,1300.0,1967.0
-666,Italy,Coal,45.7979,13.5455,336.0,1968.0
-667,Italy,Coal,42.8971,12.5381,150.0,1990.0
-668,Italy,Coal,39.1961,8.4002,350.0,1997.0
-669,Italy,Coal,42.1269,11.7583,1980.0,2009.0
-670,Netherlands,Coal,53.4355,6.8793,1600.0,2015.0
-671,Netherlands,Coal,51.8561,5.8294,590.0,
-672,Netherlands,Coal,52.4049,4.8465,685.0,1995.0
-673,Netherlands,Coal,51.9626,4.0217,1040.0,1988.0
-674,Netherlands,Coal,51.9587,4.0272,1100.0,2016.0
-675,Poland,Coal,51.2679,19.3265,5472.0,
-676,Poland,Coal,49.9767,19.8047,330.0,
-677,Poland,Coal,53.2067,14.4651,1362.0,
-678,Poland,Coal,49.8524,19.3369,12.0,1950.0
-679,Poland,Coal,50.0277,20.9082,97.0,
-680,Poland,Coal,53.1486,23.1689,198.0,1991.0
-681,Poland,Coal,53.1355,17.9836,14.0,1929.0
-682,Poland,Coal,53.0995,18.0879,227.0,
-683,Poland,Coal,50.3019,19.1384,82.0,
-684,Poland,Coal,50.3079,18.9695,226.0,
-685,Poland,Coal,51.0381,17.1498,110.0,1981.0
-686,Poland,Coal,54.1805,19.3855,42.0,1928.0
-687,Poland,Coal,50.8273,19.1247,68.0,2010.0
-688,Poland,Coal,51.2258,22.7079,6.0,1950.0
-689,Poland,Coal,54.3784,18.6404,217.0,1970.0
-690,Poland,Coal,49.6769,21.1821,5.0,
-691,Poland,Coal,53.4792,18.7719,18.0,
-692,Poland,Coal,53.7002,18.921,112.0,
-693,Poland,Coal,52.7664,18.1098,56.0,
-694,Poland,Coal,51.7297,18.1062,8.0,1932.0
-695,Poland,Coal,50.2855,19.0532,135.0,
-696,Poland,Coal,50.2153,18.6785,8.0,
-697,Poland,Coal,50.0535,20.0061,446.0,1986.0
-698,Poland,Coal,50.0433,18.4842,37.0,1908.0
-699,Poland,Coal,50.3488,18.8419,125.0,1954.0
-700,Poland,Coal,50.3046,21.4644,33.0,1962.0
-701,Poland,Coal,53.3938,18.3751,123.0,
-702,Poland,Coal,49.9415,18.5702,38.0,1966.0
-703,Poland,Coal,50.3478,19.2771,150.0,2001.0
-704,Poland,Coal,50.6872,17.9201,10.0,
-705,Poland,Coal,50.0395,19.2735,79.0,
-706,Poland,Coal,52.1707,20.8006,9.0,1957.0
-707,Poland,Coal,52.1901,21.0873,620.0,1961.0
-708,Poland,Coal,52.7671,18.2409,36.0,
-709,Poland,Coal,51.0299,21.0799,36.0,
-710,Poland,Coal,50.3454,18.8864,9.0,1920.0
-711,Poland,Coal,50.1059,19.0164,105.0,
-712,Poland,Coal,50.0146,21.9813,12.0,
-713,Poland,Coal,51.1234,17.0241,263.0,
-714,Poland,Coal,50.2956,18.8099,106.0,
-715,Poland,Coal,53.5743,14.5334,100.0,
-716,Poland,Coal,51.5999,18.9675,12.0,1992.0
-717,Poland,Coal,51.8413,19.3939,39.0,1948.0
-718,Poland,Coal,49.9642,18.6266,64.0,1973.0
-719,Poland,Coal,51.7985,19.4216,205.0,
-720,Poland,Coal,51.7462,19.5403,198.0,
-721,Poland,Coal,52.2945,20.9942,386.0,
-722,Poland,Coal,54.5535,18.4803,105.0,1974.0
-723,Poland,Coal,50.2132,19.2273,189.0,
-724,Poland,Coal,50.2064,19.2046,1345.0,
-725,Poland,Coal,52.2837,18.2695,233.0,
-726,Poland,Coal,51.5829,21.5478,1075.0,2017.0
-727,Poland,Coal,51.6658,21.4647,2673.0,
-728,Poland,Coal,51.6668,21.4614,1075.0,2017.0
-729,Poland,Coal,50.7514,17.8845,1492.0,
-730,Poland,Coal,53.1019,21.6053,75.0,
-731,Poland,Coal,53.1039,21.6118,681.0,1972.0
-732,Poland,Coal,53.3907,14.5253,134.0,1961.0
-733,Poland,Coal,52.4361,16.9873,276.0,1985.0
-734,Poland,Coal,50.4365,21.3377,1623.0,
-735,Poland,Coal,51.4574,21.9744,112.0,
-736,Poland,Coal,52.3013,18.2344,1244.0,1967.0
-737,Poland,Coal,52.3014,18.2369,464.0,2008.0
-738,Poland,Coal,50.1331,18.5232,1775.0,
-739,Poland,Coal,50.2083,19.4617,546.0,
-740,Poland,Coal,50.5538,22.0787,350.0,
-741,Poland,Coal,53.4116,14.5858,88.0,
-742,Poland,Coal,50.9482,14.9128,1498.0,
-743,Poland,Coal,50.0411,18.6298,5.0,
-744,Poland,Coal,50.3499,19.1412,700.0,
-745,Poland,Coal,50.1331,18.8465,1155.0,
-746,Portugal,Coal,39.468,-8.1097,682.0,1994.0
-747,Portugal,Coal,37.9322,-8.8038,1296.0,1986.0
-748,Romania,Coal,47.1473,27.7172,60.0,1986.0
-749,Romania,Coal,44.3886,23.718,630.0,1988.0
-750,Romania,Coal,45.9134,22.8254,1075.0,1976.0
-751,Romania,Coal,45.3647,23.261,150.0,1964.0
-752,Romania,Coal,44.9068,23.1383,1320.0,1977.0
-753,Romania,Coal,44.345,23.8156,262.0,1988.0
-754,Romania,Coal,44.6751,22.6878,313.0,
-755,Romania,Coal,45.04,24.29,177.0,
-756,Romania,Coal,47.0842,21.8928,170.0,
-757,Romania,Coal,44.6694,23.408,1650.0,1983.0
-758,Slovakia,Coal,48.6988,18.5335,518.0,
-759,Slovakia,Coal,48.5536,21.9782,880.0,
-760,Slovenia,Coal,46.058,14.5451,112.0,
-761,Slovenia,Coal,46.3723,15.0534,1099.0,
-762,Slovenia,Coal,46.1258,15.0611,110.0,
-763,Spain,Coal,43.5528,-5.7231,877.6600000000001,1985.0
-764,Spain,Coal,39.8106,3.0913,533.8,1981.0
-765,Spain,Coal,42.8385,-6.5332,346.84,1982.0
-766,Spain,Coal,42.6125,-6.5647,1005.14,1984.0
-767,Spain,Coal,42.8261,-4.8463,485.85,1984.0
-768,Spain,Coal,43.3082,-5.7001,347.7,1981.0
-769,Spain,Coal,41.2961,-0.3376,65.0,1990.0
-770,Spain,Coal,42.7924,-5.634,619.06,1984.0
-771,Spain,Coal,36.9783,-1.9054,1119.59,1997.0
-772,Spain,Coal,36.1828,-5.42,570.05,1985.0
-773,Spain,Coal,43.1685,-8.4111,557.2,1980.0
-774,Spain,Coal,43.2924,-6.3937,553.6400000000001,1984.0
-775,Spain,Coal,38.1108,-4.9354,299.76,1980.0
-776,Spain,Coal,43.3122,-5.8739,346.25,1984.0
-777,Spain,Coal,40.9966,-0.3798,1055.77,1980.0
-778,Sweden,Coal,59.5885,16.5135,80.0,1963.0
-779,United Kingdom,Coal,51.3873,-3.4049,1586.0,
-780,United Kingdom,Coal,53.304,-0.7815,2008.0,
-781,United Kingdom,Coal,53.7356,-0.9911,1980.0,
-782,United Kingdom,Coal,53.7116,-1.1269,1960.0,
-783,United Kingdom,Coal,54.7255,-5.7653,520.0,
-784,United Kingdom,Coal,52.8653,-1.255,2000.0,
-785,United Kingdom,Coal,51.5491,-2.9705,230.0,
-786,United Kingdom,Coal,53.3604,-0.8102,2012.0,
-787,Austria,Gas_CCGT,48.2,16.4633,395.0,2001.0
-788,Austria,Gas_CCGT,48.1815,16.4334,1272.0,2009.0
-789,Austria,Gas_CCGT,48.0122,13.5895,400.0,2008.0
-790,Belgium,Gas_CCGT,50.6177,5.5837,128.0,
-791,Belgium,Gas_CCGT,50.936,4.0355,43.0,
-792,Belgium,Gas_CCGT,50.936,4.0355,5.0,
-793,Belgium,Gas_CCGT,50.4304,4.3955,451.0,1994.0
-794,Belgium,Gas_CCGT,51.2119,4.2563,22.8,
-795,Belgium,Gas_CCGT,50.8023,4.299,5.0,
-796,Belgium,Gas_CCGT,50.8023,4.299,48.0,
-797,Belgium,Gas_CCGT,50.8023,4.299,465.0,
-798,Belgium,Gas_CCGT,51.05,3.7167,52.0,2006.0
-799,Belgium,Gas_CCGT,51.2629,3.2112,465.0,1998.0
-800,Belgium,Gas_CCGT,51.2198,4.3266,138.0,
-801,Belgium,Gas_CCGT,50.934,5.4784,86.0,
-802,Belgium,Gas_CCGT,50.4138,4.4067,405.0,2011.0
-803,Belgium,Gas_CCGT,51.1049,3.7257,357.0,1998.0
-804,Belgium,Gas_CCGT,50.4719,3.8248,350.0,2000.0
-805,Belgium,Gas_CCGT,51.0586,5.1056,422.0,2011.0
-806,Belgium,Gas_CCGT,51.329,3.1819,40.0,
-807,Belgium,Gas_CCGT,51.1587,3.8068,315.0,2010.0
-808,Belgium,Gas_CCGT,51.2382,4.3408,43.0,
-809,Belgium,Gas_CCGT,51.2382,4.3408,15.0,
-810,Croatia,Gas_CCGT,46.0386,16.1814,78.0,
-811,Croatia,Gas_CCGT,45.542,18.7449,89.0,
-812,Croatia,Gas_CCGT,45.8069,15.9498,86.8,
-813,Croatia,Gas_CCGT,45.7816,16.0169,328.0,
-814,Czechia,Gas_CCGT,50.1535,14.127,110.0,1999.0
-815,Czechia,Gas_CCGT,50.4267,13.6747,840.0,2014.0
-816,Czechia,Gas_CCGT,50.2576,12.6932,370.0,1995.0
-817,Denmark,Gas_CCGT,55.6761,12.5683,98.0,
-818,Denmark,Gas_CCGT,55.513,9.6128,392.0,1997.0
-819,Denmark,Gas_CCGT,55.7131,12.588,81.0,1985.0
-820,Estonia,Gas_CCGT,59.4514,24.9246,173.0,
-821,Estonia,Gas_CCGT,59.2439,24.7064,250.0,
-822,Finland,Gas_CCGT,64.1333,25.3667,2.7,
-823,Finland,Gas_CCGT,61.7695,23.0658,6.0,
-824,Finland,Gas_CCGT,64.6667,27.1333,68.0,
-825,Finland,Gas_CCGT,60.4034,25.105,3.7,
-826,Finland,Gas_CCGT,60.1843,23.946,128.0,
-827,Finland,Gas_CCGT,60.9827,25.6615,4.6,
-828,Finland,Gas_CCGT,61.0587,28.1887,26.3,
-829,Finland,Gas_CCGT,61.4991,23.7871,142.0,
-830,Finland,Gas_CCGT,60.2833,24.8364,171.7,
-831,Finland,Gas_CCGT,65.9667,29.1833,32.8,
-832,Finland,Gas_CCGT,60.459,22.0545,290.0,
-833,Finland,Gas_CCGT,61.4991,23.7871,191.2,
-834,Finland,Gas_CCGT,61.4667,23.5,72.0,
-835,Finland,Gas_CCGT,60.3067,25.5506,120.6,
-836,Finland,Gas_CCGT,61.4991,23.7871,16.5,
-837,Finland,Gas_CCGT,60.2199,25.1692,163.0,
-838,Finland,Gas_CCGT,60.2199,25.1692,485.0,
-839,France,Gas_CCGT,48.8681,6.0849,427.0,
-840,France,Gas_CCGT,50.2987,3.3156,575.0,
-841,France,Gas_CCGT,43.4072,4.8676,425.0,
-842,France,Gas_CCGT,48.675,5.8917,413.0,
-843,France,Gas_CCGT,51.0482,2.3255,796.0,
-844,France,Gas_CCGT,49.1526,6.7018,826.0,
-845,France,Gas_CCGT,48.9333,2.3,203.0,
-846,France,Gas_CCGT,43.3585,5.0216,930.0,
-847,France,Gas_CCGT,50.2308,3.8653,412.0,
-848,Germany,Gas_CCGT,50.0918,8.5311,96.5,2012.0
-849,Germany,Gas_CCGT,52.5895,13.5587,150.0,1990.0
-850,Germany,Gas_CCGT,49.0475,8.2816,13.0,2013.0
-851,Germany,Gas_CCGT,51.2545,6.7865,16.9,2012.0
-852,Germany,Gas_CCGT,49.4531,8.4336,12.5,2008.0
-853,Germany,Gas_CCGT,48.5109,9.0715,13.4,2000.0
-854,Germany,Gas_CCGT,51.2169,6.9473,10.2,2000.0
-855,Germany,Gas_CCGT,48.4939,9.1856,9.8,2011.0
-856,Germany,Gas_CCGT,52.5606,7.2952,66.0,1996.0
-857,Germany,Gas_CCGT,49.8587,7.8857,10.7,2006.0
-858,Germany,Gas_CCGT,51.4833,7.2167,20.7,2004.0
-859,Germany,Gas_CCGT,52.5219,13.3111,633.0,1975.0
-860,Germany,Gas_CCGT,49.6633,8.3589,11.5,1991.0
-861,Germany,Gas_CCGT,48.1835,12.8531,178.0,2001.0
-862,Germany,Gas_CCGT,51.0791,6.8287,586.3,2000.0
-863,Germany,Gas_CCGT,51.5197,7.477,26.0,2004.0
-864,Germany,Gas_CCGT,53.6519,9.5079,173.0,2014.0
-865,Germany,Gas_CCGT,51.491,6.7275,385.0,1958.0
-866,Germany,Gas_CCGT,51.4597,6.7306,315.0,
-867,Germany,Gas_CCGT,51.127,13.715,34.3,1998.0
-868,Germany,Gas_CCGT,51.4085,8.5999,13.5,1996.0
-869,Germany,Gas_CCGT,53.3422,7.2062,50.0,1973.0
-870,Germany,Gas_CCGT,52.4819,7.3067,1837.0,
-871,Germany,Gas_CCGT,51.5744,7.2979,11.1,1991.0
-872,Germany,Gas_CCGT,48.3591,11.7903,11.06,1992.0
-873,Germany,Gas_CCGT,51.9073,8.4088,22.0,1994.0
-874,Germany,Gas_CCGT,48.3591,11.7903,7.44,2003.0
-875,Germany,Gas_CCGT,51.2171,6.6965,18.9,1992.0
-876,Germany,Gas_CCGT,49.4208,11.0077,823.0,
-877,Germany,Gas_CCGT,48.6403,12.4634,13.4,1998.0
-878,Germany,Gas_CCGT,52.3729,9.7142,230.0,
-879,Germany,Gas_CCGT,49.8849,8.6501,94.6,2013.0
-880,Germany,Gas_CCGT,52.6235,10.2457,13.0,2000.0
-881,Germany,Gas_CCGT,48.767,11.58,1391.0,
-882,Germany,Gas_CCGT,51.6725,7.7099,2004.5,
-883,Germany,Gas_CCGT,51.2214,6.7313,100.0,2000.0
-884,Germany,Gas_CCGT,48.0202,7.8452,60.1,1998.0
-885,Germany,Gas_CCGT,51.2531,9.4379,78.0,2013.0
-886,Germany,Gas_CCGT,51.6257,12.327,106.0,2000.0
-887,Germany,Gas_CCGT,52.0333,8.5333,37.5,2005.0
-888,Germany,Gas_CCGT,51.2998,12.0193,52.0,1998.0
-889,Germany,Gas_CCGT,54.1255,12.0819,108.0,1996.0
-890,Germany,Gas_CCGT,51.4762,13.8891,122.0,1994.0
-891,Germany,Gas_CCGT,53.5267,10.0658,127.0,2009.0
-892,Germany,Gas_CCGT,49.9882,9.1558,47.0,2013.0
-893,Germany,Gas_CCGT,49.992,8.4141,112.1,1999.0
-894,Germany,Gas_CCGT,53.5745,13.2951,75.0,1997.0
-895,Germany,Gas_CCGT,51.8655,11.5738,132.0,1996.0
-896,Germany,Gas_CCGT,49.5307,8.4709,17.2,2005.0
-897,Germany,Gas_CCGT,47.796,12.1193,24.0,2001.0
-898,Germany,Gas_CCGT,54.0973,13.385,14.7,1996.0
-899,Germany,Gas_CCGT,51.4707,6.8616,23.1,1972.0
-900,Germany,Gas_CCGT,49.5991,8.221,30.0,1992.0
-901,Germany,Gas_CCGT,51.4707,6.8616,24.5,1995.0
-902,Germany,Gas_CCGT,50.8003,10.2206,9.7,1994.0
-903,Germany,Gas_CCGT,51.2689,7.2003,82.0,2005.0
-904,Germany,Gas_CCGT,50.6315,10.6987,13.5,1995.0
-905,Germany,Gas_CCGT,51.5122,13.9711,36.0,1997.0
-906,Germany,Gas_CCGT,50.857,12.9231,57.2,1986.0
-907,Germany,Gas_CCGT,51.0421,13.7086,263.0,1995.0
-908,Germany,Gas_CCGT,49.984,10.6514,57.0,2008.0
-909,Germany,Gas_CCGT,50.9848,11.0299,109.1,
-910,Germany,Gas_CCGT,49.593,11.0016,28.5,
-911,Germany,Gas_CCGT,49.249,6.8792,42.0,2003.0
-912,Germany,Gas_CCGT,48.0056,7.8423,27.0,2001.0
-913,Germany,Gas_CCGT,51.5534,9.9337,18.8,1998.0
-914,Germany,Gas_CCGT,51.481,11.9643,254.0,
-915,Germany,Gas_CCGT,51.508,7.2503,44.0,2014.0
-916,Germany,Gas_CCGT,54.3275,10.1267,31.0,
-917,Germany,Gas_CCGT,51.3907,6.7478,274.0,2005.0
-918,Germany,Gas_CCGT,50.8969,11.5857,182.0,1996.0
-919,Germany,Gas_CCGT,49.4347,7.7602,11.6,1989.0
-920,Germany,Gas_CCGT,50.9431,7.0852,15.8,2001.0
-921,Germany,Gas_CCGT,51.0179,6.964,15.5,1965.0
-922,Germany,Gas_CCGT,51.0178,6.9643,108.0,2004.0
-923,Germany,Gas_CCGT,50.0856,8.6279,126.0,2005.0
-924,Germany,Gas_CCGT,50.9749,6.988,413.0,2005.0
-925,Germany,Gas_CCGT,48.7508,9.1103,36.0,
-926,Germany,Gas_CCGT,52.3661,13.1125,81.8,1996.0
-927,Germany,Gas_CCGT,49.4386,11.0606,150.0,2005.0
-928,Germany,Gas_CCGT,50.6869,11.3293,26.5,
-929,Germany,Gas_CCGT,53.6539,11.373,23.0,1994.0
-930,Germany,Gas_CCGT,53.5779,11.3965,44.9,1994.0
-931,Germany,Gas_CCGT,50.917,6.9573,35.0,1994.0
-932,Germany,Gas_CCGT,50.0984,8.6531,99.0,1994.0
-933,Germany,Gas_CCGT,50.9816,10.2906,22.1,1993.0
-934,Germany,Gas_CCGT,49.07,8.307,59.0,2008.0
-935,Germany,Gas_CCGT,52.2786,10.5147,137.3,
-936,Germany,Gas_CCGT,52.2786,10.5147,25.0,1965.0
-937,Germany,Gas_CCGT,52.0262,8.8666,12.8,2002.0
-938,Germany,Gas_CCGT,48.1603,10.1144,65.0,2015.0
-939,Germany,Gas_CCGT,50.8126,9.978,52.3,
-940,Germany,Gas_CCGT,53.5177,9.9508,22.5,1992.0
-941,Germany,Gas_CCGT,50.0918,8.5311,152.0,
-942,Germany,Gas_CCGT,48.3751,10.9028,18.0,1976.0
-943,Germany,Gas_CCGT,49.8828,8.6287,10.0,1999.0
-944,Germany,Gas_CCGT,48.7176,9.3749,65.0,
-945,Germany,Gas_CCGT,52.9,9.65,22.1,1912.0
-946,Germany,Gas_CCGT,47.5708,7.8072,16.0,1980.0
-947,Germany,Gas_CCGT,50.9076,12.061,148.0,1996.0
-948,Germany,Gas_CCGT,51.9501,7.6413,100.2,2005.0
-949,Germany,Gas_CCGT,51.411,7.4917,230.0,1980.0
-950,Germany,Gas_CCGT,50.7338,7.0805,95.0,2013.0
-951,Germany,Gas_CCGT,51.3388,6.5853,12.6,
-952,Germany,Gas_CCGT,51.3512,12.3784,167.0,1996.0
-953,Germany,Gas_CCGT,48.8832,8.6653,52.5,1969.0
-954,Germany,Gas_CCGT,48.6972,8.9992,95.0,
-955,Germany,Gas_CCGT,52.6087,11.8325,22.0,1994.0
-956,Germany,Gas_CCGT,49.0144,8.3481,37.0,1984.0
-957,Germany,Gas_CCGT,52.618,7.8619,18.1,1995.0
-958,Germany,Gas_CCGT,49.8,9.9231,122.0,
-959,Germany,Gas_CCGT,51.1756,6.838,84.0,1948.0
-960,Germany,Gas_CCGT,51.3679,6.7167,606.0,
-961,Germany,Gas_CCGT,53.1897,8.4087,321.0,1978.0
-962,Germany,Gas_CCGT,48.6701,10.1506,26.5,
-963,Germany,Gas_CCGT,51.2998,12.0193,135.7,1994.0
-964,Germany,Gas_CCGT,51.4693,6.6436,24.0,1995.0
-965,Germany,Gas_CCGT,51.8012,11.7544,66.0,1994.0
-966,Germany,Gas_CCGT,49.8108,9.0117,11.4,1999.0
-967,Germany,Gas_CCGT,54.1379,13.6671,37.7,2014.0
-968,Germany,Gas_CCGT,49.4532,8.4336,12.0,2003.0
-969,Germany,Gas_CCGT,48.1768,12.7306,49.0,2002.0
-970,Germany,Gas_CCGT,51.0513,13.0166,12.75,1993.0
-971,Germany,Gas_CCGT,52.1951,8.6482,201.5,1980.0
-972,Germany,Gas_CCGT,52.3667,9.7167,102.0,1975.0
-973,Germany,Gas_CCGT,53.6575,9.502,30.7,2012.0
-974,Germany,Gas_CCGT,51.9832,11.8766,18.0,1993.0
-975,Germany,Gas_CCGT,51.3392,6.6642,25.8,2004.0
-976,Germany,Gas_CCGT,51.3392,6.6642,14.0,2004.0
-977,Germany,Gas_CCGT,49.4216,8.6728,13.5,2002.0
-978,Germany,Gas_CCGT,50.777,6.486,2.9,1967.0
-979,Germany,Gas_CCGT,53.8563,13.7101,15.1,1993.0
-980,Germany,Gas_CCGT,52.3942,12.4181,160.0,1994.0
-981,Germany,Gas_CCGT,50.8617,6.8424,1230.0,
-982,Germany,Gas_CCGT,51.2791,9.484,50.0,1987.0
-983,Germany,Gas_CCGT,51.4656,12.592,46.6,1993.0
-984,Germany,Gas_CCGT,50.5691,9.6813,34.2,
-985,Germany,Gas_CCGT,47.5397,7.7069,40.0,2004.0
-986,Germany,Gas_CCGT,51.6804,7.0969,139.0,
-987,Germany,Gas_CCGT,50.0264,8.2379,434.2,2001.0
-988,Germany,Gas_CCGT,48.0564,12.1852,12.6,2000.0
-989,Germany,Gas_CCGT,49.5137,8.4316,490.0,2005.0
-990,Germany,Gas_CCGT,48.7874,12.8825,97.9,2010.0
-991,Germany,Gas_CCGT,49.5136,8.4316,390.0,1997.0
-992,Germany,Gas_CCGT,52.4252,13.3098,432.0,
-993,Germany,Gas_CCGT,50.7728,6.49,14.0,2011.0
-994,Germany,Gas_CCGT,52.5117,13.4209,444.0,1996.0
-995,Germany,Gas_CCGT,49.2095,7.936,28.0,1975.0
-996,Germany,Gas_CCGT,51.6627,10.3531,19.5,1978.0
-997,Germany,Gas_CCGT,51.1514,13.9776,36.0,2014.0
-998,Germany,Gas_CCGT,51.2212,6.7319,217.8,
-999,Germany,Gas_CCGT,49.4059,11.1329,18.6,
-1000,Germany,Gas_CCGT,48.401,10.9358,28.8,2004.0
-1001,Germany,Gas_CCGT,50.8305,6.9594,51.9,1975.0
-1002,Germany,Gas_CCGT,49.2137,6.9781,38.6,2012.0
-1003,Germany,Gas_CCGT,51.2214,6.7313,293.0,1976.0
-1004,Germany,Gas_CCGT,50.7055,6.6536,45.3,1966.0
-1005,Germany,Gas_CCGT,47.8561,12.1341,23.3,2011.0
-1006,Germany,Gas_CCGT,49.8293,9.1482,100.0,
-1007,Germany,Gas_CCGT,51.7297,6.3586,11.4,2004.0
-1008,Germany,Gas_CCGT,51.9861,8.8073,10.2,1980.0
-1009,Germany,Gas_CCGT,53.4032,8.1282,60.0,1989.0
-1010,Germany,Gas_CCGT,47.7895,11.0554,10.6,
-1011,Germany,Gas_CCGT,52.2859,7.7461,33.4,1985.0
-1012,Germany,Gas_CCGT,49.013,8.304,353.0,1998.0
-1013,Germany,Gas_CCGT,50.8741,13.3944,13.5,2007.0
-1014,Germany,Gas_CCGT,52.4185,9.3681,19.0,1974.0
-1015,Germany,Gas_CCGT,51.6431,12.2289,40.0,1997.0
-1016,Germany,Gas_CCGT,52.83,11.1033,11.4,1995.0
-1017,Germany,Gas_CCGT,48.1351,11.582,79.7,1980.0
-1018,Germany,Gas_CCGT,48.1351,11.582,127.6,2004.0
-1019,Germany,Gas_CCGT,48.1351,11.582,444.6,2004.0
-1020,Germany,Gas_CCGT,52.2302,13.3019,296.0,
-1021,Germany,Gas_CCGT,51.6739,7.9291,838.0,2008.0
-1022,Germany,Gas_CCGT,48.3801,10.9014,29.0,1966.0
-1023,Germany,Gas_CCGT,50.8132,9.9775,33.6,1965.0
-1024,Germany,Gas_CCGT,51.9851,9.8225,20.0,1947.0
-1025,Germany,Gas_CCGT,50.894,9.9972,109.5,1967.0
-1026,Germany,Gas_CCGT,51.0144,6.9873,27.0,1981.0
-1027,Germany,Gas_CCGT,52.2985,11.6796,52.0,1996.0
-1028,Greece,Gas_CCGT,37.9539,23.6104,360.0,
-1029,Greece,Gas_CCGT,38.3896,24.0524,420.0,
-1030,Greece,Gas_CCGT,35.488,24.0384,134.0,1998.0
-1031,Greece,Gas_CCGT,38.2801,23.3264,148.0,
-1032,Greece,Gas_CCGT,38.2792,23.3299,432.0,2010.0
-1033,Greece,Gas_CCGT,37.9208,23.0665,437.0,2012.0
-1034,Greece,Gas_CCGT,41.0646,25.4899,485.0,2002.0
-1035,Greece,Gas_CCGT,37.7463,24.0666,723.0,
-1036,Greece,Gas_CCGT,37.418,22.1083,811.0,
-1037,Greece,Gas_CCGT,38.3585,22.6883,444.0,2011.0
-1038,Greece,Gas_CCGT,40.6872,22.885,390.0,2005.0
-1039,Greece,Gas_CCGT,38.2365,22.95,421.0,2010.0
-1040,Hungary,Gas_CCGT,47.428,19.0525,401.0,
-1041,Hungary,Gas_CCGT,47.5185,21.6329,95.0,
-1042,Hungary,Gas_CCGT,47.3283,18.9169,840.7,
-1043,Hungary,Gas_CCGT,46.0641,18.2646,45.8,
-1044,Hungary,Gas_CCGT,47.7384,17.8033,426.6,
-1045,Hungary,Gas_CCGT,47.4624,19.0563,173.0,
-1046,Hungary,Gas_CCGT,47.4568,19.1673,109.2,
-1047,Hungary,Gas_CCGT,47.9178,21.0784,864.0,
-1048,Ireland,Gas_CCGT,51.8347,-8.2362,528.0,
-1049,Ireland,Gas_CCGT,51.8347,-8.2362,435.0,
-1050,Ireland,Gas_CCGT,53.34,-6.2049,415.0,
-1051,Ireland,Gas_CCGT,53.4119,-6.3261,343.0,
-1052,Ireland,Gas_CCGT,53.4119,-6.3261,404.0,
-1053,Ireland,Gas_CCGT,51.9,-8.4458,88.0,
-1054,Ireland,Gas_CCGT,53.3396,-6.1867,480.0,
-1055,Ireland,Gas_CCGT,52.6324,-9.0596,166.0,
-1056,Ireland,Gas_CCGT,53.1658,-8.381,388.5,
-1057,Ireland,Gas_CCGT,51.8161,-8.2511,445.0,
-1058,Italy,Gas_CCGT,39.7118,16.215,808.0,2006.0
-1059,Italy,Gas_CCGT,37.2814,13.521,280.0,2001.0
-1060,Italy,Gas_CCGT,45.4511,12.2239,240.0,1993.0
-1061,Italy,Gas_CCGT,42.2002,13.8398,125.0,1994.0
-1062,Italy,Gas_CCGT,41.2014,15.4762,400.0,
-1063,Italy,Gas_CCGT,41.5616,12.6337,787.0,
-1064,Italy,Gas_CCGT,42.0458,13.5475,180.0,1998.0
-1065,Italy,Gas_CCGT,39.1022,17.0325,826.0,
-1066,Italy,Gas_CCGT,41.0092,14.2281,400.0,2007.0
-1067,Italy,Gas_CCGT,45.2268,9.6377,800.0,2011.0
-1068,Italy,Gas_CCGT,45.1856,7.9016,1123.0,
-1069,Italy,Gas_CCGT,45.3993,10.7142,400.0,
-1070,Italy,Gas_CCGT,37.1313,15.2014,480.0,
-1071,Italy,Gas_CCGT,42.3496,14.4039,104.0,2013.0
-1072,Italy,Gas_CCGT,45.5115,9.5098,969.0,
-1073,Italy,Gas_CCGT,45.2372,8.1932,804.0,
-1074,Italy,Gas_CCGT,41.9369,15.0004,769.0,2006.0
-1075,Italy,Gas_CCGT,40.6293,18.0033,1260.0,
-1076,Italy,Gas_CCGT,45.512,9.509,972.0,2000.0
-1077,Italy,Gas_CCGT,42.0502,14.5639,840.0,2004.0
-1078,Italy,Gas_CCGT,37.1399,15.2158,521.0,1998.0
-1079,Italy,Gas_CCGT,43.5537,13.285,140.0,2001.0
-1080,Italy,Gas_CCGT,45.0904,9.4805,1465.85,
-1081,Italy,Gas_CCGT,41.8055,14.9193,250.0,1992.0
-1082,Italy,Gas_CCGT,45.163,7.7505,379.5,2007.0
-1083,Italy,Gas_CCGT,45.4458,12.2552,752.5,1992.0
-1084,Italy,Gas_CCGT,38.2212,15.2383,162.9,
-1085,Italy,Gas_CCGT,44.993,7.6755,780.0,
-1086,Italy,Gas_CCGT,42.3572,11.5373,3446.0,
-1087,Italy,Gas_CCGT,41.0197,14.37,352.0,1977.0
-1088,Italy,Gas_CCGT,40.8339,14.3006,400.0,2009.0
-1089,Italy,Gas_CCGT,45.0603,11.1374,1457.0,2013.0
-1090,Italy,Gas_CCGT,45.0543,9.7086,806.0,2006.0
-1091,Italy,Gas_CCGT,42.9954,12.1995,365.0,
-1092,Italy,Gas_CCGT,43.8235,10.6023,100.0,1996.0
-1093,Italy,Gas_CCGT,44.4836,12.2652,750.0,2002.0
-1094,Italy,Gas_CCGT,45.0178,12.2408,125.0,
-1095,Italy,Gas_CCGT,37.14,15.2159,750.0,
-1096,Italy,Gas_CCGT,38.4453,15.99,760.0,
-1097,Italy,Gas_CCGT,44.9167,10.25,137.0,
-1098,Italy,Gas_CCGT,39.1037,9.0063,630.0,2000.0
-1099,Italy,Gas_CCGT,45.0522,9.5072,180.0,1998.0
-1100,Italy,Gas_CCGT,45.0265,11.2522,1151.0,2004.0
-1101,Italy,Gas_CCGT,38.8759,16.6569,760.0,
-1102,Italy,Gas_CCGT,41.1025,16.756,800.0,2010.0
-1103,Italy,Gas_CCGT,41.1783,14.1129,760.0,
-1104,Italy,Gas_CCGT,43.565,11.4777,390.0,2006.0
-1105,Italy,Gas_CCGT,45.3325,9.4364,1520.0,2005.0
-1106,Italy,Gas_CCGT,37.9684,13.7512,1235.0,
-1107,Italy,Gas_CCGT,42.554,12.6176,95.0,
-1108,Italy,Gas_CCGT,41.8117,12.4228,223.0,
-1109,Italy,Gas_CCGT,42.1241,11.7624,1488.0,
-1110,Italy,Gas_CCGT,45.817,13.2891,785.0,2006.0
-1111,Italy,Gas_CCGT,38.0158,12.5108,213.4,
-1112,Italy,Gas_CCGT,44.2755,8.4305,1353.0,2007.0
-1113,Italy,Gas_CCGT,44.5947,7.4858,140.0,
-1114,Italy,Gas_CCGT,45.0296,8.9723,380.5,
-1115,Latvia,Gas_CCGT,56.9904,24.1788,138.0,
-1116,Latvia,Gas_CCGT,56.918,24.2766,863.0,
-1117,Lithuania,Gas_CCGT,54.7701,24.6474,1800.0,
-1118,Lithuania,Gas_CCGT,54.9212,24.018,170.0,
-1119,Lithuania,Gas_CCGT,56.3843,22.1841,160.0,
-1120,Lithuania,Gas_CCGT,54.6676,25.156,360.0,
-1121,Luxembourg,Gas_CCGT,49.5119,5.9646,385.0,
-1122,Netherlands,Gas_CCGT,52.1017,5.0794,227.0,
-1123,Netherlands,Gas_CCGT,53.3185,6.9544,530.0,
-1124,Netherlands,Gas_CCGT,52.3389,5.0213,684.0,1995.0
-1125,Netherlands,Gas_CCGT,51.3331,3.7787,456.0,
-1126,Netherlands,Gas_CCGT,53.4441,6.856,2465.0,1996.0
-1127,Netherlands,Gas_CCGT,52.5772,5.53,999.0,2010.0
-1128,Netherlands,Gas_CCGT,52.468,6.1088,349.0,
-1129,Netherlands,Gas_CCGT,52.4758,4.6048,114.0,1997.0
-1130,Netherlands,Gas_CCGT,53.4502,6.8548,1311.0,2013.0
-1131,Netherlands,Gas_CCGT,52.5772,5.53,880.0,2010.0
-1132,Netherlands,Gas_CCGT,51.8902,4.3552,427.0,
-1133,Netherlands,Gas_CCGT,51.4482,3.6928,870.0,2010.0
-1134,Norway,Gas_CCGT,60.8085,5.0374,382.0,
-1135,Norway,Gas_CCGT,69.2306,18.0889,49.0,
-1136,Norway,Gas_CCGT,70.684,23.5929,250.0,
-1137,Norway,Gas_CCGT,59.2751,5.5129,520.0,
-1138,Norway,Gas_CCGT,62.8489,6.9433,253.0,
-1139,Poland,Gas_CCGT,50.3562,18.2907,158.0,
-1140,Poland,Gas_CCGT,49.8123,19.0538,77.0,1973.0
-1141,Poland,Gas_CCGT,50.1576,18.6505,16.0,
-1142,Poland,Gas_CCGT,52.7504,15.2712,243.0,
-1143,Poland,Gas_CCGT,51.2161,22.5583,231.0,2002.0
-1144,Poland,Gas_CCGT,50.3172,22.3237,116.0,2000.0
-1145,Poland,Gas_CCGT,49.9672,18.6943,14.0,
-1146,Poland,Gas_CCGT,50.0646,22.0294,129.0,
-1147,Poland,Gas_CCGT,52.1572,22.3061,51.0,2002.0
-1148,Poland,Gas_CCGT,50.0468,18.7609,11.0,
-1149,Poland,Gas_CCGT,53.0475,18.6932,106.0,
-1150,Poland,Gas_CCGT,54.7921,18.4228,11.0,2002.0
-1151,Poland,Gas_CCGT,52.7074,18.9589,453.0,2017.0
-1152,Poland,Gas_CCGT,51.9514,15.4879,188.0,1974.0
-1153,Portugal,Gas_CCGT,40.1245,-8.775,826.0,2009.0
-1154,Portugal,Gas_CCGT,39.4689,-8.1113,837.0,
-1155,Portugal,Gas_CCGT,39.0118,-8.9521,1176.0,2005.0
-1156,Portugal,Gas_CCGT,41.07,-8.4587,990.0,
-1157,Romania,Gas_CCGT,45.166,27.9235,413.0,
-1158,Romania,Gas_CCGT,44.8802,25.9988,220.0,2007.0
-1159,Romania,Gas_CCGT,44.4233,25.979,280.0,
-1160,Romania,Gas_CCGT,44.4233,25.979,298.0,
-1161,Romania,Gas_CCGT,44.8802,25.9988,860.0,2012.0
-1162,Romania,Gas_CCGT,45.436,27.9814,346.0,
-1163,Romania,Gas_CCGT,46.4677,24.1833,751.0,
-1164,Romania,Gas_CCGT,44.372,26.1073,184.0,
-1165,Slovakia,Gas_CCGT,48.2022,18.597,80.0,
-1166,Slovakia,Gas_CCGT,48.4296,17.6978,430.0,
-1167,Slovakia,Gas_CCGT,48.1775,17.1548,218.0,
-1168,Slovenia,Gas_CCGT,45.9975,15.4796,297.0,
-1169,Spain,Gas_CCGT,39.9427,-3.8548,758.74,2006.0
-1170,Spain,Gas_CCGT,43.2347,-2.7497,786.42,2005.0
-1171,Spain,Gas_CCGT,36.6721,-5.8164,1585.39,2005.0
-1172,Spain,Gas_CCGT,42.4194,-2.2511,784.7,2005.0
-1173,Spain,Gas_CCGT,40.0667,-0.2,17.763,
-1174,Spain,Gas_CCGT,36.1829,-5.3905,731.0,1970.0
-1175,Spain,Gas_CCGT,41.4196,2.2294,1670.81,2010.0
-1176,Spain,Gas_CCGT,36.1834,-5.3933,780.6600000000001,2004.0
-1177,Spain,Gas_CCGT,37.5732,-0.9392,1248.82,2006.0
-1178,Spain,Gas_CCGT,39.5672,2.6895,429.0,2009.0
-1179,Spain,Gas_CCGT,42.1718,-1.6773,797.41,2007.0
-1180,Spain,Gas_CCGT,39.9592,-0.001,782.0,2002.0
-1181,Spain,Gas_CCGT,36.1829,-5.3905,820.536,2009.0
-1182,Spain,Gas_CCGT,39.6426,-0.2344,1232.19,2007.0
-1183,Spain,Gas_CCGT,41.2167,-0.2928,790.68,2006.0
-1184,Spain,Gas_CCGT,36.7334,-3.5413,48.8,2001.0
-1185,Spain,Gas_CCGT,43.5354,-6.7193,24.0,
-1186,Spain,Gas_CCGT,38.8167,-0.6167,12.68,
-1187,Spain,Gas_CCGT,40.0667,-0.2,14.071,
-1188,Spain,Gas_CCGT,37.2156,-6.943,390.94,2006.0
-1189,Spain,Gas_CCGT,43.4451,-7.8621,855.67,2008.0
-1190,Spain,Gas_CCGT,42.1718,-1.6773,424.91,2002.0
-1191,Spain,Gas_CCGT,39.9592,-0.001,839.35,2008.0
-1192,Spain,Gas_CCGT,41.2977,-0.3376,274.635,2007.0
-1193,Spain,Gas_CCGT,37.5732,-0.9392,815.64,2006.0
-1194,Spain,Gas_CCGT,40.9596,0.8692,819.03,2007.0
-1195,Spain,Gas_CCGT,43.329,-8.503,391.31,2008.0
-1196,Spain,Gas_CCGT,43.3161,-5.8777,854.1700000000001,2011.0
-1197,Spain,Gas_CCGT,37.6051,-0.9862,21.666,2012.0
-1198,Spain,Gas_CCGT,42.4167,-8.6667,26.62,2008.0
-1199,Spain,Gas_CCGT,37.2583,-6.9508,50.0,2012.0
-1200,Spain,Gas_CCGT,41.2977,-0.3376,804.36,2008.0
-1201,Spain,Gas_CCGT,7.5732,-0.9392,1199.25,2006.0
-1202,Spain,Gas_CCGT,40.8436,-1.8876,10.0,2000.0
-1203,Spain,Gas_CCGT,42.8805,-8.5457,23.96,2002.0
-1204,Spain,Gas_CCGT,0.7046,42.8025,14.95,1999.0
-1205,Spain,Gas_CCGT,43.3048,-8.5075,12.0,1999.0
-1206,Spain,Gas_CCGT,42.2793,-1.7463,13.5,
-1207,Spain,Gas_CCGT,39.8964,4.2597,50.0,2008.0
-1208,Spain,Gas_CCGT,36.7495,-4.5631,415.509,2009.0
-1209,Spain,Gas_CCGT,41.6704,-3.6892,31.866,2003.0
-1210,Spain,Gas_CCGT,41.6552,-4.7237,46.0,
-1211,Spain,Gas_CCGT,42.85,-2.6667,47.0,
-1212,Spain,Gas_CCGT,41.6333,0.9,10.0,2005.0
-1213,Spain,Gas_CCGT,37.1843,-6.8857,1167.0,2004.0
-1214,Spain,Gas_CCGT,43.2596,-1.9688,79.918,
-1215,Spain,Gas_CCGT,37.5624,-5.1254,18.0,
-1216,Spain,Gas_CCGT,41.3366,2.1594,866.3,2010.0
-1217,Spain,Gas_CCGT,38.6478,-4.1214,80.5,1994.0
-1218,Spain,Gas_CCGT,42.5741,0.1824,10.0,
-1219,Spain,Gas_CCGT,36.1955,-5.4131,791.6800000000001,2002.0
-1220,Spain,Gas_CCGT,43.34,-3.0539,396.4,2005.0
-1221,Spain,Gas_CCGT,42.5273,-8.0086,93.0,
-1222,Spain,Gas_CCGT,41.1081,1.1912,802.84,2004.0
-1223,Spain,Gas_CCGT,37.2583,-6.9508,10.0,2009.0
-1224,Spain,Gas_CCGT,41.6561,-0.8773,22.0,
-1225,Spain,Gas_CCGT,40.8125,0.5216,39.58,2011.0
-1226,Spain,Gas_CCGT,42.1519,0.2225,23.92,1999.0
-1227,Sweden,Gas_CCGT,55.6261,13.0404,440.0,
-1228,Sweden,Gas_CCGT,57.6924,11.8905,261.0,
-1229,Sweden,Gas_CCGT,59.3532,18.0985,639.0,1980.0
-1230,United Kingdom,Gas_CCGT,51.3875,-3.4068,51.0,
-1231,United Kingdom,Gas_CCGT,51.6145,-3.8352,520.0,
-1232,United Kingdom,Gas_CCGT,51.5924,-3.7802,32.3,
-1233,United Kingdom,Gas_CCGT,54.845,-5.787,540.0,
-1234,United Kingdom,Gas_CCGT,54.845,-5.787,116.0,
-1235,United Kingdom,Gas_CCGT,54.8428,-5.7853,616.0,
-1236,United Kingdom,Gas_CCGT,51.4089,-3.2301,235.0,
-1237,United Kingdom,Gas_CCGT,53.75,-2.4833,59.0,
-1238,United Kingdom,Gas_CCGT,53.4366,-2.4077,900.0,
-1239,United Kingdom,Gas_CCGT,53.7259,-1.3626,56.0,
-1240,United Kingdom,Gas_CCGT,51.46,-2.1247,10.0,
-1241,United Kingdom,Gas_CCGT,53.2317,-3.0815,1380.0,
-1242,United Kingdom,Gas_CCGT,55.0437,-7.2487,408.0,
-1243,United Kingdom,Gas_CCGT,55.0437,-7.2487,53.0,
-1244,United Kingdom,Gas_CCGT,52.5104,-0.6814,401.0,
-1245,United Kingdom,Gas_CCGT,51.5119,0.5079,800.0,
-1246,United Kingdom,Gas_CCGT,53.3051,-0.7858,395.0,
-1247,United Kingdom,Gas_CCGT,50.7469,-1.2862,140.0,
-1248,United Kingdom,Gas_CCGT,51.4249,0.6014,805.0,
-1249,United Kingdom,Gas_CCGT,53.2332,-3.0547,515.0,
-1250,United Kingdom,Gas_CCGT,51.6246,-1.2683,1470.0,
-1251,United Kingdom,Gas_CCGT,51.6246,-1.2683,100.0,
-1252,United Kingdom,Gas_CCGT,53.7364,-0.9981,75.0,
-1253,United Kingdom,Gas_CCGT,51.6625,-0.0225,408.0,
-1254,United Kingdom,Gas_CCGT,53.5411,-0.5055,150.0,
-1255,United Kingdom,Gas_CCGT,51.4444,0.7114,56.0,
-1256,United Kingdom,Gas_CCGT,52.5839,1.7338,420.0,
-1257,United Kingdom,Gas_CCGT,53.5944,-0.7504,25.0,
-1258,United Kingdom,Gas_CCGT,53.6535,-0.2556,600.0,
-1259,United Kingdom,Gas_CCGT,54.7251,-5.7643,142.0,
-1260,United Kingdom,Gas_CCGT,50.3882,-4.0118,905.0,
-1261,United Kingdom,Gas_CCGT,52.2046,-0.2693,720.0,
-1262,United Kingdom,Gas_CCGT,52.2046,-0.2693,17.0,
-1263,United Kingdom,Gas_CCGT,50.8998,-1.4384,842.0,
-1264,United Kingdom,Gas_CCGT,51.4396,0.6894,700.0,
-1265,United Kingdom,Gas_CCGT,51.685,-4.99,2180.0,
-1266,United Kingdom,Gas_CCGT,52.5769,-0.204,240.0,
-1267,United Kingdom,Gas_CCGT,57.4772,-1.7889,1180.0,
-1268,United Kingdom,Gas_CCGT,52.8653,-1.255,34.0,
-1269,United Kingdom,Gas_CCGT,53.3147,-2.7232,810.0,
-1270,United Kingdom,Gas_CCGT,51.7626,0.0094,715.0,
-1271,United Kingdom,Gas_CCGT,53.735,-0.2432,1200.0,
-1272,United Kingdom,Gas_CCGT,53.1623,-2.4037,56.0,
-1273,United Kingdom,Gas_CCGT,51.5392,-2.67,812.0,
-1274,United Kingdom,Gas_CCGT,51.5392,-2.67,410.0,
-1275,United Kingdom,Gas_CCGT,51.5475,-2.975,850.0,
-1276,United Kingdom,Gas_CCGT,50.8292,-0.2311,420.0,
-1277,United Kingdom,Gas_CCGT,53.6008,-0.1446,1310.0,
-1278,United Kingdom,Gas_CCGT,52.773,-0.1441,880.0,
-1279,United Kingdom,Gas_CCGT,53.073,-0.8585,1772.0,
-1280,United Kingdom,Gas_CCGT,52.7579,0.1923,819.0,
-1281,United Kingdom,Gas_CCGT,51.5459,-0.2575,144.0,
-1282,United Kingdom,Gas_CCGT,53.6908,-1.6291,50.0,
-1283,United Kingdom,Gas_CCGT,53.3631,-0.7976,1332.0,
-1284,United Kingdom,Gas_CCGT,53.3631,-0.7976,40.0,
-1285,Denmark,Geothermal,55.6899,12.633,14.0,
-1286,France,Geothermal,16.1272,-61.769,4.5,
-1287,Italy,Geothermal,42.8416,11.5588,19.0,1998.0
-1288,Italy,Geothermal,42.8416,11.5588,39.0,1998.0
-1289,Italy,Geothermal,43.1369,10.8292,19.0,1998.0
-1290,Italy,Geothermal,43.1362,10.8289,19.0,1997.0
-1291,Italy,Geothermal,43.1601,11.0638,17.0,2010.0
-1292,Italy,Geothermal,43.1658,10.8057,17.0,1994.0
-1293,Italy,Geothermal,43.2388,10.9047,54.0,1995.0
-1294,Italy,Geothermal,43.1666,10.7847,20.0,1981.0
-1295,Italy,Geothermal,43.1962,10.8323,20.0,1996.0
-1296,Italy,Geothermal,43.1862,10.7657,17.0,1997.0
-1297,Italy,Geothermal,43.1971,10.7652,17.0,1997.0
-1298,Italy,Geothermal,43.2166,10.9052,15.0,2000.0
-1299,Italy,Geothermal,42.2612,10.8853,19.0,2002.0
-1300,Italy,Geothermal,43.2612,10.8853,11.0,2002.0
-1301,Italy,Geothermal,43.2271,10.8838,17.0,2005.0
-1302,Italy,Geothermal,43.2112,10.8585,18.0,2002.0
-1303,Italy,Geothermal,43.1519,10.8495,11.0,2002.0
-1304,Italy,Geothermal,43.1935,11.0446,59.0,2002.0
-1305,Italy,Geothermal,43.1452,10.8325,39.0,2005.0
-1306,Italy,Geothermal,43.1763,10.8521,17.0,1996.0
-1307,Italy,Geothermal,43.204,10.8003,49.0,2002.0
-1308,Italy,Geothermal,43.2108,11.0308,18.0,1987.0
-1309,Italy,Geothermal,42.8333,11.7004,20.0,1990.0
-1310,Italy,Geothermal,42.8578,11.705,20.0,1991.0
-1311,Italy,Geothermal,42.8568,11.7028,20.0,1996.0
-1312,Italy,Geothermal,43.2141,11.0468,18.0,1986.0
-1313,Italy,Geothermal,43.2101,11.0345,18.0,1998.0
-1314,Italy,Geothermal,43.1753,10.8583,20.0,2009.0
-1315,Italy,Geothermal,43.1805,10.8834,19.0,1999.0
-1316,Italy,Geothermal,43.2301,10.9471,18.0,2002.0
-1317,Italy,Geothermal,43.1707,11.0383,20.0,2003.0
-1318,Italy,Geothermal,43.1708,11.039,39.0,2002.0
-1319,Italy,Geothermal,42.2362,10.8674,114.0,1981.0
-1320,Portugal,Geothermal,37.7789,-25.4904,13.0,2006.0
-1321,Portugal,Geothermal,37.8011,-25.5053,15.8,1994.0
-1322,Belgium,Nuclear,51.3254,4.2597,2910.0,1985.0
-1323,Belgium,Nuclear,50.5342,5.2751,962.0,1975.0
-1324,Belgium,Nuclear,50.5342,5.2751,2053.8,1985.0
-1325,Bulgaria,Nuclear,43.7438,23.7723,2000.0,
-1326,Czechia,Nuclear,49.0852,16.1479,2040.0,
-1327,Czechia,Nuclear,49.1796,14.3795,2133.0,2002.0
-1328,Finland,Nuclear,60.3708,26.3468,992.0,
-1329,Finland,Nuclear,61.2371,21.4433,1760.0,
-1330,France,Nuclear,47.5103,2.875,2620.0,
-1331,France,Nuclear,45.256,-0.6932,3640.0,
-1332,France,Nuclear,45.7973,5.2706,3580.0,
-1333,France,Nuclear,49.416,6.2169,5200.0,
-1334,France,Nuclear,47.2254,0.1656,3620.0,
-1335,France,Nuclear,50.09,4.7894,3000.0,
-1336,France,Nuclear,46.4563,0.6548,2990.0,
-1337,France,Nuclear,44.6325,4.7546,3660.0,
-1338,France,Nuclear,47.7321,2.5185,3560.0,
-1339,France,Nuclear,47.9032,7.5631,1760.0,
-1340,France,Nuclear,49.5366,-1.8823,2660.0,
-1341,France,Nuclear,44.106,0.8443,2620.0,
-1342,France,Nuclear,51.0141,2.1332,5460.0,
-1343,France,Nuclear,48.5171,3.5181,2620.0,
-1344,France,Nuclear,49.8582,0.6354,5320.0,
-1345,France,Nuclear,49.9764,1.2107,2660.0,
-1346,France,Nuclear,45.4043,4.7554,2670.0,
-1347,France,Nuclear,47.7197,1.5783,1830.0,
-1348,France,Nuclear,44.3311,4.7311,3660.0,
-1349,Germany,Nuclear,53.8506,9.345,1480.0,1986.0
-1350,Germany,Nuclear,52.4716,7.3204,1406.0,1988.0
-1351,Germany,Nuclear,52.0356,9.4135,1360.0,1985.0
-1352,Germany,Nuclear,48.6049,12.2936,1485.0,1988.0
-1353,Germany,Nuclear,48.515,10.4016,2572.0,1984.0
-1354,Germany,Nuclear,49.0408,9.1759,1400.0,1989.0
-1355,Germany,Nuclear,49.2529,8.4364,1468.0,1984.0
-1356,Hungary,Nuclear,46.5739,18.8536,1886.8,
-1357,Netherlands,Nuclear,51.4312,3.7174,485.0,1973.0
-1358,Romania,Nuclear,44.3215,28.0568,1298.0,
-1359,Slovakia,Nuclear,48.496,17.6816,880.0,
-1360,Slovakia,Nuclear,48.2621,18.459,880.0,
-1361,Slovenia,Nuclear,45.9389,15.516,696.0,
-1362,Spain,Nuclear,41.2008,0.5679,1990.5,1983.0
-1363,Spain,Nuclear,39.807,-5.6986,2016.9,1984.0
-1364,Spain,Nuclear,39.2134,-1.0509,1063.94,1985.0
-1365,Spain,Nuclear,40.7016,-2.6227,1003.41,1988.0
-1366,Spain,Nuclear,40.9511,0.8662,1045.31,1987.0
-1367,Sweden,Nuclear,60.4028,18.1744,3227.0,
-1368,Sweden,Nuclear,57.413,16.6683,2603.0,
-1369,Sweden,Nuclear,57.2574,12.1087,3932.0,
-1370,United Kingdom,Nuclear,50.9133,0.964,1050.0,
-1371,United Kingdom,Nuclear,54.6341,-1.1801,1180.0,
-1372,United Kingdom,Nuclear,54.0285,-2.916,1155.0,
-1373,United Kingdom,Nuclear,54.0285,-2.916,1230.0,
-1374,United Kingdom,Nuclear,51.2085,-3.1334,955.0,
-1375,United Kingdom,Nuclear,55.7204,-4.8964,965.0,
-1376,United Kingdom,Nuclear,52.2145,1.6206,1198.0,
-1377,United Kingdom,Nuclear,55.9679,-2.4086,1185.0,
-1378,Belgium,OilOther,51.0902,3.4469,18.6,
-1379,Belgium,OilOther,51.3193,4.853,33.2,
-1380,Belgium,OilOther,50.9079,4.4155,18.6,
-1381,Belgium,OilOther,50.2444,5.9302,18.6,
-1382,Belgium,OilOther,50.7303,3.8531,18.6,
-1383,Belgium,OilOther,50.9548,2.8103,18.6,
-1384,Belgium,OilOther,51.1424,3.1368,18.6,
-1385,Belgium,OilOther,51.329,3.1819,18.6,
-1386,Belgium,OilOther,51.1896,3.8078,18.6,
-1387,Croatia,OilOther,45.2862,14.5207,320.0,
-1388,Croatia,OilOther,45.4538,16.4144,420.0,
-1389,Denmark,OilOther,55.8134,11.8792,664.0,
-1390,Estonia,OilOther,59.3533,28.1185,472.0,
-1391,Estonia,OilOther,59.2748,27.9046,1369.0,
-1392,Finland,OilOther,60.7905,23.5866,332.6,
-1393,Finland,OilOther,61.3167,22.1333,6.3,
-1394,Finland,OilOther,62.9,29.4,180.0,
-1395,Finland,OilOther,60.1695,24.9354,118.0,
-1396,Finland,OilOther,61.7667,28.7667,1.2,
-1397,Finland,OilOther,60.3722,26.3472,40.0,
-1398,Finland,OilOther,61.0587,28.1887,102.0,
-1399,Finland,OilOther,60.459,22.0545,40.0,
-1400,Finland,OilOther,61.2371,21.4433,100.5,
-1401,Finland,OilOther,60.3067,25.5506,76.0,
-1402,Finland,OilOther,60.3923,25.6651,40.0,
-1403,Finland,OilOther,60.9827,25.6615,14.5,
-1404,Finland,OilOther,60.8004,21.4084,14.2,
-1405,Finland,OilOther,60.996,24.4643,50.0,
-1406,Finland,OilOther,63.0453,21.7863,26.0,
-1407,France,OilOther,48.7872,2.4033,254.0,
-1408,France,OilOther,48.3567,-3.8706,304.0,
-1409,France,OilOther,47.2754,-1.8767,1370.0,
-1410,France,OilOther,48.39,-4.26,170.0,
-1411,France,OilOther,48.9692,1.7588,2290.0,
-1412,Germany,OilOther,54.2907,9.7228,87.0,1973.0
-1413,Germany,OilOther,51.5439,7.4388,16.0,
-1414,Germany,OilOther,53.8925,9.2011,254.0,1973.0
-1415,Germany,OilOther,51.4191,6.7385,21.0,2010.0
-1416,Germany,OilOther,47.9125,10.6117,11.4,
-1417,Germany,OilOther,48.0627,10.4866,11.4,1988.0
-1418,Germany,OilOther,52.1688,14.6408,23.5,2011.0
-1419,Germany,OilOther,53.4852,9.9696,38.0,1993.0
-1420,Germany,OilOther,49.3548,6.7315,85.0,2010.0
-1421,Germany,OilOther,50.0985,8.653,19.7,1954.0
-1422,Germany,OilOther,53.0982,14.2345,333.5,
-1423,Germany,OilOther,52.1674,14.627,101.0,2013.0
-1424,Germany,OilOther,51.7999,11.7581,14.0,2000.0
-1425,Germany,OilOther,53.9664,9.4495,88.0,1972.0
-1426,Germany,OilOther,53.1289,8.6852,198.0,
-1427,Germany,OilOther,50.8305,6.9594,66.3,1962.0
-1428,Germany,OilOther,50.5664,9.6861,24.8,2011.0
-1429,Germany,OilOther,47.7524,11.8398,92.8,1982.0
-1430,Germany,OilOther,48.5529,8.4074,56.0,1964.0
-1431,Germany,OilOther,52.1579,10.3958,288.5,2010.0
-1432,Germany,OilOther,49.0175,9.1574,136.0,1981.0
-1433,Germany,OilOther,49.0608,8.3244,70.0,1995.0
-1434,Germany,OilOther,52.5374,13.3461,51.0,1971.0
-1435,Germany,OilOther,51.0695,6.8467,94.2,
-1436,Germany,OilOther,51.5246,6.8011,38.0,1929.0
-1437,Germany,OilOther,51.2998,12.0193,92.5,1997.0
-1438,Germany,OilOther,50.8548,6.9808,80.0,2004.0
-1439,Germany,OilOther,47.6835,10.3191,10.5,1978.0
-1440,Germany,OilOther,47.6835,10.3191,24.0,1988.0
-1441,Germany,OilOther,51.2689,7.2003,60.0,2008.0
-1442,Germany,OilOther,51.2919,11.9465,120.0,1994.0
-1443,Germany,OilOther,51.1614,12.7815,17.0,1995.0
-1444,Germany,OilOther,53.5663,9.7285,101.0,1972.0
-1445,Germany,OilOther,53.5658,8.1462,56.0,1973.0
-1446,Germany,OilOther,52.4816,13.3076,828.0,1977.0
-1447,Greece,OilOther,35.0038,26.1397,102.0,
-1448,Greece,OilOther,35.34,25.0523,193.0,
-1449,Greece,OilOther,36.3789,28.0186,206.0,
-1450,Hungary,OilOther,47.7164,19.6778,170.0,
-1451,Ireland,OilOther,53.2926,-7.0866,116.0,
-1452,Ireland,OilOther,53.2902,-7.0845,117.6,
-1453,Ireland,OilOther,52.2793,-6.9935,216.0,
-1454,Ireland,OilOther,53.3594,-7.213,104.0,
-1455,Ireland,OilOther,52.5893,-9.3632,488.0,
-1456,Ireland,OilOther,54.1934,-9.2206,104.0,
-1457,Italy,OilOther,40.9319,14.385,72.0,
-1458,Italy,OilOther,39.2269,8.9972,177.0,1992.0
-1459,Italy,OilOther,37.2083,15.1778,210.0,1959.0
-1460,Italy,OilOther,45.5248,10.2273,116.7,
-1461,Italy,OilOther,43.5673,10.31,310.0,1965.0
-1462,Italy,OilOther,45.457,8.6496,97.0,
-1463,Italy,OilOther,42.9565,10.6034,1280.0,
-1464,Italy,OilOther,40.9507,14.3762,105.0,
-1465,Italy,OilOther,37.3123,13.5071,140.0,
-1466,Italy,OilOther,44.9569,12.4883,2640.0,
-1467,Italy,OilOther,39.2047,8.3789,320.0,1973.0
-1468,Italy,OilOther,39.6218,16.6084,1200.0,
-1469,Italy,OilOther,38.2049,15.2818,866.0,
-1470,Italy,OilOther,45.5417,9.2539,110.6,
-1471,Italy,OilOther,45.5201,8.7422,1569.0,
-1472,Poland,OilOther,49.8733,19.0309,55.0,1997.0
-1473,Poland,OilOther,52.5843,19.6879,600.0,2018.0
-1474,Spain,OilOther,28.0996,-16.681,43.2,2003.0
-1475,Spain,OilOther,27.8045,-15.4387,646.26,2008.0
-1476,Spain,OilOther,42.65,-8.9,24.6,2011.0
-1477,Spain,OilOther,28.3548,-16.3727,153.94,1979.0
-1478,Spain,OilOther,35.89,-5.35,48.7,2011.0
-1479,Spain,OilOther,35.89,-5.35,11.5,2001.0
-1480,Spain,OilOther,41.6333,0.9,13.56,2011.0
-1481,Spain,OilOther,38.6871,-4.1073,40.83,1994.0
-1482,Spain,OilOther,37.5645,-0.9513,537.28,1968.0
-1483,Spain,OilOther,43.34,-3.0539,897.02,1972.0
-1484,Spain,OilOther,39.2379,-3.4233,16.0,
-1485,Spain,OilOther,43.213,-8.691,13.18,2012.0
-1486,Spain,OilOther,43.4604,-8.2551,24.8,2012.0
-1487,Spain,OilOther,28.0863,-16.4939,693.34,1990.0
-1488,Spain,OilOther,28.2115,-16.7795,43.1,2006.0
-1489,Spain,OilOther,28.0424,-15.4114,234.46000000000004,1989.0
-1490,Spain,OilOther,28.5004,-13.8627,72.11,2005.0
-1491,Spain,OilOther,28.5004,-13.8627,51.25,2000.0
-1492,Spain,OilOther,28.5004,-13.8627,11.74,1988.0
-1493,Spain,OilOther,28.6538,-17.7867,67.3,2006.0
-1494,Spain,OilOther,39.8964,4.2597,195.2,1991.0
-1495,Spain,OilOther,35.29,-2.94,46.900000000000006,2008.0
-1496,Spain,OilOther,43.3,-7.5833,18.801,1999.0
-1497,Spain,OilOther,28.963,-13.5477,184.95,2013.0
-1498,Spain,OilOther,39.65,2.6807,563.75,2000.0
-1499,Spain,OilOther,42.702,0.7956,12.9,2010.0
-1500,Sweden,OilOther,58.0863,11.8435,840.0,
-1501,United Kingdom,OilOther,56.1833,-2.5667,6.0,
-1502,United Kingdom,OilOther,51.4563,-0.9711,45.0,
-1503,United Kingdom,OilOther,50.6114,-2.4533,45.0,
-1504,United Kingdom,OilOther,51.0595,-0.446,8.7,
-1505,United Kingdom,OilOther,50.3955,-4.8996,140.0,
-1506,United Kingdom,OilOther,58.9848,-2.9587,16.0,
-1507,United Kingdom,OilOther,60.1545,-1.1494,67.0,
-1508,United Kingdom,OilOther,57.25,-7.35,9.0,
-1509,United Kingdom,OilOther,58.2092,-6.3865,24.0,
-1510,United Kingdom,OilOther,51.4037,-1.2605,8.7,
-1511,United Kingdom,OilOther,56.4992,-6.8692,3.0,
+0,Bulgaria,Lignite,42.159,25.909,686.0,
+1,Bulgaria,Lignite,42.256,26.132,200.0,
+2,Czechia,Lignite,49.744,13.361,111.0,
+3,Czechia,Lignite,50.151,12.61,141.0,
+4,Czechia,Lignite,50.211,15.808,348.0,
+5,Czechia,Lignite,50.415,14.416,275.0,
+6,Czechia,Lignite,50.415,14.416,196.0,
+7,Czechia,Lignite,50.419,13.256,393.0,
+8,Czechia,Lignite,50.419000000000004,13.256,681.0,
+9,Czechia,Lignite,50.522,13.572,192.0,
+10,Czechia,Lignite,50.58,13.781,194.0,
+11,Germany,Lignite,50.65803,6.81012,14.5,1979.0
+12,Germany,Lignite,50.7055,6.65362,19.5,2010.0
+13,Germany,Lignite,50.77701,6.48605,9.3,1983.0
+14,Germany,Lignite,50.839167,6.321111,123.0,1955.0
+15,Germany,Lignite,50.839167,6.321111,321.0,1965.0
+16,Germany,Lignite,50.839167,6.321111,321.0,1967.0
+17,Germany,Lignite,50.839167,6.321111,663.0,1974.0
+18,Germany,Lignite,50.839167,6.321111,656.0,1975.0
+19,Germany,Lignite,50.839167,6.321111,135.0,1959.0
+20,Germany,Lignite,50.856981,12.923096,56.8,1988.0
+21,Germany,Lignite,50.856981,12.923096,90.8,1990.0
+22,Germany,Lignite,50.8608,6.8402,0.0,1993.0
+23,Germany,Lignite,50.8608,6.8402,40.0,1992.0
+24,Germany,Lignite,50.8608,6.8402,45.0,1993.0
+25,Germany,Lignite,50.861,6.843,151.0,
+26,Germany,Lignite,50.86138,6.8406600000000015,98.0,1917.0
+27,Germany,Lignite,50.8976,6.7930990000000016,176.0,1959.0
+28,Germany,Lignite,50.91517,6.36935,23.22,2004.0
+29,Germany,Lignite,50.945598,6.663575999999999,15.0,1939.0
+30,Germany,Lignite,50.94564,6.665030000000002,10.0,1995.0
+31,Germany,Lignite,50.94564,6.665030000000002,10.0,1995.0
+32,Germany,Lignite,50.995692,6.669039,295.0,1970.0
+33,Germany,Lignite,50.995692,6.669039,295.0,1965.0
+34,Germany,Lignite,50.995692,6.669039,125.0,1963.0
+35,Germany,Lignite,50.995692,6.669039,944.0,2002.0
+36,Germany,Lignite,50.995692,6.669039,628.0,1974.0
+37,Germany,Lignite,50.995692,6.669039,648.0,1974.0
+38,Germany,Lignite,50.995692,6.669039,297.0,1968.0
+39,Germany,Lignite,50.995692,6.669039,125.0,1963.0
+40,Germany,Lignite,50.995692,6.669039,299.0,1971.0
+41,Germany,Lignite,51.01781,6.96435,75.3,2010.0
+42,Germany,Lignite,51.0365,6.61332,1060.0,2012.0
+43,Germany,Lignite,51.0365,6.61332,1060.0,2012.0
+44,Germany,Lignite,51.039475,6.6150410000000015,294.0,1972.0
+45,Germany,Lignite,51.039475,6.6150410000000015,294.0,1972.0
+46,Germany,Lignite,51.039475,6.6150410000000015,292.0,1973.0
+47,Germany,Lignite,51.039475,6.6150410000000015,607.0,1975.0
+48,Germany,Lignite,51.039475,6.6150410000000015,604.0,1976.0
+49,Germany,Lignite,51.04885,12.11038,23.3,1993.0
+50,Germany,Lignite,51.05744518,6.577080395,130.0,1959.0
+51,Germany,Lignite,51.05744518,6.577080395,124.0,1960.0
+52,Germany,Lignite,51.05744518,6.577080395,130.0,1957.0
+53,Germany,Lignite,51.05744518,6.577080395,129.0,1957.0
+54,Germany,Lignite,51.05744518,6.577080395,128.0,1960.0
+55,Germany,Lignite,51.05744518,6.577080395,136.0,1962.0
+56,Germany,Lignite,51.05744518,6.577080395,131.0,1962.0
+57,Germany,Lignite,51.05744518,6.577080395,138.0,1962.0
+58,Germany,Lignite,51.05744518,6.577080395,132.0,1960.0
+59,Germany,Lignite,51.05744518,6.577080395,133.0,1964.0
+60,Germany,Lignite,51.05744518,6.577080395,284.0,1966.0
+61,Germany,Lignite,51.05744518,6.577080395,278.0,1970.0
+62,Germany,Lignite,51.05744518,6.577080395,135.0,1964.0
+63,Germany,Lignite,51.07114395,12.26081401,60.0,1968.0
+64,Germany,Lignite,51.11187,12.07617,67.0,1936.0
+65,Germany,Lignite,51.16664,12.07622,31.0,1994.0
+66,Germany,Lignite,51.182122,12.373287,875.0,1999.0
+67,Germany,Lignite,51.182122,12.373287,875.0,2000.0
+68,Germany,Lignite,51.279099,9.484012,33.5,1989.0
+69,Germany,Lignite,51.39845463,11.9504201,450.0,1996.0
+70,Germany,Lignite,51.39845463,11.9504201,450.0,1996.0
+71,Germany,Lignite,51.41626317,14.56194878,465.0,1979.0
+72,Germany,Lignite,51.41626317,14.56194878,857.0,2000.0
+73,Germany,Lignite,51.41626317,14.56194878,465.0,1980.0
+74,Germany,Lignite,51.41918,14.5698,640.0,2012.0
+75,Germany,Lignite,51.44089,6.7054300000000016,27.5,1964.0
+76,Germany,Lignite,51.462749,11.714028,45.0,1979.0
+77,Germany,Lignite,51.53482028,14.35312271,750.0,1998.0
+78,Germany,Lignite,51.53482028,14.35312271,750.0,1997.0
+79,Germany,Lignite,51.69784,11.7581,20.3,2014.0
+80,Germany,Lignite,51.76017,14.37004,74.0,1999.0
+81,Germany,Lignite,51.83444099,14.45903778,465.0,1984.0
+82,Germany,Lignite,51.83444099,14.45903778,465.0,1987.0
+83,Germany,Lignite,51.83444099,14.45903778,465.0,1989.0
+84,Germany,Lignite,51.83444099,14.45903778,465.0,1982.0
+85,Germany,Lignite,51.83444099,14.45903778,465.0,1981.0
+86,Germany,Lignite,51.83444099,14.45903778,465.0,1985.0
+87,Germany,Lignite,52.17237156,10.97682873,352.0,1985.0
+88,Hungary,Lignite,47.096,17.558,93.0,
+89,Poland,Lignite,49.965,18.626,113.0,
+90,Poland,Lignite,52.283,18.267,128.0,
+91,Romania,Lignite,44.675,22.688,313.0,
+92,Romania,Lignite,45.041,24.29,176.7,
+93,Romania,Lignite,47.084,21.893,170.0,
+94,Slovenia,Lignite,46.05811,14.54381,42.0,1966.0
+95,Slovenia,Lignite,46.05811,14.54381,42.0,1967.0
+96,Slovenia,Lignite,46.05811,14.54381,50.0,1985.0
+97,Slovenia,Lignite,46.372,15.053,539.0,
+98,Slovenia,Lignite,46.37305,15.05384,345.0,
+99,Slovenia,Lignite,46.37305,15.05384,600.0,2015.0
+100,Spain,Lignite,40.794,-0.816,142.3,
+101,Belgium,Bioenergy,50.58508,5.41886,95.0,
+102,Belgium,Bioenergy,50.5851,5.418,95.0,2005.0
+103,Belgium,Bioenergy,51.127,3.769,268.0,
+104,Belgium,Bioenergy,51.1341,3.777,268.0,
+105,Belgium,Bioenergy,51.13421,3.77598,268.0,
+106,Denmark,Bioenergy,56.1214,9.0068,88.0,2009.0
+107,Finland,Bioenergy,60.3833,23.1333,13.5,
+108,Finland,Bioenergy,60.3923,25.6651,7.8,
+109,Finland,Bioenergy,60.3923,25.6651,11.3,
+110,Finland,Bioenergy,60.4034,25.105,19.04,
+111,Finland,Bioenergy,60.4667,26.9167,72.0,
+112,Finland,Bioenergy,60.9,26.6333,76.0,
+113,Finland,Bioenergy,60.909,26.665,100.0,
+114,Finland,Bioenergy,61.0,28.3,35.7,
+115,Finland,Bioenergy,61.0587,28.1887,67.3,
+116,Finland,Bioenergy,61.0587,28.1887,119.0,
+117,Finland,Bioenergy,61.1,22.1667,19.0,
+118,Finland,Bioenergy,61.118,28.5076,85.0,
+119,Finland,Bioenergy,61.1272,21.5113,71.5,
+120,Finland,Bioenergy,61.1272,21.5113,75.0,
+121,Finland,Bioenergy,61.2167,26.0333,19.0,
+122,Finland,Bioenergy,61.2167,26.0333,3.5,
+123,Finland,Bioenergy,61.25,28.861,185.0,
+124,Finland,Bioenergy,61.4333,29.3667,34.5,
+125,Finland,Bioenergy,61.4833,21.7833,81.4,
+126,Finland,Bioenergy,61.6886,27.2723,59.7,
+127,Finland,Bioenergy,61.8162,25.2353,25.0,
+128,Finland,Bioenergy,62.2333,25.7333,80.0,
+129,Finland,Bioenergy,62.599,25.732,260.0,
+130,Finland,Bioenergy,62.8799,27.6768,20.5,
+131,Finland,Bioenergy,62.8924,27.677,118.1,
+132,Finland,Bioenergy,62.9167,30.25,105.0,
+133,Finland,Bioenergy,62.923,30.222,107.0,
+134,Finland,Bioenergy,63.1,28.1833,8.5,
+135,Finland,Bioenergy,63.7019,22.7097,116.0,
+136,Finland,Bioenergy,63.702,22.704,143.0,
+137,Finland,Bioenergy,63.8333,23.0333,30.0,
+138,Finland,Bioenergy,63.8333,23.0333,19.5,
+139,Finland,Bioenergy,64.0833,24.55,6.2,
+140,Finland,Bioenergy,64.1333,28.4167,1.3,
+141,Finland,Bioenergy,64.1333,25.3667,154.0,
+142,Finland,Bioenergy,64.2273,27.7285,85.0,
+143,Finland,Bioenergy,64.233,27.69,125.0,
+144,Finland,Bioenergy,64.6667,27.1333,2.8,
+145,Finland,Bioenergy,65.0124,25.4682,195.0,
+146,Finland,Bioenergy,65.0124,25.4682,28.0,
+147,Finland,Bioenergy,65.0124,25.4682,105.0,
+148,Finland,Bioenergy,65.7364,24.5637,90.0,
+149,Finland,Bioenergy,65.7364,24.5637,75.0,
+150,Finland,Bioenergy,65.8481,24.1466,39.3,
+151,Finland,Bioenergy,65.9667,29.1833,6.0,
+152,France,Bioenergy,-21.325,55.4909,2.13,
+153,France,Bioenergy,-21.32,55.47,11.2,
+154,France,Bioenergy,-20.9511,55.5908,1.898,
+155,France,Bioenergy,14.6409,-61.0692,6.6,
+156,France,Bioenergy,42.1844,9.4658,1.688,
+157,France,Bioenergy,42.748,2.7564,22.485,
+158,France,Bioenergy,43.1196,0.7268,1.74,
+159,France,Bioenergy,43.1526,0.0292,1.67,
+160,France,Bioenergy,43.1651,3.02,2.284,
+161,France,Bioenergy,43.3404,-0.4283,5.85,
+162,France,Bioenergy,43.3561,-1.5553,1.119,
+163,France,Bioenergy,43.3933,5.3809,3.326,
+164,France,Bioenergy,43.4032,5.3154,3.38,
+165,France,Bioenergy,43.4534,4.8995,40.462,
+166,France,Bioenergy,43.49,5.5,150.0,
+167,France,Bioenergy,43.4923,-1.4662,3.567,
+168,France,Bioenergy,43.5361,5.3984,4.245,
+169,France,Bioenergy,43.5547,5.2024,1.091,
+170,France,Bioenergy,43.5635,3.9025,1.954,
+171,France,Bioenergy,43.5876,7.1054,11.44,
+172,France,Bioenergy,43.6121,4.8564,4.999,
+173,France,Bioenergy,43.6132,3.8694,3.666,
+174,France,Bioenergy,43.6533,0.5751,1.067,
+175,France,Bioenergy,43.6896,1.7946,1.021,
+176,France,Bioenergy,43.7123,7.2375,12.992,
+177,France,Bioenergy,43.8005,2.0196,3.675,
+178,France,Bioenergy,43.8445,4.3476,11.382,
+179,France,Bioenergy,43.9523,1.2374,7.6,
+180,France,Bioenergy,43.971,4.9031,4.64,
+181,France,Bioenergy,43.9956,4.9328,1.67,
+182,France,Bioenergy,44.0411,-0.8884,12.0,
+183,France,Bioenergy,44.129,4.8104,1.0,
+184,France,Bioenergy,44.255,-1.0878,2.5,
+185,France,Bioenergy,44.3609,4.6872,12.0,
+186,France,Bioenergy,44.4318,4.7088,1.9,
+187,France,Bioenergy,44.4426,4.7873,1.737,
+188,France,Bioenergy,44.8544,-0.5215,4.268,
+189,France,Bioenergy,44.8579,-0.5736,1.253,
+190,France,Bioenergy,44.8759,2.4647,4.41,
+191,France,Bioenergy,45.0113,5.0967,3.915,
+192,France,Bioenergy,45.1106,-0.2861,8.74,
+193,France,Bioenergy,45.171,-0.2346,1.2,
+194,France,Bioenergy,45.2097,5.744,5.7,
+195,France,Bioenergy,45.2776,5.548,1.8,
+196,France,Bioenergy,45.3441,4.8089,14.6,
+197,France,Bioenergy,45.5837,5.9088,10.336,
+198,France,Bioenergy,45.6027,5.2738,14.6,
+199,France,Bioenergy,45.6828,5.1256,1.064,
+200,France,Bioenergy,45.6956,-0.3948,1.0,
+201,France,Bioenergy,45.7859,3.1156,18.62,
+202,France,Bioenergy,45.8544,1.249,1.5,
+203,France,Bioenergy,45.8905,2.1825,3.49,
+204,France,Bioenergy,45.9872,4.7309,7.823,
+205,France,Bioenergy,46.1372,3.4831,1.065,
+206,France,Bioenergy,46.2205,0.6375,2.8,
+207,France,Bioenergy,46.2508,5.2232,1.39,
+208,France,Bioenergy,46.3692,-0.6137,2.126,
+209,France,Bioenergy,46.6124,3.459,1.2,
+210,France,Bioenergy,46.6749,5.5582,1.0,
+211,France,Bioenergy,46.737,4.7519,1.897,
+212,France,Bioenergy,46.8024,0.6456,1.065,
+213,France,Bioenergy,46.8989,4.7747,1.165,
+214,France,Bioenergy,47.0169,3.0902,3.26,
+215,France,Bioenergy,47.0175,-0.1809,2.126,
+216,France,Bioenergy,47.1413,0.9398,1.021,
+217,France,Bioenergy,47.2295,2.8663,1.067,
+218,France,Bioenergy,47.2305,-1.7304,6.3,
+219,France,Bioenergy,47.3231,5.0374,9.02,
+220,France,Bioenergy,47.3344,5.3791,1.415,
+221,France,Bioenergy,47.4739,-0.4858,2.97,
+222,France,Bioenergy,47.5131,0.4774,1.26,
+223,France,Bioenergy,47.5441,0.0063,9.19,
+224,France,Bioenergy,47.5647,6.9062,8.862,
+225,France,Bioenergy,47.5675,5.9482,2.75,
+226,France,Bioenergy,47.6173,-1.456,2.134,
+227,France,Bioenergy,47.6292,7.0884,2.71,
+228,France,Bioenergy,47.67,-0.6537,1.902,
+229,France,Bioenergy,47.6899,-2.5187,1.115,
+230,France,Bioenergy,47.7068,-1.02,1.063,
+231,France,Bioenergy,47.7822,7.4003,11.7,
+232,France,Bioenergy,47.8825,1.9166,12.0,
+233,France,Bioenergy,47.8962,-3.9075,2.895,
+234,France,Bioenergy,47.9889,0.2,14.375,
+235,France,Bioenergy,48.0915,-2.811,1.065,
+236,France,Bioenergy,48.0976,5.1399,4.2,
+237,France,Bioenergy,48.1077,-0.7997,9.0,
+238,France,Bioenergy,48.1802,2.249,4.97,
+239,France,Bioenergy,48.2063,7.2867,1.413,
+240,France,Bioenergy,48.2167,4.2856,2.11,
+241,France,Bioenergy,48.234,4.7152,1.5,
+242,France,Bioenergy,48.2434,-2.5508,1.6,
+243,France,Bioenergy,48.3462,6.6317,6.176,
+244,France,Bioenergy,48.3492,-0.5744,1.415,
+245,France,Bioenergy,48.3901,2.9618,6.3,
+246,France,Bioenergy,48.4218,2.1378,2.126,
+247,France,Bioenergy,48.4623,1.4458,8.7,
+248,France,Bioenergy,48.4831,3.5535,1.095,
+249,France,Bioenergy,48.5244,2.6979,14.302,
+250,France,Bioenergy,48.5716,7.7678,19.446,
+251,France,Bioenergy,48.584,2.3673,21.166,
+252,France,Bioenergy,48.588,2.7654,1.672,
+253,France,Bioenergy,48.6213,-1.1828,1.215,
+254,France,Bioenergy,48.6452,2.708,1.415,
+255,France,Bioenergy,48.6784,2.2233,3.605,
+256,France,Bioenergy,48.6807,2.5625,2.7,
+257,France,Bioenergy,48.7931,0.1124,1.095,
+258,France,Bioenergy,48.8174,7.7393,2.4,
+259,France,Bioenergy,48.8231,2.2645,55.0,
+260,France,Bioenergy,48.8642,2.6766,11.52,
+261,France,Bioenergy,48.9097,2.3332,13.4,
+262,France,Bioenergy,48.9314,6.1108,1.008,
+263,France,Bioenergy,48.9518,2.2406,10.3,
+264,France,Bioenergy,48.9802,1.179,8.75,
+265,France,Bioenergy,48.9903,2.3813,4.4,
+266,France,Bioenergy,48.998,3.0133,1.9,
+267,France,Bioenergy,49.0361,2.415,17.6,
+268,France,Bioenergy,49.0371,4.3337,9.1,
+269,France,Bioenergy,49.0533,6.6686,2.72,
+270,France,Bioenergy,49.1599,6.0462,1.06,
+271,France,Bioenergy,49.1679,6.866,1.737,
+272,France,Bioenergy,49.1832,5.8724,1.675,
+273,France,Bioenergy,49.2361,2.8967,3.35,
+274,France,Bioenergy,49.2717,-0.6229,1.432,
+275,France,Bioenergy,49.2885,2.493,14.3,
+276,France,Bioenergy,49.38,0.6558,1.063,
+277,France,Bioenergy,49.3814,1.09,1.105,
+278,France,Bioenergy,49.3852,2.231,2.478,
+279,France,Bioenergy,49.4624,3.4535,1.26,
+280,France,Bioenergy,49.4853,0.2219,1.063,
+281,France,Bioenergy,49.4937,-1.3081,2.376,
+282,France,Bioenergy,49.5056,0.4998,18.484,
+283,France,Bioenergy,49.8414,2.3826,1.903,
+284,France,Bioenergy,49.8873,1.4359,2.001,
+285,France,Bioenergy,49.8907,4.4031,1.48,
+286,France,Bioenergy,49.9003,2.2907,2.83,
+287,France,Bioenergy,50.004,3.0158,1.021,
+288,France,Bioenergy,50.1424,3.0976,1.067,
+289,France,Bioenergy,50.2994,3.3894,6.37,
+290,France,Bioenergy,50.3367,3.1689,3.35,
+291,France,Bioenergy,50.4288,2.8754,8.325,
+292,France,Bioenergy,50.4451,2.6423,1.75,
+293,France,Bioenergy,50.5409,1.9089,1.0,
+294,France,Bioenergy,50.5928,1.6061,1.56,
+295,France,Bioenergy,50.6744,3.0604,1.25,
+296,France,Bioenergy,50.69,2.4088,3.193,
+297,France,Bioenergy,50.7409,2.3196,8.9,
+298,France,Bioenergy,50.8923,2.1517,1.5,
+299,France,Bioenergy,50.9501,1.8759,1.043,
+300,France,Bioenergy,51.0306,2.337,7.15,
+301,Germany,Bioenergy,48.26693,9.72626,8.0,1961.0
+302,Germany,Bioenergy,48.26698,9.72615,13.2,1990.0
+303,Germany,Bioenergy,48.267,9.7262,21.2,
+304,Germany,Bioenergy,48.397,9.9648,13.2,2003.0
+305,Germany,Bioenergy,48.39704,9.96484,4.5,2012.0
+306,Germany,Bioenergy,48.39704,9.96484,8.7,2004.0
+307,Germany,Bioenergy,48.45534,11.8019,18.3,2003.0
+308,Germany,Bioenergy,48.4554,11.7995,528.0,1986.0
+309,Germany,Bioenergy,48.4933,11.1766,9.6,2007.0
+310,Germany,Bioenergy,48.6283,10.2008,15.7,2004.0
+311,Germany,Bioenergy,49.0115,9.6718,18.8,2000.0
+312,Germany,Bioenergy,49.5154,9.3252,28.4,2003.0
+313,Germany,Bioenergy,49.5349,8.46358,40.0,2003.0
+314,Germany,Bioenergy,49.5349,8.4636,59.2,
+315,Germany,Bioenergy,49.9713,8.0606,12.4,2004.0
+316,Germany,Bioenergy,49.97745,9.06872,13.9934,2003.0
+317,Germany,Bioenergy,49.9882,9.1558,2.0,
+318,Germany,Bioenergy,49.988218,9.155761,0.8,2010.0
+319,Germany,Bioenergy,49.988218,9.155761,1.1,2005.0
+320,Germany,Bioenergy,50.0405,8.2532,31.7,
+321,Germany,Bioenergy,50.040546,8.253248,6.7,2003.0
+322,Germany,Bioenergy,50.4978,11.6562,12.9,2008.0
+323,Germany,Bioenergy,50.7021,8.0732,14.0,2006.0
+324,Germany,Bioenergy,51.205,6.7085,12.1,2008.0
+325,Germany,Bioenergy,51.35,7.45,20.0,2004.0
+326,Germany,Bioenergy,51.40667,8.60115,18.0,1991.0
+327,Germany,Bioenergy,51.4067,8.6012,18.0,1990.0
+328,Germany,Bioenergy,51.41111400000001,7.491697999999999,20.0,2004.0
+329,Germany,Bioenergy,51.4662,13.5046,12.6,2004.0
+330,Germany,Bioenergy,51.4899,10.4131,18.1,2006.0
+331,Germany,Bioenergy,51.48993,10.41307,18.1,2005.0
+332,Germany,Bioenergy,51.4901,10.4129,53.5,1999.0
+333,Germany,Bioenergy,51.5152,12.3248,40.0,2004.0
+334,Germany,Bioenergy,51.8554,6.8887,11.4,2006.0
+335,Germany,Bioenergy,51.870883,12.569466,18.1,2009.0
+336,Germany,Bioenergy,51.8712,12.6185,18.1,2009.0
+337,Germany,Bioenergy,51.8848,8.9567,19.9,2000.0
+338,Germany,Bioenergy,51.91537,8.400310000000001,12.1,2000.0
+339,Germany,Bioenergy,51.9154,8.4003,12.1,2001.0
+340,Germany,Bioenergy,51.9201,11.8018,10.2,1996.0
+341,Germany,Bioenergy,51.984761,9.822831,13.0,2003.0
+342,Germany,Bioenergy,51.9848,9.8228,16.8,1988.0
+343,Germany,Bioenergy,52.09875,9.38821,14.5,2002.0
+344,Germany,Bioenergy,52.42529,13.517307999999998,16.5,2004.0
+345,Germany,Bioenergy,52.4253,13.5173,16.5,2005.0
+346,Germany,Bioenergy,52.619274,6.8693100000000005,10.6,2013.0
+347,Germany,Bioenergy,52.7271,12.0112,138.9,
+348,Germany,Bioenergy,52.72713,12.01115,138.9,2004.0
+349,Germany,Bioenergy,52.8515,13.7781,20.0,2006.0
+350,Germany,Bioenergy,53.0867,14.3194,13.3,2009.0
+351,Germany,Bioenergy,53.08671999999999,14.31935,13.3,1993.0
+352,Germany,Bioenergy,53.09716,7.3954,20.0,2003.0
+353,Germany,Bioenergy,53.1511,12.3771,19.7,2002.0
+354,Germany,Bioenergy,53.252132,13.957019,20.0,2006.0
+355,Germany,Bioenergy,53.2656,13.95,20.0,2003.0
+356,Germany,Bioenergy,53.3,14.25,17.8,2006.0
+357,Germany,Bioenergy,53.320352,14.271028,17.8,2006.0
+358,Germany,Bioenergy,53.34217,7.206239999999998,52.0,1973.0
+359,Germany,Bioenergy,53.40317,8.128210000000001,1.92,2006.0
+360,Ireland,Bioenergy,53.2735,-8.0403,137.0,
+361,Hungary,Bioenergy,47.096,17.558,28.0,
+362,Italy,Bioenergy,37.51,14.263,18.0,
+363,Italy,Bioenergy,39.081,17.127,32.0,
+364,Italy,Bioenergy,39.225,17.107,48.0,
+365,Italy,Bioenergy,39.373,16.238,14.0,
+366,Italy,Bioenergy,39.423,8.922,13.0,
+367,Italy,Bioenergy,40.234,9.043,36.0,
+368,Italy,Bioenergy,40.379,15.401,12.0,
+369,Italy,Bioenergy,41.801,13.311,20.0,
+370,Italy,Bioenergy,41.89,12.5,18.0,
+371,Italy,Bioenergy,41.89,12.498,34.0,
+372,Italy,Bioenergy,42.001,14.995,13.0,
+373,Italy,Bioenergy,42.138,12.594,150.0,
+374,Italy,Bioenergy,43.858,11.138,14.0,
+375,Italy,Bioenergy,44.651,11.892,22.0,
+376,Italy,Bioenergy,44.758,8.855,50.0,
+377,Italy,Bioenergy,44.917,7.489,14.0,
+378,Italy,Bioenergy,45.195,7.889,16.0,
+379,Italy,Bioenergy,45.221,8.704,18.0,
+380,Italy,Bioenergy,45.472,9.21,14.0,
+381,Italy,Bioenergy,45.792,9.178,15.0,
+382,Poland,Bioenergy,50.4374,21.3404,205.0,2012.0
+383,Poland,Bioenergy,50.8959,20.6118,10.0,2008.0
+384,Poland,Bioenergy,53.707,18.926,111.6,
+385,Portugal,Bioenergy,38.4916,-8.8113,12.5,2009.0
+386,Portugal,Bioenergy,38.4935,-8.8108,53.9,2004.0
+387,Portugal,Bioenergy,39.4723,-8.3327,9.0,2001.0
+388,Portugal,Bioenergy,39.4723,-8.3327,13.7,2009.0
+389,Portugal,Bioenergy,39.6566,-7.657,6.0,1998.0
+390,Portugal,Bioenergy,39.6621,-7.6715,13.0,2007.0
+391,Portugal,Bioenergy,39.6622,-7.672,30.0,1992.0
+392,Portugal,Bioenergy,39.8163,-8.1062,3.0,2010.0
+393,Portugal,Bioenergy,40.0522,-8.8763,70.0,1987.0
+394,Portugal,Bioenergy,40.0529,-8.8762,34.3,2009.0
+395,Portugal,Bioenergy,40.0576,-8.8595,95.0,2004.0
+396,Portugal,Bioenergy,40.3659,-7.3541,2.0,2010.0
+397,Portugal,Bioenergy,40.3778,-8.1864,9.0,1999.0
+398,Portugal,Bioenergy,40.5848,-7.7916,4.0,1996.0
+399,Portugal,Bioenergy,40.6852,-8.591,12.5,2009.0
+400,Portugal,Bioenergy,40.687,-8.5897,35.1,2005.0
+401,Portugal,Bioenergy,40.886,-8.4285,10.0,2008.0
+402,Portugal,Bioenergy,40.9821,-8.5465,1.1,2004.0
+403,Portugal,Bioenergy,41.6996,-8.7139,38.8,2002.0
+404,Spain,Bioenergy,37.6167,-4.3225,20.0,
+405,Sweden,Bioenergy,58.5371,15.0365,3.7,1998.0
+406,Sweden,Bioenergy,58.743,17.0006,35.0,1997.0
+407,Sweden,Bioenergy,59.1497,18.1167,20.0,1968.0
+408,Sweden,Bioenergy,59.265,15.178,106.0,
+409,Sweden,Bioenergy,59.352,18.101,130.0,
+410,Sweden,Bioenergy,59.3532,18.0985,389.0,2013.0
+411,Sweden,Bioenergy,59.3623,17.8241,75.0,1959.0
+412,Sweden,Bioenergy,59.5883,16.5136,94.0,
+413,Sweden,Bioenergy,59.8514,17.6783,130.0,
+414,United Kingdom,Bioenergy,50.1422,-5.3398,1.0,
+415,United Kingdom,Bioenergy,50.4167,-4.1137,1.5,
+416,United Kingdom,Bioenergy,50.4514,-4.1128,3.9,
+417,United Kingdom,Bioenergy,50.6756,-1.2524,2.2,
+418,United Kingdom,Bioenergy,50.6928,-3.3841,1.0,
+419,United Kingdom,Bioenergy,50.7077,-3.4406,2.0,
+420,United Kingdom,Bioenergy,50.7219,-1.2896,1.0,
+421,United Kingdom,Bioenergy,50.7508,-1.6781,1.5,
+422,United Kingdom,Bioenergy,50.7771,-2.3941,1.1,
+423,United Kingdom,Bioenergy,50.786,-1.8569,3.2,
+424,United Kingdom,Bioenergy,50.789,-0.7373,1.0,
+425,United Kingdom,Bioenergy,50.828,-4.352,1.4,
+426,United Kingdom,Bioenergy,50.8736,-0.8489,2.2,
+427,United Kingdom,Bioenergy,50.8832,-2.3022,1.3,
+428,United Kingdom,Bioenergy,50.8923,-3.3801,2.0,
+429,United Kingdom,Bioenergy,51.0051,-3.8238,1.3,
+430,United Kingdom,Bioenergy,51.0112,-2.1828,1.5,
+431,United Kingdom,Bioenergy,51.0801,-2.5561,3.0,
+432,United Kingdom,Bioenergy,51.1028,-0.3263,4.5,
+433,United Kingdom,Bioenergy,51.1117,-2.4819,1.0,
+434,United Kingdom,Bioenergy,51.1444,-3.0969,3.3,
+435,United Kingdom,Bioenergy,51.1725,-2.0152,1.5,
+436,United Kingdom,Bioenergy,51.1839,-2.9829,1.6,
+437,United Kingdom,Bioenergy,51.2168,-1.0653,1.2,
+438,United Kingdom,Bioenergy,51.2184,-1.1299,1.5,
+439,United Kingdom,Bioenergy,51.2839,1.3457,16.0,
+440,United Kingdom,Bioenergy,51.2917,-1.0343,1.2,
+441,United Kingdom,Bioenergy,51.3561,1.244,1.2,
+442,United Kingdom,Bioenergy,51.382,-0.5722,2.4,
+443,United Kingdom,Bioenergy,51.3823,0.7588,25.0,
+444,United Kingdom,Bioenergy,51.3875,-3.4066,35.0,
+445,United Kingdom,Bioenergy,51.3917,-2.0373,1.5,
+446,United Kingdom,Bioenergy,51.4045,-0.4407,1.7,
+447,United Kingdom,Bioenergy,51.4592,-0.4595,1.8,
+448,United Kingdom,Bioenergy,51.4604,0.3497,43.0,
+449,United Kingdom,Bioenergy,51.4772,-3.1365,2.0,
+450,United Kingdom,Bioenergy,51.5072,-3.6713,3.0,
+451,United Kingdom,Bioenergy,51.5097,-2.6908,6.5,
+452,United Kingdom,Bioenergy,51.5097,-2.6908,6.5,
+453,United Kingdom,Bioenergy,51.5128,-2.67,10.0,
+454,United Kingdom,Bioenergy,51.5178,0.0935,8.0,
+455,United Kingdom,Bioenergy,51.5182,0.0885,19.0,
+456,United Kingdom,Bioenergy,51.5212,0.1375,1.4,
+457,United Kingdom,Bioenergy,51.5241,0.1364,1.4,
+458,United Kingdom,Bioenergy,51.5359,-0.0056,3.0,
+459,United Kingdom,Bioenergy,51.5485,-2.9492,18.0,
+460,United Kingdom,Bioenergy,51.5611,-2.9625,9.0,
+461,United Kingdom,Bioenergy,51.5633,-3.7479,40.0,
+462,United Kingdom,Bioenergy,51.5675,-3.7626,14.0,
+463,United Kingdom,Bioenergy,51.5679,-1.8085,1.2,
+464,United Kingdom,Bioenergy,51.611,-1.1033,2.3,
+465,United Kingdom,Bioenergy,51.614,-1.1122,2.4,
+466,United Kingdom,Bioenergy,51.6265,-0.0415,3.0,
+467,United Kingdom,Bioenergy,51.6645,-3.2693,1.4,
+468,United Kingdom,Bioenergy,51.6908,-2.5877,1.5,
+469,United Kingdom,Bioenergy,51.696,-0.1116,1.5,
+470,United Kingdom,Bioenergy,51.7267,-0.2575,3.0,
+471,United Kingdom,Bioenergy,51.7383,-3.436,1.0,
+472,United Kingdom,Bioenergy,51.7671,0.0003,3.0,
+473,United Kingdom,Bioenergy,51.7749,0.0171,2.3,
+474,United Kingdom,Bioenergy,51.7996,-1.3303,2.1,
+475,United Kingdom,Bioenergy,51.8101,-2.282,2.1,
+476,United Kingdom,Bioenergy,51.8206,-0.7382,5.0,
+477,United Kingdom,Bioenergy,51.8459,0.0918,1.2,
+478,United Kingdom,Bioenergy,51.8499,-0.9785,2.0,
+479,United Kingdom,Bioenergy,51.8978,-2.1717,3.6,
+480,United Kingdom,Bioenergy,51.9188,-0.5656,1.1,
+481,United Kingdom,Bioenergy,51.9421,0.6578,2.0,
+482,United Kingdom,Bioenergy,51.9461,-2.0833,1.6,
+483,United Kingdom,Bioenergy,51.9469,-0.0487,1.1,
+484,United Kingdom,Bioenergy,51.9485,0.3275,1.0,
+485,United Kingdom,Bioenergy,52.0025,-0.1428,2.3,
+486,United Kingdom,Bioenergy,52.0207,-0.5994,16.0,
+487,United Kingdom,Bioenergy,52.0568,1.1979,2.6,
+488,United Kingdom,Bioenergy,52.0672,-0.8149,7.0,
+489,United Kingdom,Bioenergy,52.1253,1.4428,1.8,
+490,United Kingdom,Bioenergy,52.1299,1.4303,4.6,
+491,United Kingdom,Bioenergy,52.13,1.4303,2.0,
+492,United Kingdom,Bioenergy,52.175,-1.679,1.6,
+493,United Kingdom,Bioenergy,52.1972,-4.1689,3.2,
+494,United Kingdom,Bioenergy,52.2365,-0.8819,1.9,
+495,United Kingdom,Bioenergy,52.2543,0.727,5.0,
+496,United Kingdom,Bioenergy,52.2563,-1.187,1.0,
+497,United Kingdom,Bioenergy,52.2572,0.6371,1.4,
+498,United Kingdom,Bioenergy,52.2622,-0.5634,2.0,
+499,United Kingdom,Bioenergy,52.3334,1.1278,14.3,
+500,United Kingdom,Bioenergy,52.3867,-2.6987,1.1,
+501,United Kingdom,Bioenergy,52.3979,0.1297,38.0,
+502,United Kingdom,Bioenergy,52.4119,-0.7662,1.5,
+503,United Kingdom,Bioenergy,52.4284,0.0878,14.4,
+504,United Kingdom,Bioenergy,52.4486,0.7253,41.5,
+505,United Kingdom,Bioenergy,52.4546,0.3521,2.4,
+506,United Kingdom,Bioenergy,52.455,-1.0283,4.0,
+507,United Kingdom,Bioenergy,52.4624,-1.8417,10.3,
+508,United Kingdom,Bioenergy,52.4686,-2.082,1.1,
+509,United Kingdom,Bioenergy,52.4791,0.9544,44.2,
+510,United Kingdom,Bioenergy,52.5169,-2.0288,40.0,
+511,United Kingdom,Bioenergy,52.519,-1.7116,2.4,
+512,United Kingdom,Bioenergy,52.5427,-2.3814,1.2,
+513,United Kingdom,Bioenergy,52.5428,-2.3818,2.2,
+514,United Kingdom,Bioenergy,52.5594,-0.1752,1.0,
+515,United Kingdom,Bioenergy,52.568,0.0621,1.5,
+516,United Kingdom,Bioenergy,52.5711,-1.5867,2.0,
+517,United Kingdom,Bioenergy,52.586,-1.2375,2.5,
+518,United Kingdom,Bioenergy,52.6438,-1.558,1.5,
+519,United Kingdom,Bioenergy,52.6841,-2.01,6.0,
+520,United Kingdom,Bioenergy,52.6969,-0.1371,1.8,
+521,United Kingdom,Bioenergy,52.7008,1.2028,1.5,
+522,United Kingdom,Bioenergy,52.7013,1.195,1.0,
+523,United Kingdom,Bioenergy,52.724,-1.3125,2.0,
+524,United Kingdom,Bioenergy,52.7686,1.3564,2.0,
+525,United Kingdom,Bioenergy,52.7752,-2.2312,1.3,
+526,United Kingdom,Bioenergy,52.8353,0.0816,1.5,
+527,United Kingdom,Bioenergy,52.839,-2.93,1.0,
+528,United Kingdom,Bioenergy,52.8404,-1.0338,6.8,
+529,United Kingdom,Bioenergy,52.8543,-2.8986,1.1,
+530,United Kingdom,Bioenergy,52.8746,-2.2467,2.6,
+531,United Kingdom,Bioenergy,52.893,-1.4795,7.5,
+532,United Kingdom,Bioenergy,52.9523,-1.0578,2.0,
+533,United Kingdom,Bioenergy,52.9572,-0.0129,10.5,
+534,United Kingdom,Bioenergy,52.9625,-2.6624,2.4,
+535,United Kingdom,Bioenergy,52.9759,-1.0396,2.0,
+536,United Kingdom,Bioenergy,52.999,-0.3827,40.0,
+537,United Kingdom,Bioenergy,53.0336,0.1569,1.4,
+538,United Kingdom,Bioenergy,53.0346,0.0312,1.4,
+539,United Kingdom,Bioenergy,53.048,-0.8107,20.3,
+540,United Kingdom,Bioenergy,53.0709,-0.0531,3.0,
+541,United Kingdom,Bioenergy,53.1213,-3.323,3.0,
+542,United Kingdom,Bioenergy,53.1334,-0.4721,6.5,
+543,United Kingdom,Bioenergy,53.1583,-1.0285,2.2,
+544,United Kingdom,Bioenergy,53.2138,-0.7981,12.0,
+545,United Kingdom,Bioenergy,53.2632,-3.4263,1.0,
+546,United Kingdom,Bioenergy,53.2638,-2.4824,5.0,
+547,United Kingdom,Bioenergy,53.2827,-2.8189,21.5,
+548,United Kingdom,Bioenergy,53.2904,-0.8382,1.2,
+549,United Kingdom,Bioenergy,53.3308,-1.3323,6.5,
+550,United Kingdom,Bioenergy,53.3361,-0.5363,1.1,
+551,United Kingdom,Bioenergy,53.3525,-2.7467,5.0,
+552,United Kingdom,Bioenergy,53.3546,-2.7513,20.0,
+553,United Kingdom,Bioenergy,53.3631,-0.9601,3.0,
+554,United Kingdom,Bioenergy,53.3944,-2.2461,2.0,
+555,United Kingdom,Bioenergy,53.4201,-1.3985,33.0,
+556,United Kingdom,Bioenergy,53.4226,-1.3734,42.0,
+557,United Kingdom,Bioenergy,53.4251,-2.4195,41.6,
+558,United Kingdom,Bioenergy,53.4274,-2.1143,2.0,
+559,United Kingdom,Bioenergy,53.4443,-1.4523,8.0,
+560,United Kingdom,Bioenergy,53.4953,-2.2873,2.0,
+561,United Kingdom,Bioenergy,53.5041,-2.1807,2.0,
+562,United Kingdom,Bioenergy,53.508,-1.3157,4.0,
+563,United Kingdom,Bioenergy,53.5369,-1.1374,2.0,
+564,United Kingdom,Bioenergy,53.5369,-1.1374,3.0,
+565,United Kingdom,Bioenergy,53.5411,-0.5056,14.0,
+566,United Kingdom,Bioenergy,53.5423,-0.5096,40.0,
+567,United Kingdom,Bioenergy,53.568,-1.5146,9.0,
+568,United Kingdom,Bioenergy,53.5745,-0.7941,4.0,
+569,United Kingdom,Bioenergy,53.5909,-0.3571,1.5,
+570,United Kingdom,Bioenergy,53.6027,-1.3407,6.0,
+571,United Kingdom,Bioenergy,53.703,-2.7373,1.9,
+572,United Kingdom,Bioenergy,53.7164,-1.2819,79.0,
+573,United Kingdom,Bioenergy,53.7424,-0.2835,9.0,
+574,United Kingdom,Bioenergy,53.7485,-2.9288,1.0,
+575,United Kingdom,Bioenergy,53.7585,-0.3304,3.0,
+576,United Kingdom,Bioenergy,53.7585,-0.3304,25.0,
+577,United Kingdom,Bioenergy,53.7782,-0.6639,3.5,
+578,United Kingdom,Bioenergy,53.7815,-1.4912,4.0,
+579,United Kingdom,Bioenergy,53.8143,-1.5426,2.0,
+580,United Kingdom,Bioenergy,53.8146,-0.9922,18.0,
+581,United Kingdom,Bioenergy,53.819,-0.1465,22.0,
+582,United Kingdom,Bioenergy,53.877,-1.3939,1.0,
+583,United Kingdom,Bioenergy,53.8819,-2.9975,9.0,
+584,United Kingdom,Bioenergy,53.8948,-3.0151,1.9,
+585,United Kingdom,Bioenergy,53.992,-0.4985,2.0,
+586,United Kingdom,Bioenergy,54.02,-0.9579,1.0,
+587,United Kingdom,Bioenergy,54.0326,-1.3805,1.1,
+588,United Kingdom,Bioenergy,54.2175,-6.3367,2.0,
+589,United Kingdom,Bioenergy,54.2195,-7.5402,1.5,
+590,United Kingdom,Bioenergy,54.2703,-0.7586,2.0,
+591,United Kingdom,Bioenergy,54.2912,-1.5425,1.5,
+592,United Kingdom,Bioenergy,54.3073,-7.6639,2.5,
+593,United Kingdom,Bioenergy,54.3203,-6.2893,1.1,
+594,United Kingdom,Bioenergy,54.491,-6.8121,3.0,
+595,United Kingdom,Bioenergy,54.5674,-1.0967,38.0,
+596,United Kingdom,Bioenergy,54.5815,-1.2469,4.8,
+597,United Kingdom,Bioenergy,54.5822,-1.185,5.1,
+598,United Kingdom,Bioenergy,54.6058,-1.5803,2.8,
+599,United Kingdom,Bioenergy,54.6193,-5.7889,2.1,
+600,United Kingdom,Bioenergy,54.6221,-6.7398,1.0,
+601,United Kingdom,Bioenergy,54.626,-5.8729,1.2,
+602,United Kingdom,Bioenergy,54.6477,-1.2058,5.1,
+603,United Kingdom,Bioenergy,54.664,-3.5473,49.0,
+604,United Kingdom,Bioenergy,54.668,-1.5666,18.0,
+605,United Kingdom,Bioenergy,54.7581,-3.3309,5.0,
+606,United Kingdom,Bioenergy,54.8371,-6.1986,3.0,
+607,United Kingdom,Bioenergy,54.8521,-7.4065,2.1,
+608,United Kingdom,Bioenergy,54.8548,-1.8143,1.0,
+609,United Kingdom,Bioenergy,54.8563,-3.3586,1.0,
+610,United Kingdom,Bioenergy,54.9733,-2.0818,1.5,
+611,United Kingdom,Bioenergy,55.0346,-7.2512,15.0,
+612,United Kingdom,Bioenergy,55.0951,-3.5336,1.2,
+613,United Kingdom,Bioenergy,55.152,-3.379,45.0,
+614,United Kingdom,Bioenergy,55.5471,-4.6814,2.6,
+615,United Kingdom,Bioenergy,55.5605,-2.6533,10.0,
+616,United Kingdom,Bioenergy,55.5796,-4.6395,26.0,
+617,United Kingdom,Bioenergy,55.5945,-4.6302,1.0,
+618,United Kingdom,Bioenergy,55.7181,-4.7186,2.2,
+619,United Kingdom,Bioenergy,55.779,-3.678,12.5,
+620,United Kingdom,Bioenergy,55.7884,-3.9822,17.0,
+621,United Kingdom,Bioenergy,55.834,-4.2447,5.0,
+622,United Kingdom,Bioenergy,55.9255,-3.0834,1.5,
+623,United Kingdom,Bioenergy,55.9566,-2.7707,1.5,
+624,United Kingdom,Bioenergy,55.9697,-3.958,2.4,
+625,United Kingdom,Bioenergy,55.9704,-3.9575,2.4,
+626,United Kingdom,Bioenergy,55.9704,-3.9575,1.0,
+627,United Kingdom,Bioenergy,55.9903,-3.6789,2.0,
+628,United Kingdom,Bioenergy,56.0769,-3.8639,15.0,
+629,United Kingdom,Bioenergy,56.0969,-3.4694,1.7,
+630,United Kingdom,Bioenergy,56.1417,-3.3051,12.5,
+631,United Kingdom,Bioenergy,56.1782,-3.2115,2.0,
+632,United Kingdom,Bioenergy,56.1897,-3.0559,5.5,
+633,United Kingdom,Bioenergy,56.202,-3.162,55.0,
+634,United Kingdom,Bioenergy,56.4529,-4.3342,5.6,
+635,United Kingdom,Bioenergy,56.9152,-2.3876,1.2,
+636,United Kingdom,Bioenergy,57.4549,-3.123,1.5,
+637,United Kingdom,Bioenergy,57.4947,-3.2089,12.5,
+638,United Kingdom,Bioenergy,57.5182,-4.0889,2.0,
+639,United Kingdom,Bioenergy,57.5264,-3.2078,8.3,
+640,United Kingdom,Bioenergy,57.7054,-4.1599,5.0,
+641,United Kingdom,Bioenergy,58.4347,-3.0855,3.5,
+642,Austria,OilOther,46.908219,15.492162,246.0,1986.0
+643,Austria,OilOther,46.917,15.483,150.0,
+644,Belgium,OilOther,50.2444,5.9302,18.6,
+645,Belgium,OilOther,50.7303,3.8531,18.6,
+646,Belgium,OilOther,50.9079,4.4155,18.6,
+647,Belgium,OilOther,50.9548,2.8103,18.6,
+648,Belgium,OilOther,51.0902,3.4469,18.6,
+649,Belgium,OilOther,51.1424,3.1368,18.6,
+650,Belgium,OilOther,51.15861,3.80746,315.0,
+651,Belgium,OilOther,51.15879,3.80815,18.0,
+652,Belgium,OilOther,51.1896,3.8078,18.6,
+653,Belgium,OilOther,51.3193,4.853,33.2,
+654,Belgium,OilOther,51.329,3.1819,18.6,
+655,Croatia,OilOther,45.2862,14.5207,320.0,
+656,Croatia,OilOther,45.4538,16.4144,420.0,
+657,Denmark,OilOther,55.8134,11.8792,664.0,
+658,Estonia,OilOther,59.273,27.896,270.0,
+659,Estonia,OilOther,59.2748,27.9046,1369.0,
+660,Estonia,OilOther,59.3533,28.1185,472.0,
+661,Finland,OilOther,60.162,24.909,128.0,
+662,Finland,OilOther,60.1695,24.9354,118.0,
+663,Finland,OilOther,60.3067,25.5506,76.0,
+664,Finland,OilOther,60.3722,26.3472,40.0,
+665,Finland,OilOther,60.3923,25.6651,40.0,
+666,Finland,OilOther,60.459,22.0545,40.0,
+667,Finland,OilOther,60.7905,23.5866,332.6,
+668,Finland,OilOther,60.8004,21.4084,14.2,
+669,Finland,OilOther,60.9827,25.6615,14.5,
+670,Finland,OilOther,60.996,24.4643,50.0,
+671,Finland,OilOther,61.0587,28.1887,102.0,
+672,Finland,OilOther,61.2371,21.4433,100.5,
+673,Finland,OilOther,61.24,21.448,125.0,
+674,Finland,OilOther,61.3167,22.1333,6.3,
+675,Finland,OilOther,61.7667,28.7667,1.2,
+676,Finland,OilOther,62.211,27.672,326.0,
+677,Finland,OilOther,62.211,27.672,180.0,
+678,Finland,OilOther,62.9,29.4,180.0,
+679,Finland,OilOther,63.0453,21.7863,26.0,
+680,France,OilOther,43.9,4.68,685.0,
+681,France,OilOther,43.9,4.68,685.0,
+682,France,OilOther,47.2754,-1.8767,1370.0,
+683,France,OilOther,48.3567,-3.8706,304.0,
+684,France,OilOther,48.39,-4.26,170.0,
+685,France,OilOther,48.39,2.96,185.0,
+686,France,OilOther,48.39,2.96,185.0,
+687,France,OilOther,48.78,2.39,125.0,
+688,France,OilOther,48.78,2.39,129.0,
+689,France,OilOther,48.7872,2.4033,254.0,
+690,France,OilOther,48.87,2.63,181.0,
+691,France,OilOther,48.87,2.63,179.0,
+692,France,OilOther,48.87,2.63,182.0,
+693,France,OilOther,48.9692,1.7588,2290.0,
+694,France,OilOther,48.97,1.76,572.0,
+695,France,OilOther,48.97,1.76,572.0,
+696,France,OilOther,48.97,1.76,572.0,
+697,France,OilOther,48.97,1.76,572.0,
+698,Germany,OilOther,47.75239600000001,11.839802,23.4,1982.0
+699,Germany,OilOther,47.75239600000001,11.839802,23.4,1982.0
+700,Germany,OilOther,47.75239600000001,11.839802,23.4,1982.0
+701,Germany,OilOther,47.75239600000001,11.839802,23.4,1982.0
+702,Germany,OilOther,47.7524,11.8398,92.8,1982.0
+703,Germany,OilOther,47.80811,10.90251,6.0,1989.0
+704,Germany,OilOther,47.9125,10.6117,11.4,
+705,Germany,OilOther,47.912537,10.61174,11.4,1978.0
+706,Germany,OilOther,48.45534,11.8019,50.0,1976.0
+707,Germany,OilOther,48.5529,8.4074,56.0,1964.0
+708,Germany,OilOther,48.552941,8.407401,87.5,1964.0
+709,Germany,OilOther,48.761412,11.503001,386.0,1973.0
+710,Germany,OilOther,48.761412,11.503001,386.0,1974.0
+711,Germany,OilOther,48.76702,11.580033,415.0,1974.0
+712,Germany,OilOther,48.81583300000001,9.221111,23.3,1974.0
+713,Germany,OilOther,48.81583300000001,9.221111,23.3,1974.0
+714,Germany,OilOther,48.81583300000001,9.221111,23.3,1974.0
+715,Germany,OilOther,48.85906,13.00692,19.0,
+716,Germany,OilOther,48.927497,9.230005,263.5,1975.0
+717,Germany,OilOther,48.927497,9.230005,85.0,1975.0
+718,Germany,OilOther,48.927497,9.230005,77.4,1971.0
+719,Germany,OilOther,49.0608,8.3244,70.0,1995.0
+720,Germany,OilOther,49.06081,8.32439,25.0,1995.0
+721,Germany,OilOther,49.06081,8.32439,45.0,1995.0
+722,Germany,OilOther,49.249018,6.879244,42.0,2003.0
+723,Germany,OilOther,49.988218,9.155761,0.5,1991.0
+724,Germany,OilOther,50.09847,8.653030000000001,19.7,
+725,Germany,OilOther,50.0985,8.653,19.7,1954.0
+726,Germany,OilOther,50.321134,7.233907,10.3,1992.0
+727,Germany,OilOther,50.8305,6.9594,66.3,1962.0
+728,Germany,OilOther,50.83051,6.95936,90.0,1962.0
+729,Germany,OilOther,50.85475,6.98084,97.1,2004.0
+730,Germany,OilOther,50.8548,6.9808,80.0,2004.0
+731,Germany,OilOther,50.87357395,6.918529651,26.5,1967.0
+732,Germany,OilOther,50.94563,6.6649600000000015,0.8,1995.0
+733,Germany,OilOther,51.06948,6.84669,33.6,1967.0
+734,Germany,OilOther,51.06948,6.84669,19.2,1964.0
+735,Germany,OilOther,51.06948,6.84669,15.5,1964.0
+736,Germany,OilOther,51.06948,6.84669,10.4,1966.0
+737,Germany,OilOther,51.06948,6.84669,15.5,1963.0
+738,Germany,OilOther,51.0695,6.8467,94.2,
+739,Germany,OilOther,51.222794,6.813696,86.2,1972.0
+740,Germany,OilOther,51.27559,7.70637,206.0,1975.0
+741,Germany,OilOther,51.29976,12.0193,20.0,2010.0
+742,Germany,OilOther,51.29976,12.0193,8.7,1994.0
+743,Germany,OilOther,51.318082,9.849008,28.0,2009.0
+744,Germany,OilOther,51.3406321,12.3747329,12.5,2018.0
+745,Germany,OilOther,51.36787,6.7167,303.0,1977.0
+746,Germany,OilOther,51.36787,6.7167,303.0,1976.0
+747,Germany,OilOther,51.459673,6.730574000000002,60.0,1955.0
+748,Germany,OilOther,51.459673,6.730574000000002,95.0,1963.0
+749,Germany,OilOther,51.459673,6.730574000000002,170.0,1968.0
+750,Germany,OilOther,51.49100000000001,6.72749,59.0,1958.0
+751,Germany,OilOther,51.49100000000001,6.72749,101.0,1976.0
+752,Germany,OilOther,51.50060300000001,6.7303190000000015,225.0,2003.0
+753,Germany,OilOther,51.52242,6.574669999999999,4.8,1997.0
+754,Germany,OilOther,51.5439,7.4388,16.0,
+755,Germany,OilOther,51.98513,9.82246,2.8,1994.0
+756,Germany,OilOther,52.1579,10.39579,97.0,2010.0
+757,Germany,OilOther,52.1579,10.39579,97.0,2010.0
+758,Germany,OilOther,52.1579,10.39579,94.5,1939.0
+759,Germany,OilOther,52.1579,10.3958,288.5,2010.0
+760,Germany,OilOther,52.1674,14.626970000000002,45.0,1954.0
+761,Germany,OilOther,52.1674,14.626970000000002,56.0,2013.0
+762,Germany,OilOther,52.1674,14.627,101.0,2013.0
+763,Germany,OilOther,52.28588,7.74613,33.4,2000.0
+764,Germany,OilOther,52.2940363,8.0229623,9.8,1972.0
+765,Germany,OilOther,52.2940363,8.0229623,9.5,1962.0
+766,Germany,OilOther,52.48159366,13.30761909,184.0,1977.0
+767,Germany,OilOther,52.48159366,13.30761909,92.0,1977.0
+768,Germany,OilOther,52.4816,13.3076,828.0,1977.0
+769,Germany,OilOther,52.53735111,13.34611416,34.0,1971.0
+770,Germany,OilOther,52.53735111,13.34611416,17.0,1971.0
+771,Germany,OilOther,52.5374,13.3461,51.0,1971.0
+772,Germany,OilOther,53.098180000000006,14.23454,34.5,1994.0
+773,Germany,OilOther,53.098180000000006,14.23454,59.0,2011.0
+774,Germany,OilOther,53.098180000000006,14.23454,106.0,1998.0
+775,Germany,OilOther,53.098180000000006,14.23454,106.0,1998.0
+776,Germany,OilOther,53.098180000000006,14.23454,28.0,1972.0
+777,Germany,OilOther,53.0982,14.2345,333.5,
+778,Germany,OilOther,53.1289,8.6852,198.0,
+779,Germany,OilOther,53.12891,8.68524,160.0,1975.0
+780,Germany,OilOther,53.12891,8.68524,110.0,
+781,Germany,OilOther,53.12891,8.68524,86.0,1975.0
+782,Germany,OilOther,53.4852,9.9696,38.0,1993.0
+783,Germany,OilOther,53.48520300000001,9.969562,38.0,1994.0
+784,Germany,OilOther,53.56625104,9.728479385,50.5,1972.0
+785,Germany,OilOther,53.56625104,9.728479385,50.5,1972.0
+786,Germany,OilOther,53.5663,9.7285,101.0,1972.0
+787,Germany,OilOther,53.8925,9.2011,254.0,1973.0
+788,Germany,OilOther,53.89251924,9.201135635,63.5,
+789,Germany,OilOther,53.89251924,9.201135635,63.5,
+790,Germany,OilOther,53.89251924,9.201135635,63.5,
+791,Germany,OilOther,53.89251924,9.201135635,63.5,
+792,Germany,OilOther,54.0821,10.15,53.6,1974.0
+793,Germany,OilOther,54.154861,9.076647,44.5,1961.0
+794,Germany,OilOther,54.80506,9.43238,30.0,
+795,Greece,OilOther,35.0038,26.1397,102.0,
+796,Greece,OilOther,35.34,25.0523,193.0,
+797,Greece,OilOther,36.3789,28.0186,206.0,
+798,Greece,OilOther,38.39,24.052,144.0,
+799,Greece,OilOther,38.39,24.052,144.0,
+800,Ireland,OilOther,52.2793,-6.9935,216.0,
+801,Ireland,OilOther,52.281,-6.991,674.0,
+802,Ireland,OilOther,52.5893,-9.3632,488.0,
+803,Ireland,OilOther,53.2902,-7.0845,117.6,
+804,Ireland,OilOther,53.2926,-7.0866,116.0,
+805,Ireland,OilOther,53.3594,-7.213,104.0,
+806,Ireland,OilOther,54.1934,-9.2206,104.0,
+807,Ireland,OilOther,54.611,-5.906,74.0,
+808,Hungary,OilOther,47.7164,19.6778,170.0,
+809,Italy,OilOther,37.179,15.181,57.0,
+810,Italy,OilOther,37.2083,15.1778,210.0,1959.0
+811,Italy,OilOther,37.312,13.507,140.0,
+812,Italy,OilOther,37.3123,13.5071,140.0,
+813,Italy,OilOther,38.2049,15.2818,866.0,
+814,Italy,OilOther,39.2047,8.3789,320.0,1973.0
+815,Italy,OilOther,39.2269,8.9972,177.0,1992.0
+816,Italy,OilOther,39.227,8.997,176.0,
+817,Italy,OilOther,39.6218,16.6084,1200.0,
+818,Italy,OilOther,40.588,17.116,10.0,
+819,Italy,OilOther,40.643,17.981,500.0,
+820,Italy,OilOther,40.833,8.402,30.0,
+821,Italy,OilOther,40.842,14.259,12.0,
+822,Italy,OilOther,40.9319,14.385,72.0,
+823,Italy,OilOther,40.932,14.368,99.0,
+824,Italy,OilOther,40.9507,14.3762,105.0,
+825,Italy,OilOther,41.46,13.932,39.0,
+826,Italy,OilOther,41.631,15.917,14.0,
+827,Italy,OilOther,41.812,12.423,23.0,
+828,Italy,OilOther,41.819,14.966,248.0,
+829,Italy,OilOther,41.904,12.5,80.0,
+830,Italy,OilOther,42.338,14.373,115.0,
+831,Italy,OilOther,42.811,10.321,16.0,
+832,Italy,OilOther,42.9565,10.6034,1280.0,
+833,Italy,OilOther,43.544,10.317,54.0,
+834,Italy,OilOther,43.5673,10.31,310.0,1965.0
+835,Italy,OilOther,44.313,11.861,10.0,
+836,Italy,OilOther,44.407,8.32,21.0,
+837,Italy,OilOther,44.418,12.204,15.0,
+838,Italy,OilOther,44.449,12.237,114.0,
+839,Italy,OilOther,44.535,11.861,58.0,
+840,Italy,OilOther,44.658,10.918,21.0,
+841,Italy,OilOther,44.691,7.832,37.0,
+842,Italy,OilOther,44.9569,12.4883,2640.0,
+843,Italy,OilOther,45.042,7.627,19.0,
+844,Italy,OilOther,45.099,8.876,15.0,
+845,Italy,OilOther,45.167,10.8,15.0,
+846,Italy,OilOther,45.183,7.883,370.0,
+847,Italy,OilOther,45.28,8.75,44.0,
+848,Italy,OilOther,45.431,12.246,11.0,
+849,Italy,OilOther,45.457,8.6496,97.0,
+850,Italy,OilOther,45.465,12.265,15.0,
+851,Italy,OilOther,45.516,10.212,117.0,
+852,Italy,OilOther,45.5201,8.7422,1569.0,
+853,Italy,OilOther,45.5248,10.2273,116.7,
+854,Italy,OilOther,45.533,9.226,111.0,
+855,Italy,OilOther,45.5417,9.2539,110.6,
+856,Italy,OilOther,45.613,9.502,20.0,
+857,Italy,OilOther,45.636,9.61,122.0,
+858,Italy,OilOther,45.869,7.617,44.0,
+859,Italy,OilOther,46.295,8.264,17.0,
+860,Poland,OilOther,49.8733,19.0309,55.0,1997.0
+861,Poland,OilOther,52.5843,19.6879,600.0,2018.0
+862,Spain,OilOther,27.8045,-15.4387,646.26,2008.0
+863,Spain,OilOther,28.0424,-15.4114,234.46000000000004,1989.0
+864,Spain,OilOther,28.0863,-16.4939,693.34,1990.0
+865,Spain,OilOther,28.0996,-16.681,43.2,2003.0
+866,Spain,OilOther,28.2115,-16.7795,43.1,2006.0
+867,Spain,OilOther,28.3548,-16.3727,153.94,1979.0
+868,Spain,OilOther,28.5004,-13.8627,11.74,1988.0
+869,Spain,OilOther,28.5004,-13.8627,51.25,2000.0
+870,Spain,OilOther,28.5004,-13.8627,72.11,2005.0
+871,Spain,OilOther,28.6538,-17.7867,67.3,2006.0
+872,Spain,OilOther,28.963,-13.5477,184.95,2013.0
+873,Spain,OilOther,35.29,-2.94,46.900000000000006,2008.0
+874,Spain,OilOther,35.89,-5.35,48.7,2011.0
+875,Spain,OilOther,35.89,-5.35,11.5,2001.0
+876,Spain,OilOther,37.5645,-0.9513,537.28,1968.0
+877,Spain,OilOther,38.6871,-4.1073,40.83,1994.0
+878,Spain,OilOther,39.2379,-3.4233,16.0,
+879,Spain,OilOther,39.65,2.6807,563.75,2000.0
+880,Spain,OilOther,39.8964,4.2597,195.2,1991.0
+881,Spain,OilOther,41.6333,0.9,13.56,2011.0
+882,Spain,OilOther,42.65,-8.9,24.6,2011.0
+883,Spain,OilOther,42.702,0.7956,12.9,2010.0
+884,Spain,OilOther,43.213,-8.691,13.18,2012.0
+885,Spain,OilOther,43.3,-7.5833,18.801,1999.0
+886,Spain,OilOther,43.34,-3.0539,897.02,1972.0
+887,Spain,OilOther,43.4604,-8.2551,24.8,2012.0
+888,Sweden,OilOther,55.605,13.004,126.0,
+889,Sweden,OilOther,56.152251,14.833831,334.0,
+890,Sweden,OilOther,56.152251,14.833831,334.0,
+891,Sweden,OilOther,56.152251,14.833831,328.0,
+892,Sweden,OilOther,56.661,12.869,172.0,
+893,Sweden,OilOther,58.0863,11.8435,840.0,
+894,Sweden,OilOther,58.086598,11.844533,260.0,
+895,Sweden,OilOther,58.086598,11.844533,260.0,
+896,Sweden,OilOther,58.089,11.845,260.0,
+897,Sweden,OilOther,59.353,18.101,440.0,
+898,Sweden,OilOther,59.587937,16.512506,243.0,
+899,Sweden,OilOther,59.588,16.513,245.0,
+900,United Kingdom,OilOther,50.3955,-4.8996,140.0,
+901,United Kingdom,OilOther,50.6114,-2.4533,45.0,
+902,United Kingdom,OilOther,51.0595,-0.446,8.7,
+903,United Kingdom,OilOther,51.387,-3.407,51.0,
+904,United Kingdom,OilOther,51.4037,-1.2605,8.7,
+905,United Kingdom,OilOther,51.4563,-0.9711,45.0,
+906,United Kingdom,OilOther,54.726,-5.765,100.0,
+907,United Kingdom,OilOther,54.845,-5.786,101.0,
+908,United Kingdom,OilOther,56.1833,-2.5667,6.0,
+909,United Kingdom,OilOther,56.4992,-6.8692,3.0,
+910,United Kingdom,OilOther,57.25,-7.35,9.0,
+911,United Kingdom,OilOther,58.2092,-6.3865,24.0,
+912,United Kingdom,OilOther,58.9848,-2.9587,16.0,
+913,United Kingdom,OilOther,60.1545,-1.1494,67.0,
+914,Denmark,Geothermal,55.6899,12.633,14.0,
+915,France,Geothermal,16.1272,-61.769,4.5,
+916,Italy,Geothermal,42.2362,10.8674,114.0,1981.0
+917,Italy,Geothermal,42.2612,10.8853,19.0,2002.0
+918,Italy,Geothermal,42.8333,11.7004,20.0,1990.0
+919,Italy,Geothermal,42.8416,11.5588,19.0,1998.0
+920,Italy,Geothermal,42.8416,11.5588,39.0,1998.0
+921,Italy,Geothermal,42.8568,11.7028,20.0,1996.0
+922,Italy,Geothermal,42.8578,11.705,20.0,1991.0
+923,Italy,Geothermal,43.1362,10.8289,19.0,1997.0
+924,Italy,Geothermal,43.1369,10.8292,19.0,1998.0
+925,Italy,Geothermal,43.1452,10.8325,39.0,2005.0
+926,Italy,Geothermal,43.1519,10.8495,11.0,2002.0
+927,Italy,Geothermal,43.1601,11.0638,17.0,2010.0
+928,Italy,Geothermal,43.1658,10.8057,17.0,1994.0
+929,Italy,Geothermal,43.1666,10.7847,20.0,1981.0
+930,Italy,Geothermal,43.1707,11.0383,20.0,2003.0
+931,Italy,Geothermal,43.1708,11.039,39.0,2002.0
+932,Italy,Geothermal,43.1753,10.8583,20.0,2009.0
+933,Italy,Geothermal,43.1763,10.8521,17.0,1996.0
+934,Italy,Geothermal,43.1805,10.8834,19.0,1999.0
+935,Italy,Geothermal,43.1862,10.7657,17.0,1997.0
+936,Italy,Geothermal,43.1935,11.0446,59.0,2002.0
+937,Italy,Geothermal,43.1962,10.8323,20.0,1996.0
+938,Italy,Geothermal,43.1971,10.7652,17.0,1997.0
+939,Italy,Geothermal,43.204,10.8003,49.0,2002.0
+940,Italy,Geothermal,43.2101,11.0345,18.0,1998.0
+941,Italy,Geothermal,43.2108,11.0308,18.0,1987.0
+942,Italy,Geothermal,43.2112,10.8585,18.0,2002.0
+943,Italy,Geothermal,43.2141,11.0468,18.0,1986.0
+944,Italy,Geothermal,43.2166,10.9052,15.0,2000.0
+945,Italy,Geothermal,43.2271,10.8838,17.0,2005.0
+946,Italy,Geothermal,43.2301,10.9471,18.0,2002.0
+947,Italy,Geothermal,43.2388,10.9047,54.0,1995.0
+948,Italy,Geothermal,43.2612,10.8853,11.0,2002.0
+949,Italy,Geothermal,45.078,7.716,17.0,
+950,Italy,Geothermal,45.605,10.635,11.0,
+951,Portugal,Geothermal,37.7789,-25.4904,13.0,2006.0
+952,Portugal,Geothermal,37.8011,-25.5053,15.8,1994.0
+953,Belgium,Nuclear,50.532,5.273,481.0,
+954,Belgium,Nuclear,50.5342,5.2751,962.0,1975.0
+955,Belgium,Nuclear,50.5342,5.2751,2053.8,1985.0
+956,Belgium,Nuclear,50.53464,5.27121,481.0,
+957,Belgium,Nuclear,50.53464,5.27121,481.0,
+958,Belgium,Nuclear,50.53464,5.27121,1008.0,
+959,Belgium,Nuclear,50.53464,5.27121,1038.0,
+960,Belgium,Nuclear,51.32481,4.25889,445.0,
+961,Belgium,Nuclear,51.32481,4.25889,433.0,
+962,Belgium,Nuclear,51.32481,4.25889,1006.0,
+963,Belgium,Nuclear,51.32481,4.25889,1039.0,
+964,Belgium,Nuclear,51.3254,4.2597,2910.0,1985.0
+965,Bulgaria,Nuclear,43.7438,23.7723,2000.0,
+966,Croatia,Nuclear,46.9691475017,7.284493973739999,390.0,1972.0
+967,Croatia,Nuclear,47.3694251427,7.97945465498,1035.0,1979.0
+968,Czechia,Nuclear,49.0852,16.1479,2040.0,
+969,Czechia,Nuclear,49.1796,14.3795,2133.0,2002.0
+970,Finland,Nuclear,60.3708,26.3468,992.0,
+971,Finland,Nuclear,60.371235,26.347092,507.0,
+972,Finland,Nuclear,60.371235,26.347092,507.0,
+973,Finland,Nuclear,61.235,21.437,1600.0,
+974,Finland,Nuclear,61.2371,21.4433,1760.0,
+975,Finland,Nuclear,61.23729300000001,21.43869,890.0,
+976,Finland,Nuclear,61.23729300000001,21.43869,890.0,
+977,France,Nuclear,44.10479,0.84606,1310.0,
+978,France,Nuclear,44.10479,0.84606,1310.0,
+979,France,Nuclear,44.106,0.8443,2620.0,
+980,France,Nuclear,44.32906,4.72605,915.0,
+981,France,Nuclear,44.32906,4.72605,915.0,
+982,France,Nuclear,44.32906,4.72605,915.0,
+983,France,Nuclear,44.32906,4.72605,915.0,
+984,France,Nuclear,44.3311,4.7311,3660.0,
+985,France,Nuclear,44.6325,4.7546,3660.0,
+986,France,Nuclear,44.63251,4.75105,915.0,
+987,France,Nuclear,44.63251,4.75105,915.0,
+988,France,Nuclear,44.63251,4.75105,915.0,
+989,France,Nuclear,44.63251,4.75105,915.0,
+990,France,Nuclear,45.256,-0.6932,3640.0,
+991,France,Nuclear,45.25742,-0.69065,910.0,
+992,France,Nuclear,45.25742,-0.69065,910.0,
+993,France,Nuclear,45.25742,-0.69065,910.0,
+994,France,Nuclear,45.25742,-0.69065,910.0,
+995,France,Nuclear,45.4043,4.7554,2670.0,
+996,France,Nuclear,45.40523,4.755269999999999,1335.0,
+997,France,Nuclear,45.40523,4.755269999999999,1335.0,
+998,France,Nuclear,45.7973,5.2706,3580.0,
+999,France,Nuclear,45.80141,5.26614,880.0,
+1000,France,Nuclear,45.80141,5.26614,910.0,
+1001,France,Nuclear,45.80141,5.26614,910.0,
+1002,France,Nuclear,45.80141,5.26614,880.0,
+1003,France,Nuclear,46.456140000000005,0.6524,1495.0,
+1004,France,Nuclear,46.456140000000005,0.6524,1495.0,
+1005,France,Nuclear,46.4563,0.6548,2990.0,
+1006,France,Nuclear,47.2254,0.1656,3620.0,
+1007,France,Nuclear,47.22856,0.16824,905.0,
+1008,France,Nuclear,47.22856,0.16824,905.0,
+1009,France,Nuclear,47.22856,0.16824,905.0,
+1010,France,Nuclear,47.22856,0.16824,905.0,
+1011,France,Nuclear,47.508790000000005,2.87574,1310.0,
+1012,France,Nuclear,47.508790000000005,2.87574,1310.0,
+1013,France,Nuclear,47.5103,2.875,2620.0,
+1014,France,Nuclear,47.7197,1.5783,1830.0,
+1015,France,Nuclear,47.72006,1.58009,915.0,
+1016,France,Nuclear,47.72006,1.58009,915.0,
+1017,France,Nuclear,47.7321,2.5185,3560.0,
+1018,France,Nuclear,47.73252,2.51772,890.0,
+1019,France,Nuclear,47.73252,2.51772,890.0,
+1020,France,Nuclear,47.73252,2.51772,890.0,
+1021,France,Nuclear,47.73252,2.51772,890.0,
+1022,France,Nuclear,47.90303,7.56308,880.0,
+1023,France,Nuclear,47.90303,7.56308,880.0,
+1024,France,Nuclear,47.9032,7.5631,1760.0,
+1025,France,Nuclear,48.5153,3.51776,1310.0,
+1026,France,Nuclear,48.5153,3.51776,1310.0,
+1027,France,Nuclear,48.5171,3.5181,2620.0,
+1028,France,Nuclear,49.41579,6.2181,1300.0,
+1029,France,Nuclear,49.41579,6.2181,1300.0,
+1030,France,Nuclear,49.41579,6.2181,1300.0,
+1031,France,Nuclear,49.41579,6.2181,1300.0,
+1032,France,Nuclear,49.416,6.2169,5200.0,
+1033,France,Nuclear,49.5366,-1.8823,2660.0,
+1034,France,Nuclear,49.53671,-1.88229,1330.0,
+1035,France,Nuclear,49.53671,-1.88229,1330.0,
+1036,France,Nuclear,49.8582,0.6354,5320.0,
+1037,France,Nuclear,49.85838,0.63449,1330.0,
+1038,France,Nuclear,49.85838,0.63449,1330.0,
+1039,France,Nuclear,49.85838,0.63449,1330.0,
+1040,France,Nuclear,49.85838,0.63449,1330.0,
+1041,France,Nuclear,49.97599,1.21025,1330.0,
+1042,France,Nuclear,49.97599,1.21025,1330.0,
+1043,France,Nuclear,49.9764,1.2107,2660.0,
+1044,France,Nuclear,50.09,4.7894,3000.0,
+1045,France,Nuclear,50.09136,4.79242,1500.0,
+1046,France,Nuclear,50.09136,4.79242,1500.0,
+1047,France,Nuclear,51.01267,2.13956,910.0,
+1048,France,Nuclear,51.01267,2.13956,910.0,
+1049,France,Nuclear,51.01267,2.13956,910.0,
+1050,France,Nuclear,51.01267,2.13956,910.0,
+1051,France,Nuclear,51.01267,2.13956,910.0,
+1052,France,Nuclear,51.01267,2.13956,910.0,
+1053,France,Nuclear,51.0141,2.1332,5460.0,
+1054,Germany,Nuclear,48.515,10.4016,2572.0,1984.0
+1055,Germany,Nuclear,48.51504,10.4015648,1284.0,1984.0
+1056,Germany,Nuclear,48.51608,10.39822,1288.0,1984.0
+1057,Germany,Nuclear,49.252722,8.435436,1402.0,1985.0
+1058,Germany,Nuclear,49.2529,8.4364,1468.0,1984.0
+1059,Germany,Nuclear,49.984,10.181,1275.0,
+1060,Germany,Nuclear,49.984424,10.181753,1275.0,
+1061,Germany,Nuclear,52.4716,7.3204,1406.0,1988.0
+1062,Germany,Nuclear,52.481878,7.306658,1336.0,1988.0
+1063,Hungary,Nuclear,46.5739,18.8536,1886.8,
+1064,Netherlands,Nuclear,51.4312,3.7174,485.0,1973.0
+1065,Netherlands,Nuclear,51.43148,3.71871,492.0,
+1066,Romania,Nuclear,44.318,28.058,1354.5,
+1067,Romania,Nuclear,44.3215,28.0568,1298.0,
+1068,Slovakia,Nuclear,48.2621,18.459,880.0,
+1069,Slovakia,Nuclear,48.26409,18.45326,470.0,2000.0
+1070,Slovakia,Nuclear,48.26409,18.45326,470.0,2000.0
+1071,Slovakia,Nuclear,48.4914,17.67734,505.0,1985.0
+1072,Slovakia,Nuclear,48.4914,17.67734,505.0,1985.0
+1073,Slovakia,Nuclear,48.496,17.6816,880.0,
+1074,Slovenia,Nuclear,45.93833,15.51554,696.0,
+1075,Slovenia,Nuclear,45.9389,15.516,696.0,
+1076,Spain,Nuclear,39.2134,-1.0509,1063.94,1985.0
+1077,Spain,Nuclear,39.807,-5.6986,2016.9,1984.0
+1078,Spain,Nuclear,40.7016,-2.6227,1003.41,1988.0
+1079,Spain,Nuclear,40.9511,0.8662,1045.31,1987.0
+1080,Spain,Nuclear,41.2008,0.5679,1990.5,1983.0
+1081,Sweden,Nuclear,57.2574,12.1087,3932.0,
+1082,Sweden,Nuclear,57.258987,12.110433,865.0,
+1083,Sweden,Nuclear,57.258987,12.110433,865.0,
+1084,Sweden,Nuclear,57.258987,12.110433,1062.0,
+1085,Sweden,Nuclear,57.258987,12.110433,938.0,
+1086,Sweden,Nuclear,57.413,16.6683,2603.0,
+1087,Sweden,Nuclear,57.416,16.673,638.0,
+1088,Sweden,Nuclear,57.417124,16.673074,473.0,
+1089,Sweden,Nuclear,57.417124,16.673074,638.0,
+1090,Sweden,Nuclear,57.417124,16.673074,1400.0,
+1091,Sweden,Nuclear,60.4028,18.1744,3227.0,
+1092,Sweden,Nuclear,60.40399300000001,18.174347,984.0,
+1093,Sweden,Nuclear,60.40399300000001,18.174347,1120.0,
+1094,Sweden,Nuclear,60.40399300000001,18.174347,1187.0,
+1095,United Kingdom,Nuclear,50.9133,0.964,1050.0,
+1096,United Kingdom,Nuclear,50.913842,0.959699,1120.0,1983.0
+1097,United Kingdom,Nuclear,51.207959,-3.130173,1061.0,1976.0
+1098,United Kingdom,Nuclear,51.2085,-3.1334,955.0,
+1099,United Kingdom,Nuclear,52.2145,1.6206,1198.0,
+1100,United Kingdom,Nuclear,52.21511,1.6201299999999998,1223.0,1995.0
+1101,United Kingdom,Nuclear,53.417,-4.483,1340.0,
+1102,United Kingdom,Nuclear,54.0285,-2.916,1155.0,
+1103,United Kingdom,Nuclear,54.0285,-2.916,1230.0,
+1104,United Kingdom,Nuclear,54.029263,-2.915381,1179.0,1983.0
+1105,United Kingdom,Nuclear,54.029263,-2.915381,1254.0,1988.0
+1106,United Kingdom,Nuclear,54.6341,-1.1801,1180.0,
+1107,United Kingdom,Nuclear,54.635479,-1.181119,1207.0,1983.0
+1108,United Kingdom,Nuclear,55.7204,-4.8964,965.0,
+1109,United Kingdom,Nuclear,55.722772,-4.891078,1020.0,1976.0
+1110,United Kingdom,Nuclear,55.967523,-2.407059,1250.0,1988.0
+1111,United Kingdom,Nuclear,55.9679,-2.4086,1185.0,
+1112,Belgium,Coal,50.9405,5.4906,470.0,1968.0
+1113,Bulgaria,Coal,42.0519,25.6231,120.0,1971.0
+1114,Bulgaria,Coal,42.145,26.0025,908.0,1980.0
+1115,Bulgaria,Coal,42.1551,25.9072,240.0,1961.0
+1116,Bulgaria,Coal,42.1573,25.9084,670.0,2011.0
+1117,Bulgaria,Coal,42.2541,26.134,1602.0,1979.0
+1118,Bulgaria,Coal,42.2569,26.136,110.0,
+1119,Bulgaria,Coal,42.2855,23.0342,630.0,1974.0
+1120,Bulgaria,Coal,42.6064,23.0784,105.0,1951.0
+1121,Bulgaria,Coal,43.1964,27.6327,174.0,2009.0
+1122,Bulgaria,Coal,43.636,25.322,120.0,
+1123,Bulgaria,Coal,43.866,26.009,180.0,
+1124,Bulgaria,Coal,43.866,26.009,110.0,
+1125,Bulgaria,Coal,43.8662,26.0093,180.0,
+1126,Bulgaria,Coal,43.9484,22.8509,120.0,1970.0
+1127,Croatia,Coal,45.137,14.164,330.0,
+1128,Czechia,Coal,48.8474,17.1197,105.0,1957.0
+1129,Czechia,Coal,49.2159,16.6064,72.0,1984.0
+1130,Czechia,Coal,49.2257,17.654,64.0,2001.0
+1131,Czechia,Coal,49.7395,13.3455,65.0,1972.0
+1132,Czechia,Coal,49.7542,13.3988,137.0,
+1133,Czechia,Coal,49.8319,18.2113,177.0,1994.0
+1134,Czechia,Coal,49.832,18.21,174.0,
+1135,Czechia,Coal,49.9072,18.4646,800.0,1976.0
+1136,Czechia,Coal,50.0275,15.4505,820.0,1978.0
+1137,Czechia,Coal,50.085,14.5253,165.0,1969.0
+1138,Czechia,Coal,50.1265,15.7933,360.0,1959.0
+1139,Czechia,Coal,50.1496,12.6108,296.0,1960.0
+1140,Czechia,Coal,50.1532,14.129,404.0,2014.0
+1141,Czechia,Coal,50.381,13.3399,800.0,1974.0
+1142,Czechia,Coal,50.4125,14.9044,70.0,1999.0
+1143,Czechia,Coal,50.4131,14.4158,960.0,1973.0
+1144,Czechia,Coal,50.4178,13.2592,750.0,2016.0
+1145,Czechia,Coal,50.4278,13.6777,1000.0,1973.0
+1146,Czechia,Coal,50.4616,14.38,144.0,
+1147,Czechia,Coal,50.522,13.5718,210.0,1956.0
+1148,Czechia,Coal,50.5727,15.9634,165.0,1957.0
+1149,Czechia,Coal,50.5763,13.7803,640.0,1969.0
+1150,Czechia,Coal,50.645,13.9865,159.0,
+1151,Denmark,Coal,55.0206,9.4419,626.0,1979.0
+1152,Denmark,Coal,55.2079,11.2528,264.0,1970.0
+1153,Denmark,Coal,55.4292,10.4104,362.0,1984.0
+1154,Denmark,Coal,55.42938,10.41203,410.0,1991.0
+1155,Denmark,Coal,55.4552,8.4544,407.0,1992.0
+1156,Denmark,Coal,55.6035,12.4812,815.0,
+1157,Denmark,Coal,55.6615,11.0809,787.0,1975.0
+1158,Denmark,Coal,55.6859,12.6277,330.0,1982.0
+1159,Denmark,Coal,56.24895,10.34725,375.0,1984.0
+1160,Denmark,Coal,56.24895,10.34725,15.0,1986.0
+1161,Denmark,Coal,56.2521,10.3423,730.0,
+1162,Denmark,Coal,56.4584,10.0475,52.0,
+1163,Denmark,Coal,57.0726,10.04252,25.0,1976.0
+1164,Denmark,Coal,57.0726,10.04252,415.0,1998.0
+1165,Denmark,Coal,57.0736,10.0416,716.0,1989.0
+1166,Finland,Coal,60.1483,24.7183,170.0,1981.0
+1167,Finland,Coal,60.149125,24.718365,358.0,
+1168,Finland,Coal,60.164649,24.904001,163.0,
+1169,Finland,Coal,60.1656,24.9048,163.0,
+1170,Finland,Coal,60.182557,24.969299,212.0,
+1171,Finland,Coal,60.1841,24.9711,212.0,
+1172,Finland,Coal,60.458,22.052,146.0,
+1173,Finland,Coal,60.991,25.721,170.0,
+1174,Finland,Coal,60.99248299999999,25.719201,45.0,
+1175,Finland,Coal,61.6317,21.4068,565.0,
+1176,Finland,Coal,61.632585,21.40646,565.0,
+1177,Finland,Coal,61.63261899999999,21.406289,0.0,
+1178,Finland,Coal,63.090473,21.555412,230.0,
+1179,Finland,Coal,63.0914,21.5539,230.0,
+1180,Finland,Coal,64.651,24.422,125.0,
+1181,France,Coal,43.4672,5.4875,595.0,
+1182,France,Coal,46.46883,5.48957,595.0,1984.0
+1183,France,Coal,46.667,4.351,245.0,
+1184,France,Coal,46.67,4.35,245.0,
+1185,France,Coal,47.2756,-1.8779,1160.0,
+1186,France,Coal,47.27712,-1.88012,580.0,
+1187,France,Coal,47.27712,-1.88012,580.0,
+1188,France,Coal,48.78,2.39,250.0,
+1189,France,Coal,48.78,2.39,250.0,
+1190,France,Coal,49.151,6.697,995.0,
+1191,France,Coal,49.15412,6.7047,595.0,1981.0
+1192,France,Coal,49.47553,0.14711,580.0,
+1193,France,Coal,49.4757,0.1491,580.0,
+1194,Germany,Coal,47.58931,8.132610000000001,28.0,2009.0
+1195,Germany,Coal,48.397,9.9648,20.7,1978.0
+1196,Germany,Coal,48.39704,9.96484,20.7,1992.0
+1197,Germany,Coal,48.455353,11.799456,472.0,1985.0
+1198,Germany,Coal,48.5272,8.0868,18.5,1986.0
+1199,Germany,Coal,48.7176,9.3749,769.0,1992.0
+1200,Germany,Coal,48.717611,9.374917,336.0,1997.0
+1201,Germany,Coal,48.717611,9.374917,433.0,1985.0
+1202,Germany,Coal,48.8158,9.2211,159.9,1983.0
+1203,Germany,Coal,48.81583300000001,9.221111,45.0,1984.0
+1204,Germany,Coal,48.81583300000001,9.221111,45.0,1982.0
+1205,Germany,Coal,48.88316,8.6653,26.9,1990.0
+1206,Germany,Coal,48.8973,8.7245,26.9,1990.0
+1207,Germany,Coal,49.0125,8.302778,517.0,1985.0
+1208,Germany,Coal,49.0125,8.302778,834.0,2014.0
+1209,Germany,Coal,49.0134,8.3065,1547.0,
+1210,Germany,Coal,49.017472,9.157389,96.0,1964.0
+1211,Germany,Coal,49.017472,9.157389,148.0,1967.0
+1212,Germany,Coal,49.0177,9.1577,267.0,1966.0
+1213,Germany,Coal,49.1773,9.2063,778.0,1977.0
+1214,Germany,Coal,49.177334,9.206318,125.0,1966.0
+1215,Germany,Coal,49.177334,9.206318,778.0,1985.0
+1216,Germany,Coal,49.177334,9.206318,125.0,1965.0
+1217,Germany,Coal,49.178,9.209,250.0,
+1218,Germany,Coal,49.223899,7.0148990000000015,50.0,1988.0
+1219,Germany,Coal,49.293,6.771,106.0,
+1220,Germany,Coal,49.293,6.771,283.0,
+1221,Germany,Coal,49.2932,6.7709,389.0,
+1222,Germany,Coal,49.293248,6.770936999999999,283.0,2011.0
+1223,Germany,Coal,49.293248,6.770936999999999,106.0,1963.0
+1224,Germany,Coal,49.445,8.5,244.0,
+1225,Germany,Coal,49.4452,8.4891,1958.0,1980.0
+1226,Germany,Coal,49.445694,8.490444,202.5,1970.0
+1227,Germany,Coal,49.445694,8.490444,255.0,2005.0
+1228,Germany,Coal,49.445694,8.490444,425.0,1982.0
+1229,Germany,Coal,49.445694,8.490444,435.0,1993.0
+1230,Germany,Coal,49.445694,8.490444,843.0,2015.0
+1231,Germany,Coal,49.445694,8.490444,202.5,1966.0
+1232,Germany,Coal,49.446,8.49,1036.0,
+1233,Germany,Coal,49.5928,11.0015,17.4,1980.0
+1234,Germany,Coal,49.59283,11.00148,17.4,1982.0
+1235,Germany,Coal,49.9774,9.0687,24.8,1969.0
+1236,Germany,Coal,49.97745,9.06872,24.79,1970.0
+1237,Germany,Coal,50.065155,8.768964,54.0,1990.0
+1238,Germany,Coal,50.0652,8.769,54.0,1988.0
+1239,Germany,Coal,50.08855300000001,8.953399000000003,249.0,1965.0
+1240,Germany,Coal,50.08855300000001,8.953399000000003,293.0,1970.0
+1241,Germany,Coal,50.08855300000001,8.953399000000003,510.0,1992.0
+1242,Germany,Coal,50.0886,8.9534,1132.0,1992.0
+1243,Germany,Coal,50.09178,8.53105,66.0,1989.0
+1244,Germany,Coal,50.0984,8.6531,123.0,1989.0
+1245,Germany,Coal,50.09843,8.65313,61.5,1988.0
+1246,Germany,Coal,50.09843,8.65313,61.5,1989.0
+1247,Germany,Coal,50.658,6.8101,14.5,
+1248,Germany,Coal,50.7055,6.6536,14.4,2010.0
+1249,Germany,Coal,50.777,6.486,9.3,1983.0
+1250,Germany,Coal,50.8392,6.3211,1800.0,1968.0
+1251,Germany,Coal,50.857,12.9231,56.8,1989.0
+1252,Germany,Coal,50.8614,6.8407,52.0,1991.0
+1253,Germany,Coal,50.8976,6.7931,118.0,1959.0
+1254,Germany,Coal,50.9152,6.3693,24.6,2004.0
+1255,Germany,Coal,50.9456,6.6636,15.0,1984.0
+1256,Germany,Coal,50.9456,6.665,10.0,1995.0
+1257,Germany,Coal,50.993,6.6685,3430.0,1979.0
+1258,Germany,Coal,51.0178,6.9643,75.3,2010.0
+1259,Germany,Coal,51.0365,6.6133,2100.0,2012.0
+1260,Germany,Coal,51.0395,6.615,2068.0,1974.0
+1261,Germany,Coal,51.0489,12.1104,18.5,1993.0
+1262,Germany,Coal,51.0489,12.1104,17.5,2005.0
+1263,Germany,Coal,51.0574,6.5771,562.0,1962.0
+1264,Germany,Coal,51.1119,12.0762,86.0,1936.0
+1265,Germany,Coal,51.1666,12.0762,31.0,1994.0
+1266,Germany,Coal,51.1821,12.3733,875.0,1999.0
+1267,Germany,Coal,51.1821,12.3733,875.0,2000.0
+1268,Germany,Coal,51.24835,7.11874,85.0,1992.0
+1269,Germany,Coal,51.2484,7.1187,85.0,1989.0
+1270,Germany,Coal,51.2529,9.438,200.0,
+1271,Germany,Coal,51.25292,9.43796,138.5,1985.0
+1272,Germany,Coal,51.25292,9.43796,61.5,2000.0
+1273,Germany,Coal,51.27559,7.70637,186.0,1971.0
+1274,Germany,Coal,51.2791,9.484,33.5,1988.0
+1275,Germany,Coal,51.39139,8.073039999999999,19.0,1923.0
+1276,Germany,Coal,51.3914,8.073,19.0,
+1277,Germany,Coal,51.3985,11.9504,900.0,1996.0
+1278,Germany,Coal,51.4163,14.5619,2585.0,1989.0
+1279,Germany,Coal,51.429324,6.751983999999998,133.0,1965.0
+1280,Germany,Coal,51.4409,6.7054,27.5,1962.0
+1281,Germany,Coal,51.4627,11.714,49.0,1979.0
+1282,Germany,Coal,51.5267,6.7187,1200.0,
+1283,Germany,Coal,51.52672000000001,6.71868,725.0,2013.0
+1284,Germany,Coal,51.52672000000001,6.71868,370.0,1988.0
+1285,Germany,Coal,51.52849121,7.17779686,132.0,1957.0
+1286,Germany,Coal,51.528611,6.711944,129.0,1959.0
+1287,Germany,Coal,51.5348,14.3531,1500.0,1998.0
+1288,Germany,Coal,51.550753,7.187481,280.0,1966.0
+1289,Germany,Coal,51.550753,7.187481,133.0,1963.0
+1290,Germany,Coal,51.550753,7.187481,449.0,1989.0
+1291,Germany,Coal,51.5508,7.1875,729.0,1976.0
+1292,Germany,Coal,51.5649,6.5782,79.0,1975.0
+1293,Germany,Coal,51.56846926,7.349182511,345.0,1971.0
+1294,Germany,Coal,51.576475,6.689428,695.0,1982.0
+1295,Germany,Coal,51.576475,6.689428,695.0,1985.0
+1296,Germany,Coal,51.5765,6.6894,1390.0,
+1297,Germany,Coal,51.5796,6.6789,640.0,1971.0
+1298,Germany,Coal,51.57962,6.67888,322.0,1971.0
+1299,Germany,Coal,51.57962,6.67888,318.0,1971.0
+1300,Germany,Coal,51.59696,7.004519999999999,70.0,1985.0
+1301,Germany,Coal,51.60236802,7.009894096,345.0,1968.0
+1302,Germany,Coal,51.60236802,7.009894096,345.0,1970.0
+1303,Germany,Coal,51.60236802,7.009894096,345.0,1971.0
+1304,Germany,Coal,51.60236802,7.009894096,676.0,1979.0
+1305,Germany,Coal,51.60236802,7.009894096,345.0,1969.0
+1306,Germany,Coal,51.6024,7.0099,690.0,1973.0
+1307,Germany,Coal,51.6028,7.0094,70.0,1985.0
+1308,Germany,Coal,51.614,7.4643,473.0,1967.0
+1309,Germany,Coal,51.61403992,7.481253973999999,149.0,1962.0
+1310,Germany,Coal,51.61403992,7.481253973999999,324.0,1970.0
+1311,Germany,Coal,51.629,7.332,1052.0,2020.0
+1312,Germany,Coal,51.62952,7.331174000000002,95.0,1964.0
+1313,Germany,Coal,51.62952,7.331174000000002,95.0,1964.0
+1314,Germany,Coal,51.62952,7.331174000000002,113.0,1969.0
+1315,Germany,Coal,51.672453,7.709947,614.0,1984.0
+1316,Germany,Coal,51.67782,7.9742,152.0,1963.0
+1317,Germany,Coal,51.67782,7.9742,152.0,1963.0
+1318,Germany,Coal,51.680278,7.969722,765.0,2014.0
+1319,Germany,Coal,51.680278,7.969722,763.7,2014.0
+1320,Germany,Coal,51.680278,7.969722,284.0,1969.0
+1321,Germany,Coal,51.68037,7.0968800000000005,68.4,1983.0
+1322,Germany,Coal,51.68037,7.0968800000000005,169.32,1940.0
+1323,Germany,Coal,51.68037,7.0968800000000005,60.4,1966.0
+1324,Germany,Coal,51.68037,7.0968800000000005,55.56,1971.0
+1325,Germany,Coal,51.6804,7.0969,296.2,1966.0
+1326,Germany,Coal,51.6805,7.9696,1049.0,2014.0
+1327,Germany,Coal,51.6846,7.1,136.0,1974.0
+1328,Germany,Coal,51.6978,11.7581,20.3,1993.0
+1329,Germany,Coal,51.7602,14.37,74.0,1999.0
+1330,Germany,Coal,51.8269,12.23,49.0,1996.0
+1331,Germany,Coal,51.8344,14.459,2790.0,1985.0
+1332,Germany,Coal,52.1724,10.9768,352.0,1985.0
+1333,Germany,Coal,52.19004,8.93318,93.0,1965.0
+1334,Germany,Coal,52.19004,8.93318,303.0,1970.0
+1335,Germany,Coal,52.278611,10.514722,43.3,1984.0
+1336,Germany,Coal,52.346,14.546,45.0,1997.0
+1337,Germany,Coal,52.42,9.648611,136.0,1989.0
+1338,Germany,Coal,52.42,9.648611,136.0,1989.0
+1339,Germany,Coal,52.42,9.6486,272.0,1989.0
+1340,Germany,Coal,52.429,10.768,277.0,
+1341,Germany,Coal,52.4889,13.497,164.0,1981.0
+1342,Germany,Coal,52.531,13.245,160.0,
+1343,Germany,Coal,52.53508792,13.24264526,282.0,1987.0
+1344,Germany,Coal,52.53508792,13.24264526,282.0,1988.0
+1345,Germany,Coal,52.5351,13.2426,564.0,1988.0
+1346,Germany,Coal,52.9751813,10.5573974,40.0,1965.0
+1347,Germany,Coal,53.12481999999999,8.72887,127.0,1968.0
+1348,Germany,Coal,53.124861,8.728657,303.0,1979.0
+1349,Germany,Coal,53.1249,8.7287,427.0,1973.0
+1350,Germany,Coal,53.486245,9.953149,800.0,2015.0
+1351,Germany,Coal,53.486245,9.953149,800.0,2015.0
+1352,Germany,Coal,53.489,9.949,1600.0,2015.0
+1353,Germany,Coal,53.56695702,9.724445343,123.0,1962.0
+1354,Germany,Coal,53.56695702,9.724445343,137.0,1961.0
+1355,Germany,Coal,53.567,9.7244,260.0,1961.0
+1356,Germany,Coal,53.578698,8.132685,731.0,2015.0
+1357,Germany,Coal,54.8049,9.4324,195.0,1986.0
+1358,Germany,Coal,54.80495,9.43244,31.0,1992.0
+1359,Germany,Coal,54.80495,9.43244,33.0,1989.0
+1360,Germany,Coal,54.80495,9.43244,33.0,1985.0
+1361,Germany,Coal,54.80495,9.43244,35.0,1982.0
+1362,Germany,Coal,54.80495,9.43244,23.0,1978.0
+1363,Greece,Coal,37.4174,22.1079,600.0,1979.0
+1364,Greece,Coal,40.3941,21.9256,1595.0,1988.0
+1365,Greece,Coal,40.4102,21.7856,1250.0,1978.0
+1366,Greece,Coal,40.4809,21.7274,620.0,
+1367,Greece,Coal,40.6192,21.6832,600.0,1987.0
+1368,Greece,Coal,40.8122,21.6027,330.0,2003.0
+1369,Ireland,Coal,52.6074,-9.4237,915.0,1986.0
+1370,Hungary,Coal,47.0956,17.5584,60.0,1957.0
+1371,Hungary,Coal,47.5017,18.2701,250.0,1962.0
+1372,Hungary,Coal,47.7886,20.066,884.0,1983.0
+1373,Italy,Coal,39.1961,8.4002,350.0,1997.0
+1374,Italy,Coal,40.5632,18.0318,2640.0,1992.0
+1375,Italy,Coal,40.6432,17.9802,640.0,1974.0
+1376,Italy,Coal,40.8461,8.3068,640.0,1992.0
+1377,Italy,Coal,42.1269,11.7583,1980.0,2009.0
+1378,Italy,Coal,42.893,12.54,130.0,
+1379,Italy,Coal,42.8971,12.5381,150.0,1990.0
+1380,Italy,Coal,44.1118,9.8743,1300.0,1967.0
+1381,Italy,Coal,45.4314,12.2468,976.0,1971.0
+1382,Italy,Coal,45.47,9.184,13.0,
+1383,Italy,Coal,45.7979,13.5455,336.0,1968.0
+1384,Netherlands,Coal,51.22402,5.97085,249.0,
+1385,Netherlands,Coal,51.432,3.718,408.0,
+1386,Netherlands,Coal,51.708,4.844,611.0,
+1387,Netherlands,Coal,51.70838,4.84381,645.0,
+1388,Netherlands,Coal,51.70838,4.84381,640.0,
+1389,Netherlands,Coal,51.75381,5.8528,25.0,
+1390,Netherlands,Coal,51.85607,5.830430000000001,0.0,
+1391,Netherlands,Coal,51.8561,5.8294,590.0,
+1392,Netherlands,Coal,51.94496,4.06767,731.0,
+1393,Netherlands,Coal,51.9587,4.0272,1100.0,2016.0
+1394,Netherlands,Coal,51.9626,4.0217,1040.0,1988.0
+1395,Netherlands,Coal,51.96262,4.02152,0.0,
+1396,Netherlands,Coal,51.96262,4.02152,0.0,
+1397,Netherlands,Coal,51.96262,4.02152,1068.0,
+1398,Netherlands,Coal,52.4049,4.8465,685.0,1995.0
+1399,Netherlands,Coal,52.40537,4.84482,650.0,
+1400,Netherlands,Coal,53.4355,6.8793,1600.0,2015.0
+1401,Poland,Coal,49.6769,21.1821,5.0,
+1402,Poland,Coal,49.8524,19.3369,12.0,1950.0
+1403,Poland,Coal,49.9415,18.5702,38.0,1966.0
+1404,Poland,Coal,49.9642,18.6266,64.0,1973.0
+1405,Poland,Coal,49.9767,19.8047,330.0,
+1406,Poland,Coal,50.0146,21.9813,12.0,
+1407,Poland,Coal,50.0277,20.9082,97.0,
+1408,Poland,Coal,50.0395,19.2735,79.0,
+1409,Poland,Coal,50.0411,18.6298,5.0,
+1410,Poland,Coal,50.0433,18.4842,37.0,1908.0
+1411,Poland,Coal,50.0535,20.0061,446.0,1986.0
+1412,Poland,Coal,50.1,19.017,106.0,
+1413,Poland,Coal,50.1059,19.0164,105.0,
+1414,Poland,Coal,50.1331,18.5232,1775.0,
+1415,Poland,Coal,50.1331,18.8465,1155.0,
+1416,Poland,Coal,50.2,20.983,102.0,
+1417,Poland,Coal,50.2064,19.2046,1345.0,
+1418,Poland,Coal,50.2083,19.4617,546.0,
+1419,Poland,Coal,50.2132,19.2273,189.0,
+1420,Poland,Coal,50.2153,18.6785,8.0,
+1421,Poland,Coal,50.2855,19.0532,135.0,
+1422,Poland,Coal,50.2956,18.8099,106.0,
+1423,Poland,Coal,50.3019,19.1384,82.0,
+1424,Poland,Coal,50.3046,21.4644,33.0,1962.0
+1425,Poland,Coal,50.3079,18.9695,226.0,
+1426,Poland,Coal,50.3454,18.8864,9.0,1920.0
+1427,Poland,Coal,50.3478,19.2771,150.0,2001.0
+1428,Poland,Coal,50.3488,18.8419,125.0,1954.0
+1429,Poland,Coal,50.3499,19.1412,700.0,
+1430,Poland,Coal,50.4365,21.3377,1623.0,
+1431,Poland,Coal,50.483,18.717,53.4,
+1432,Poland,Coal,50.533,19.05,135.0,
+1433,Poland,Coal,50.55,22.067,125.0,
+1434,Poland,Coal,50.5538,22.0787,350.0,
+1435,Poland,Coal,50.6872,17.9201,10.0,
+1436,Poland,Coal,50.7514,17.8845,1492.0,
+1437,Poland,Coal,50.8273,19.1247,68.0,2010.0
+1438,Poland,Coal,50.9482,14.9128,1498.0,
+1439,Poland,Coal,51.0299,21.0799,36.0,
+1440,Poland,Coal,51.0381,17.1498,110.0,1981.0
+1441,Poland,Coal,51.1234,17.0241,263.0,
+1442,Poland,Coal,51.2258,22.7079,6.0,1950.0
+1443,Poland,Coal,51.2679,19.3265,5472.0,
+1444,Poland,Coal,51.4574,21.9744,112.0,
+1445,Poland,Coal,51.46,21.978,82.0,
+1446,Poland,Coal,51.5829,21.5478,1075.0,2017.0
+1447,Poland,Coal,51.5999,18.9675,12.0,1992.0
+1448,Poland,Coal,51.6658,21.4647,2673.0,
+1449,Poland,Coal,51.6668,21.4614,1075.0,2017.0
+1450,Poland,Coal,51.7297,18.1062,8.0,1932.0
+1451,Poland,Coal,51.746,19.538,100.0,
+1452,Poland,Coal,51.7462,19.5403,198.0,
+1453,Poland,Coal,51.798,19.42,205.0,
+1454,Poland,Coal,51.7985,19.4216,205.0,
+1455,Poland,Coal,51.8413,19.3939,39.0,1948.0
+1456,Poland,Coal,52.1707,20.8006,9.0,1957.0
+1457,Poland,Coal,52.1901,21.0873,620.0,1961.0
+1458,Poland,Coal,52.283,20.983,386.0,
+1459,Poland,Coal,52.2837,18.2695,233.0,
+1460,Poland,Coal,52.2945,20.9942,386.0,
+1461,Poland,Coal,52.3013,18.2344,1244.0,1967.0
+1462,Poland,Coal,52.3014,18.2369,464.0,2008.0
+1463,Poland,Coal,52.4361,16.9873,276.0,1985.0
+1464,Poland,Coal,52.7664,18.1098,56.0,
+1465,Poland,Coal,52.7671,18.2409,36.0,
+1466,Poland,Coal,53.0995,18.0879,227.0,
+1467,Poland,Coal,53.1019,21.6053,75.0,
+1468,Poland,Coal,53.1039,21.6118,681.0,1972.0
+1469,Poland,Coal,53.1355,17.9836,14.0,1929.0
+1470,Poland,Coal,53.1486,23.1689,198.0,1991.0
+1471,Poland,Coal,53.2067,14.4651,1362.0,
+1472,Poland,Coal,53.3907,14.5253,134.0,1961.0
+1473,Poland,Coal,53.3938,18.3751,123.0,
+1474,Poland,Coal,53.399,18.397,211.0,
+1475,Poland,Coal,53.4116,14.5858,88.0,
+1476,Poland,Coal,53.4792,18.7719,18.0,
+1477,Poland,Coal,53.567,14.533,100.4,
+1478,Poland,Coal,53.5743,14.5334,100.0,
+1479,Poland,Coal,53.7002,18.921,112.0,
+1480,Poland,Coal,54.1805,19.3855,42.0,1928.0
+1481,Poland,Coal,54.3784,18.6404,217.0,1970.0
+1482,Poland,Coal,54.5535,18.4803,105.0,1974.0
+1483,Portugal,Coal,37.9322,-8.8038,1296.0,1986.0
+1484,Portugal,Coal,39.468,-8.1097,682.0,1994.0
+1485,Romania,Coal,44.345,23.8156,262.0,1988.0
+1486,Romania,Coal,44.3886,23.718,630.0,1988.0
+1487,Romania,Coal,44.6694,23.408,1650.0,1983.0
+1488,Romania,Coal,44.6751,22.6878,313.0,
+1489,Romania,Coal,44.9068,23.1383,1320.0,1977.0
+1490,Romania,Coal,45.04,24.29,177.0,
+1491,Romania,Coal,45.3647,23.261,150.0,1964.0
+1492,Romania,Coal,45.9134,22.8254,1075.0,1976.0
+1493,Romania,Coal,47.0842,21.8928,170.0,
+1494,Romania,Coal,47.1473,27.7172,60.0,1986.0
+1495,Slovakia,Coal,48.5536,21.9782,880.0,
+1496,Slovakia,Coal,48.554390000000005,21.97402,220.0,2001.0
+1497,Slovakia,Coal,48.6988,18.5335,518.0,
+1498,Slovenia,Coal,46.058,14.5451,112.0,
+1499,Slovenia,Coal,46.1258,15.0611,110.0,
+1500,Slovenia,Coal,46.3723,15.0534,1099.0,
+1501,Spain,Coal,36.1828,-5.42,570.05,1985.0
+1502,Spain,Coal,36.183459,-5.392914,378.79,2004.0
+1503,Spain,Coal,36.183459,-5.392914,384.61,2004.0
+1504,Spain,Coal,36.195639,-5.413628,373.09,2002.0
+1505,Spain,Coal,36.195639,-5.413628,366.77,2002.0
+1506,Spain,Coal,36.673002,-5.816132,379.36,2005.0
+1507,Spain,Coal,36.673002,-5.816132,395.6,2005.0
+1508,Spain,Coal,36.673002,-5.816132,812.0,2006.0
+1509,Spain,Coal,36.748363,-4.562831,421.036,2009.0
+1510,Spain,Coal,36.9783,-1.9054,1119.59,1997.0
+1511,Spain,Coal,37.183318,-6.886317999999999,397.83,2005.0
+1512,Spain,Coal,37.183318,-6.886317999999999,394.08,2004.0
+1513,Spain,Coal,37.183318,-6.886317999999999,395.63,2005.0
+1514,Spain,Coal,37.216397,-6.943633,397.77,2006.0
+1515,Spain,Coal,37.5647,-0.951324,830.89,2006.0
+1516,Spain,Coal,37.572744,-0.938408,419.28,2006.0
+1517,Spain,Coal,37.572744,-0.938408,424.56,2006.0
+1518,Spain,Coal,37.572744,-0.938408,424.51,2006.0
+1519,Spain,Coal,37.573129,-0.938909,408.35,2006.0
+1520,Spain,Coal,37.573129,-0.938909,401.97,2006.0
+1521,Spain,Coal,37.573129,-0.938909,408.56,2006.0
+1522,Spain,Coal,38.1108,-4.9354,299.76,1980.0
+1523,Spain,Coal,38.673985,-4.053176000000001,84.0,1994.0
+1524,Spain,Coal,38.688,-4.108,206.1,
+1525,Spain,Coal,39.03,-3.441,296.4,
+1526,Spain,Coal,39.642475,-0.233208,418.55,2007.0
+1527,Spain,Coal,39.642475,-0.233208,419.59,2007.0
+1528,Spain,Coal,39.642475,-0.233208,417.28,2007.0
+1529,Spain,Coal,39.8106,3.0913,533.8,1981.0
+1530,Spain,Coal,39.943972,-3.854838,391.53,2005.0
+1531,Spain,Coal,39.943972,-3.854838,379.3,2006.0
+1532,Spain,Coal,40.959398,0.8696360000000001,420.99,2007.0
+1533,Spain,Coal,40.959398,0.8696360000000001,425.6,2007.0
+1534,Spain,Coal,40.9966,-0.3798,1055.77,1980.0
+1535,Spain,Coal,41.110242,1.180547,423.7,2004.0
+1536,Spain,Coal,41.190917,1.221364,91.347,1999.0
+1537,Spain,Coal,41.216921,-0.294205,797.83,2006.0
+1538,Spain,Coal,41.2961,-0.3376,65.0,1990.0
+1539,Spain,Coal,41.336825,2.158958,444.5,2010.0
+1540,Spain,Coal,41.336825,2.158958,447.16,2010.0
+1541,Spain,Coal,42.6125,-6.5647,1005.14,1984.0
+1542,Spain,Coal,42.7924,-5.634,619.06,1984.0
+1543,Spain,Coal,42.8261,-4.8463,485.85,1984.0
+1544,Spain,Coal,42.8385,-6.5332,346.84,1982.0
+1545,Spain,Coal,43.1685,-8.4111,557.2,1980.0
+1546,Spain,Coal,43.234597,-2.749908,795.43,2005.0
+1547,Spain,Coal,43.2924,-6.3937,553.6400000000001,1984.0
+1548,Spain,Coal,43.3082,-5.7001,347.7,1981.0
+1549,Spain,Coal,43.3122,-5.8739,346.25,1984.0
+1550,Spain,Coal,43.316242,-5.876937,431.86,2008.0
+1551,Spain,Coal,43.316242,-5.876937,433.63,2011.0
+1552,Spain,Coal,43.329639,-8.501986,397.44,2008.0
+1553,Spain,Coal,43.339096000000005,-3.052938,402.64,2005.0
+1554,Spain,Coal,43.359035,-3.09211,754.87,2003.0
+1555,Spain,Coal,43.360549,-4.059074,93.0,
+1556,Spain,Coal,43.444418,-7.864333999999999,870.43,2008.0
+1557,Spain,Coal,43.5528,-5.7231,877.6600000000001,1985.0
+1558,Sweden,Coal,59.352713,18.103412,130.0,
+1559,Sweden,Coal,59.353,18.102,130.0,
+1560,Sweden,Coal,59.5885,16.5135,80.0,1963.0
+1561,United Kingdom,Coal,51.3873,-3.4049,1586.0,
+1562,United Kingdom,Coal,51.5491,-2.9705,230.0,
+1563,United Kingdom,Coal,52.8653,-1.255,2000.0,
+1564,United Kingdom,Coal,53.304,-0.7815,2008.0,
+1565,United Kingdom,Coal,53.308,-0.775,2008.0,
+1566,United Kingdom,Coal,53.3604,-0.8102,2012.0,
+1567,United Kingdom,Coal,53.361,-0.812,2012.0,
+1568,United Kingdom,Coal,53.7116,-1.1269,1960.0,
+1569,United Kingdom,Coal,53.7356,-0.9911,1980.0,
+1570,United Kingdom,Coal,54.7255,-5.7653,520.0,
+1571,Austria,Gas_CCGT,46.908219,15.492162,832.0,2011.0
+1572,Austria,Gas_CCGT,47.80929,13.03819,83.7,2001.0
+1573,Austria,Gas_ST,47.82744,13.03398,13.5,1994.0
+1574,Austria,Gas_CCGT,48.15184,14.00755,47.0,2000.0
+1575,Austria,Gas_CCGT,48.1815,16.4334,1272.0,2009.0
+1576,Austria,Gas_CCGT,48.18331,16.43375,710.0,2009.0
+1577,Austria,Gas_CCGT,48.18331,16.43375,350.0,2009.0
+1578,Austria,Gas_CCGT,48.18331,16.43375,60.0,2009.0
+1579,Austria,Gas_CCGT,48.267893,14.346898,192.0,1993.0
+1580,Austria,Gas_CCGT,48.299,14.324,153.0,
+1581,Austria,Gas_CCGT,48.299219,14.322935,217.0,1970.0
+1582,Austria,Gas_CCGT,48.33263,16.33981,150.0,1958.0
+1583,Austria,Gas_OCGT,48.394861,15.710147,800.0,2000.0
+1584,Belgium,Gas_CCGT,50.4138,4.4067,405.0,2011.0
+1585,Belgium,Gas_CCGT,50.41396,4.40645,413.0,
+1586,Belgium,Gas_CCGT,50.430040000000005,4.39518,451.0,
+1587,Belgium,Gas_CCGT,50.4304,4.3955,451.0,1994.0
+1588,Belgium,Gas_OCGT,50.44746,4.66339,48.0,
+1589,Belgium,Gas_OCGT,50.44746,4.66339,48.0,
+1590,Belgium,Gas_ST,50.44746,4.66339,10.0,
+1591,Belgium,Gas_CCGT,50.47167,3.82521,350.0,
+1592,Belgium,Gas_CCGT,50.4719,3.8248,350.0,2000.0
+1593,Belgium,Gas_CCGT,50.6177,5.5837,128.0,
+1594,Belgium,Gas_OCGT,50.61775,5.582669999999999,64.0,
+1595,Belgium,Gas_OCGT,50.61775,5.582669999999999,64.0,
+1596,Belgium,Gas_CCGT,50.8023,4.299,5.0,
+1597,Belgium,Gas_CCGT,50.8023,4.299,48.0,
+1598,Belgium,Gas_CCGT,50.8023,4.299,465.0,
+1599,Belgium,Gas_CCGT,50.934,5.4784,86.0,
+1600,Belgium,Gas_CCGT,50.934,5.478,43.0,
+1601,Belgium,Gas_CCGT,50.934,5.478,43.0,
+1602,Belgium,Gas_CCGT,50.936,4.0355,43.0,
+1603,Belgium,Gas_CCGT,50.936,4.0355,5.0,
+1604,Belgium,Gas_CCGT,51.027,3.578,133.0,
+1605,Belgium,Gas_CCGT,51.05,3.7167,52.0,2006.0
+1606,Belgium,Gas_CCGT,51.0586,5.1056,422.0,2011.0
+1607,Belgium,Gas_OCGT,51.05942,3.73646,58.0,
+1608,Belgium,Gas_OCGT,51.05942,3.73646,58.0,
+1609,Belgium,Gas_CCGT,51.1049,3.7257,357.0,1998.0
+1610,Belgium,Gas_CCGT,51.10496,3.72567,385.0,
+1611,Belgium,Gas_CCGT,51.1587,3.8068,315.0,2010.0
+1612,Belgium,Gas_CCGT,51.2119,4.2563,22.8,
+1613,Belgium,Gas_CCGT,51.2198,4.3266,138.0,
+1614,Belgium,Gas_CCGT,51.2382,4.3408,15.0,
+1615,Belgium,Gas_CCGT,51.2382,4.3408,43.0,
+1616,Belgium,Gas_CCGT,51.24256,4.32481,138.0,
+1617,Belgium,Gas_CCGT,51.2629,3.2112,465.0,1998.0
+1618,Belgium,Gas_CCGT,51.26307,3.21121,465.0,
+1619,Belgium,Gas_CCGT,51.329,3.1819,40.0,
+1620,Belgium,Gas_CCGT,51.361,4.255,386.2,
+1621,Belgium,Gas_CCGT,51.36977,4.26667,386.2,
+1622,Bulgaria,Gas_CCGT,42.171,24.746,105.0,
+1623,Bulgaria,Gas_CCGT,42.523,27.405,257.0,
+1624,Croatia,Gas_CCGT,45.542,18.7449,89.0,
+1625,Croatia,Gas_CCGT,45.7816,16.0169,328.0,
+1626,Croatia,Gas_CCGT,45.782,16.017,112.0,
+1627,Croatia,Gas_CCGT,45.8069,15.9498,86.8,
+1628,Croatia,Gas_CCGT,46.0386,16.1814,78.0,
+1629,Czechia,Gas_CCGT,50.1535,14.127,110.0,1999.0
+1630,Czechia,Gas_CCGT,50.2576,12.6932,370.0,1995.0
+1631,Czechia,Gas_CCGT,50.426,13.683,847.0,
+1632,Czechia,Gas_CCGT,50.4267,13.6747,840.0,2014.0
+1633,Denmark,Gas_CCGT,55.513,9.6128,392.0,1997.0
+1634,Denmark,Gas_CCGT,55.6761,12.5683,98.0,
+1635,Denmark,Gas_CCGT,55.7131,12.588,81.0,1985.0
+1636,Denmark,Gas_CCGT,56.201,9.558,108.2,
+1637,Estonia,Gas_CCGT,59.2439,24.7064,250.0,
+1638,Estonia,Gas_CCGT,59.244,24.704,110.0,
+1639,Estonia,Gas_CCGT,59.244,24.704,140.0,
+1640,Estonia,Gas_CCGT,59.4514,24.9246,173.0,
+1641,Estonia,Gas_CCGT,59.452,24.925,173.0,
+1642,Finland,Gas_CCGT,60.1843,23.946,128.0,
+1643,Finland,Gas_CCGT,60.2199,25.1692,485.0,
+1644,Finland,Gas_CCGT,60.2199,25.1692,163.0,
+1645,Finland,Gas_CCGT,60.22,25.173,160.0,
+1646,Finland,Gas_CCGT,60.282,24.837,167.0,
+1647,Finland,Gas_CCGT,60.2833,24.8364,171.7,
+1648,Finland,Gas_CCGT,60.3067,25.5506,120.6,
+1649,Finland,Gas_CCGT,60.4034,25.105,3.7,
+1650,Finland,Gas_CCGT,60.459,22.0545,290.0,
+1651,Finland,Gas_CCGT,60.9827,25.6615,4.6,
+1652,Finland,Gas_CCGT,61.0587,28.1887,26.3,
+1653,Finland,Gas_CCGT,61.4667,23.5,72.0,
+1654,Finland,Gas_CCGT,61.4991,23.7871,142.0,
+1655,Finland,Gas_CCGT,61.4991,23.7871,191.2,
+1656,Finland,Gas_CCGT,61.4991,23.7871,16.5,
+1657,Finland,Gas_CCGT,61.51,23.675,142.0,
+1658,Finland,Gas_CCGT,61.51,23.777,81.0,
+1659,Finland,Gas_CCGT,61.7695,23.0658,6.0,
+1660,Finland,Gas_CCGT,64.1333,25.3667,2.7,
+1661,Finland,Gas_CCGT,64.6667,27.1333,68.0,
+1662,Finland,Gas_CCGT,65.9667,29.1833,32.8,
+1663,France,Gas_CCGT,43.3585,5.0216,930.0,
+1664,France,Gas_CCGT,43.4072,4.8676,425.0,
+1665,France,Gas_CCGT,47.32,-2.14,45.0,
+1666,France,Gas_CCGT,48.675,5.8917,413.0,
+1667,France,Gas_CCGT,48.8681,6.0849,427.0,
+1668,France,Gas_CCGT,48.93,2.29,203.0,
+1669,France,Gas_CCGT,48.9333,2.3,203.0,
+1670,France,Gas_CCGT,49.1526,6.7018,826.0,
+1671,France,Gas_CCGT,49.48,0.22,120.0,
+1672,France,Gas_CCGT,49.48,0.22,120.0,
+1673,France,Gas_CCGT,50.2308,3.8653,412.0,
+1674,France,Gas_CCGT,50.2987,3.3156,575.0,
+1675,France,Gas_CCGT,51.0482,2.3255,796.0,
+1676,Germany,Gas_CCGT,47.5397,7.7069,40.0,2004.0
+1677,Germany,Gas_ST,47.53971,7.706923,30.0,2017.0
+1678,Germany,Gas_ST,47.570794,7.807192,15.68,1979.0
+1679,Germany,Gas_CCGT,47.5708,7.8072,16.0,1980.0
+1680,Germany,Gas_ST,47.789499,11.055371,5.3,1987.0
+1681,Germany,Gas_ST,47.789499,11.055371,5.3,1989.0
+1682,Germany,Gas_CCGT,47.7895,11.0554,10.6,
+1683,Germany,Gas_ST,47.80811,10.90251,76.0,2014.0
+1684,Germany,Gas_ST,47.80811,10.90251,64.0,1954.0
+1685,Germany,Gas_OCGT,47.85593,12.1341,9.2,2013.0
+1686,Germany,Gas_CCGT,47.8561,12.1341,23.3,2011.0
+1687,Germany,Gas_OCGT,47.856134,12.134085,9.81,2011.0
+1688,Germany,Gas_OCGT,47.856134,12.134085,4.3,2012.0
+1689,Germany,Gas_CCGT,48.0202,7.8452,60.1,1998.0
+1690,Germany,Gas_CCGT,48.020738,7.84588,38.6,1998.0
+1691,Germany,Gas_ST,48.056351,12.185174,15.1,2000.0
+1692,Germany,Gas_CCGT,48.0564,12.1852,12.6,2000.0
+1693,Germany,Gas_CCGT,48.1351,11.582,79.7,1980.0
+1694,Germany,Gas_CCGT,48.1351,11.582,444.6,2004.0
+1695,Germany,Gas_CCGT,48.1351253,11.5819806,124.9,2004.0
+1696,Germany,Gas_CCGT,48.1351253,11.5819806,97.9,1980.0
+1697,Germany,Gas_CCGT,48.1351253,11.5819806,97.9,1980.0
+1698,Germany,Gas_CCGT,48.1351253,11.5819806,79.7,1980.0
+1699,Germany,Gas_CCGT,48.1351253,11.5819806,123.9,2004.0
+1700,Germany,Gas_CCGT,48.1603,10.1144,65.0,2015.0
+1701,Germany,Gas_ST,48.17679,12.73056,73.1,2002.0
+1702,Germany,Gas_CCGT,48.1768,12.7306,49.0,2002.0
+1703,Germany,Gas_ST,48.179774,11.561399,13.5,2019.0
+1704,Germany,Gas_CCGT,48.1835,12.8531,178.0,2001.0
+1705,Germany,Gas_ST,48.186212,12.845768,50.0,1979.0
+1706,Germany,Gas_CCGT,48.186212,12.845768,120.0,2001.0
+1707,Germany,Gas_OCGT,48.188278,11.594954,80.0,
+1708,Germany,Gas_OCGT,48.188278,11.594954,80.0,
+1709,Germany,Gas_ST,48.1941688,11.5707734,13.6,2019.0
+1710,Germany,Gas_ST,48.26693,9.72626,4.0,1977.0
+1711,Germany,Gas_ST,48.354126,11.77452,16.8,2014.0
+1712,Germany,Gas_ST,48.3591,11.7903,9.5,1992.0
+1713,Germany,Gas_CCGT,48.3591,11.7903,11.06,1992.0
+1714,Germany,Gas_ST,48.37509,10.90277,20.4,1976.0
+1715,Germany,Gas_CCGT,48.3751,10.9028,18.0,1976.0
+1716,Germany,Gas_ST,48.38008,10.90143,29.0,1967.0
+1717,Germany,Gas_CCGT,48.3801,10.9014,29.0,1966.0
+1718,Germany,Gas_ST,48.5581138,12.1485812,17.6,2019.0
+1719,Germany,Gas_CCGT,48.6403,12.4634,13.4,1998.0
+1720,Germany,Gas_OCGT,48.640307,12.463436,6.7,1997.0
+1721,Germany,Gas_OCGT,48.640307,12.463436,6.7,1997.0
+1722,Germany,Gas_ST,48.64456129999999,12.482933,13.5,2019.0
+1723,Germany,Gas_ST,48.64456129999999,12.482933,16.0,2017.0
+1724,Germany,Gas_ST,48.670061,10.150584,18.9,2014.0
+1725,Germany,Gas_CCGT,48.6701,10.1506,26.5,
+1726,Germany,Gas_CCGT,48.6972,8.9992,95.0,
+1727,Germany,Gas_ST,48.697222,8.999167,95.0,2013.0
+1728,Germany,Gas_CCGT,48.7176,9.3749,65.0,
+1729,Germany,Gas_OCGT,48.717611,9.374917,57.0,1973.0
+1730,Germany,Gas_OCGT,48.717611,9.374917,81.0,1975.0
+1731,Germany,Gas_OCGT,48.717611,9.374917,65.0,1997.0
+1732,Germany,Gas_OCGT,48.717611,9.374917,50.0,1971.0
+1733,Germany,Gas_CCGT,48.7508,9.1103,36.0,
+1734,Germany,Gas_ST,48.75081,9.1103,12.181,1988.0
+1735,Germany,Gas_ST,48.75081,9.1103,11.3377,1969.0
+1736,Germany,Gas_ST,48.75081,9.1103,11.6188,1968.0
+1737,Germany,Gas_CCGT,48.767,11.58,1391.0,
+1738,Germany,Gas_CCGT,48.76702,11.580033,846.0,2010.0
+1739,Germany,Gas_CCGT,48.76702,11.580033,561.0,2011.0
+1740,Germany,Gas_ST,48.7784485,9.1800132,29.151,2018.0
+1741,Germany,Gas_OCGT,48.782453,9.231483,55.0,
+1742,Germany,Gas_CCGT,48.7874,12.8825,97.9,2010.0
+1743,Germany,Gas_CCGT,48.78742,12.88246,118.5,2010.0
+1744,Germany,Gas_ST,48.78789,11.75617,25.4,1996.0
+1745,Germany,Gas_CCGT,48.801,12.868,120.0,
+1746,Germany,Gas_ST,48.83627050000001,10.0931765,15.0,1960.0
+1747,Germany,Gas_CCGT,48.88316,8.6653,41.2,1980.0
+1748,Germany,Gas_ST,48.88316,8.6653,11.3,
+1749,Germany,Gas_CCGT,48.8832,8.6653,52.5,1969.0
+1750,Germany,Gas_ST,48.980011,12.17025,2.65,2016.0
+1751,Germany,Gas_ST,48.980011,12.17025,10.6,2012.0
+1752,Germany,Gas_ST,49.06996,8.30702,59.0,2007.0
+1753,Germany,Gas_CCGT,49.07,8.307,59.0,2008.0
+1754,Germany,Gas_CCGT,49.2095,7.936,28.0,1975.0
+1755,Germany,Gas_CCGT,49.223899,7.0148990000000015,75.0,2005.0
+1756,Germany,Gas_CCGT,49.249,6.8792,42.0,2003.0
+1757,Germany,Gas_ST,49.346652,6.765101,22.0,2016.0
+1758,Germany,Gas_CCGT,49.4059,11.1329,18.6,
+1759,Germany,Gas_OCGT,49.40593,11.13286,4.2,1993.0
+1760,Germany,Gas_OCGT,49.40593,11.13286,5.1,1994.0
+1761,Germany,Gas_OCGT,49.40593,11.13286,4.2,1993.0
+1762,Germany,Gas_OCGT,49.40593,11.13286,5.1,1995.0
+1763,Germany,Gas_CCGT,49.4208,11.0077,823.0,
+1764,Germany,Gas_CCGT,49.420836,11.007737,383.0,1973.0
+1765,Germany,Gas_CCGT,49.420836,11.007737,440.0,1976.0
+1766,Germany,Gas_ST,49.42158,8.672839999999999,13.5,2001.0
+1767,Germany,Gas_CCGT,49.4216,8.6728,13.5,2002.0
+1768,Germany,Gas_CCGT,49.4386,11.0606,150.0,2005.0
+1769,Germany,Gas_CCGT,49.438611,11.060556,75.0,2005.0
+1770,Germany,Gas_CCGT,49.438611,11.060556,75.0,2005.0
+1771,Germany,Gas_OCGT,49.464184,7.148897,19.5,2014.0
+1772,Germany,Gas_OCGT,49.51395,8.431510000000001,47.0,1992.0
+1773,Germany,Gas_CCGT,49.59297,11.00162,21.6,2005.0
+1774,Germany,Gas_CCGT,49.593,11.0016,28.5,
+1775,Germany,Gas_CCGT,49.593492,11.001093,6.7,2014.0
+1776,Germany,Gas_CCGT,49.5991,8.221,30.0,1992.0
+1777,Germany,Gas_ST,49.59914000000001,8.22096,30.0,1961.0
+1778,Germany,Gas_CCGT,49.8,9.9231,122.0,
+1779,Germany,Gas_OCGT,49.800041,9.923136,29.5,2009.0
+1780,Germany,Gas_ST,49.800041,9.923136,25.0,1993.0
+1781,Germany,Gas_ST,49.800041,9.923136,23.0,1971.0
+1782,Germany,Gas_OCGT,49.800041,9.923136,44.5,2005.0
+1783,Germany,Gas_CCGT,49.8293,9.1482,100.0,
+1784,Germany,Gas_CCGT,49.82935,9.14824,60.0,1995.0
+1785,Germany,Gas_CCGT,49.82935,9.14824,40.0,1920.0
+1786,Germany,Gas_CCGT,49.8587,7.8857,10.7,2006.0
+1787,Germany,Gas_ST,49.984,10.65137,57.0,2007.0
+1788,Germany,Gas_CCGT,49.984,10.6514,57.0,2008.0
+1789,Germany,Gas_ST,49.988218,9.155761,27.0,
+1790,Germany,Gas_CCGT,50.0252,8.24292,335.0,1976.0
+1791,Germany,Gas_CCGT,50.0264,8.2379,434.2,2001.0
+1792,Germany,Gas_CCGT,50.026426,8.237935,434.2,2000.0
+1793,Germany,Gas_ST,50.040546,8.253248,25.015,2006.0
+1794,Germany,Gas_ST,50.0856,8.62785,70.0,2004.0
+1795,Germany,Gas_ST,50.0856,8.62785,56.0,
+1796,Germany,Gas_CCGT,50.0856,8.6279,126.0,2005.0
+1797,Germany,Gas_ST,50.08855300000001,8.953399000000003,572.0,1977.0
+1798,Germany,Gas_ST,50.09178,8.53105,96.5,2012.0
+1799,Germany,Gas_ST,50.09178,8.53105,86.0,2003.0
+1800,Germany,Gas_CCGT,50.0918,8.5311,152.0,
+1801,Germany,Gas_CCGT,50.0918,8.5311,96.5,2012.0
+1802,Germany,Gas_ST,50.098562,8.653080000000001,38.7,2018.0
+1803,Germany,Gas_ST,50.099067100000006,8.653584479,38.7,2018.0
+1804,Germany,Gas_ST,50.321134,7.233907,8.4,1971.0
+1805,Germany,Gas_CCGT,50.321134,7.233907,27.4,2013.0
+1806,Germany,Gas_CCGT,50.321134,7.233907,11.4,1992.0
+1807,Germany,Gas_CCGT,50.5691,9.6813,34.2,
+1808,Germany,Gas_ST,50.56912,9.68128,7.5,1982.0
+1809,Germany,Gas_ST,50.56912,9.68128,26.2,2012.0
+1810,Germany,Gas_CCGT,50.6869,11.3293,26.5,
+1811,Germany,Gas_ST,50.686928,11.329303,26.5,1936.0
+1812,Germany,Gas_ST,50.7055,6.65362,15.1,1996.0
+1813,Germany,Gas_CCGT,50.7055,6.6536,45.3,1966.0
+1814,Germany,Gas_ST,50.73382,7.08055,14.4,
+1815,Germany,Gas_CCGT,50.7728,6.49,14.0,2011.0
+1816,Germany,Gas_ST,50.77284,6.49003,14.0,1940.0
+1817,Germany,Gas_CCGT,50.777,6.486,2.9,1967.0
+1818,Germany,Gas_ST,50.812318,10.2320784,10.0,2018.0
+1819,Germany,Gas_CCGT,50.8126,9.978,52.3,
+1820,Germany,Gas_ST,50.81319000000001,9.97752,20.0,1995.0
+1821,Germany,Gas_CCGT,50.8132,9.9775,33.6,1965.0
+1822,Germany,Gas_CCGT,50.8305,6.9594,51.9,1975.0
+1823,Germany,Gas_OCGT,50.83051,6.95936,51.9,1996.0
+1824,Germany,Gas_ST,50.8379786,9.9987787,52.0,2013.0
+1825,Germany,Gas_OCGT,50.839167,6.321111,200.0,2006.0
+1826,Germany,Gas_OCGT,50.839167,6.321111,200.0,2006.0
+1827,Germany,Gas_CCGT,50.8617,6.8424,1230.0,
+1828,Germany,Gas_CCGT,50.861708,6.842353,430.0,2013.0
+1829,Germany,Gas_CCGT,50.861708,6.842353,800.0,2007.0
+1830,Germany,Gas_CCGT,50.8741,13.3944,13.5,2007.0
+1831,Germany,Gas_ST,50.87413,13.39436,18.72,1997.0
+1832,Germany,Gas_ST,50.87723010000001,12.0796208,17.3,2018.0
+1833,Germany,Gas_ST,50.87723010000001,12.0796208,22.1,2018.0
+1834,Germany,Gas_CCGT,50.894,9.9972,109.5,1967.0
+1835,Germany,Gas_CCGT,50.89401,9.99724,69.0,2009.0
+1836,Germany,Gas_ST,50.9076,12.06102,74.0,1996.0
+1837,Germany,Gas_CCGT,50.9076,12.061,148.0,1996.0
+1838,Germany,Gas_ST,50.913038,13.324848,13.4,2013.0
+1839,Germany,Gas_ST,50.94563,6.6649600000000015,3.0,1995.0
+1840,Germany,Gas_ST,50.974896,6.987769,459.9,2016.0
+1841,Germany,Gas_ST,50.978567,11.05158,11.0,1996.0
+1842,Germany,Gas_CCGT,50.9848,11.0299,109.1,
+1843,Germany,Gas_CCGT,50.989612,11.027635,76.5,1999.0
+1844,Germany,Gas_CCGT,50.989612,11.027635,32.6,2014.0
+1845,Germany,Gas_ST,51.017899,6.964045,15.5,2010.0
+1846,Germany,Gas_CCGT,51.0179,6.964,15.5,1965.0
+1847,Germany,Gas_ST,51.04885,12.11038,23.3,1993.0
+1848,Germany,Gas_ST,51.0867428,13.7647348,11.5,2018.0
+1849,Germany,Gas_CCGT,51.1514,13.9776,36.0,2014.0
+1850,Germany,Gas_OCGT,51.22116,6.73193,64.7,1975.0
+1851,Germany,Gas_OCGT,51.22116,6.73193,66.7,1974.0
+1852,Germany,Gas_CCGT,51.2212,6.7319,217.8,
+1853,Germany,Gas_ST,51.22138,6.7313100000000015,293.0,1977.0
+1854,Germany,Gas_CCGT,51.2214,6.7313,293.0,1976.0
+1855,Germany,Gas_CCGT,51.223975,6.73537,595.0,2016.0
+1856,Germany,Gas_CCGT,51.25308,9.4379,78.0,2011.0
+1857,Germany,Gas_CCGT,51.2531,9.4379,78.0,2013.0
+1858,Germany,Gas_CCGT,51.2545,6.7865,16.9,2012.0
+1859,Germany,Gas_ST,51.25454000000001,6.78648,21.1,2012.0
+1860,Germany,Gas_ST,51.25883,9.43341,12.2,
+1861,Germany,Gas_ST,51.279099,9.484012,48.31,1988.0
+1862,Germany,Gas_CCGT,51.2791,9.484,50.0,1987.0
+1863,Germany,Gas_CCGT,51.29976,12.0193,39.0,1998.0
+1864,Germany,Gas_CCGT,51.29976,12.0193,35.0,1994.0
+1865,Germany,Gas_CCGT,51.29976,12.0193,35.0,1994.0
+1866,Germany,Gas_CCGT,51.29976,12.0193,37.0,1994.0
+1867,Germany,Gas_CCGT,51.2998,12.0193,52.0,1998.0
+1868,Germany,Gas_CCGT,51.2998,12.0193,135.7,1994.0
+1869,Germany,Gas_ST,51.31981075,9.848941452,13.2,1990.0
+1870,Germany,Gas_ST,51.3387609,6.5853417,12.6,2011.0
+1871,Germany,Gas_CCGT,51.3388,6.5853,12.6,
+1872,Germany,Gas_OCGT,51.339183,6.664238,14.0,1999.0
+1873,Germany,Gas_ST,51.339183,6.664238,25.8,1999.0
+1874,Germany,Gas_CCGT,51.3392,6.6642,25.8,2004.0
+1875,Germany,Gas_CCGT,51.3392,6.6642,14.0,2004.0
+1876,Germany,Gas_CCGT,51.3679,6.7167,606.0,
+1877,Germany,Gas_ST,51.390662,6.747783,40.0,2002.0
+1878,Germany,Gas_CCGT,51.390662,6.747783,234.0,2005.0
+1879,Germany,Gas_CCGT,51.3907,6.7478,274.0,2005.0
+1880,Germany,Gas_CCGT,51.40313,7.4155,417.0,2007.0
+1881,Germany,Gas_CCGT,51.412,7.492,250.0,
+1882,Germany,Gas_CCGT,51.4597,6.7306,315.0,
+1883,Germany,Gas_ST,51.470671,6.861598,24.5,1996.0
+1884,Germany,Gas_ST,51.470671,6.861598,23.1,1971.0
+1885,Germany,Gas_CCGT,51.4707,6.8616,24.5,1995.0
+1886,Germany,Gas_CCGT,51.4707,6.8616,23.1,1972.0
+1887,Germany,Gas_ST,51.48096,11.96427,97.0,2005.0
+1888,Germany,Gas_CCGT,51.481,11.9643,254.0,
+1889,Germany,Gas_CCGT,51.491,6.7275,385.0,1958.0
+1890,Germany,Gas_ST,51.50795,7.25029,44.0,2013.0
+1891,Germany,Gas_CCGT,51.508,7.2503,44.0,2014.0
+1892,Germany,Gas_CCGT,51.516748,14.366559,50.0,
+1893,Germany,Gas_CCGT,51.52353,11.94337,56.1,2013.0
+1894,Germany,Gas_ST,51.56489000000001,6.578239999999999,79.0,1961.0
+1895,Germany,Gas_ST,51.57442,7.29794,0.9,2005.0
+1896,Germany,Gas_CCGT,51.59421,11.572945,9.0,
+1897,Germany,Gas_CCGT,51.6257,12.327,106.0,2000.0
+1898,Germany,Gas_CCGT,51.633861,12.299357,106.0,2000.0
+1899,Germany,Gas_CCGT,51.6627,10.3531,19.5,1978.0
+1900,Germany,Gas_ST,51.672453,7.709947,55.0,1973.0
+1901,Germany,Gas_CCGT,51.672453,7.709947,55.0,1973.0
+1902,Germany,Gas_ST,51.672453,7.709947,355.0,1973.0
+1903,Germany,Gas_CCGT,51.672453,7.709947,355.0,1973.0
+1904,Germany,Gas_CCGT,51.672453,7.709947,355.0,1973.0
+1905,Germany,Gas_OCGT,51.672453,7.709947,112.0,1984.0
+1906,Germany,Gas_ST,51.672453,7.709947,55.0,1973.0
+1907,Germany,Gas_CCGT,51.672453,7.709947,55.0,1973.0
+1908,Germany,Gas_CCGT,51.6725,7.7099,2004.5,
+1909,Germany,Gas_CCGT,51.6739,7.9291,838.0,2008.0
+1910,Germany,Gas_CCGT,51.67395,7.92915,407.0,2008.0
+1911,Germany,Gas_CCGT,51.67395,7.92915,410.0,2008.0
+1912,Germany,Gas_ST,51.68037,7.0968800000000005,60.76,2016.0
+1913,Germany,Gas_CCGT,51.68037,7.0968800000000005,61.13,1973.0
+1914,Germany,Gas_CCGT,51.68037,7.0968800000000005,77.57,1974.0
+1915,Germany,Gas_CCGT,51.6804,7.0969,139.0,
+1916,Germany,Gas_ST,51.72967,6.35865,11.4,2002.0
+1917,Germany,Gas_CCGT,51.7297,6.3586,11.4,2004.0
+1918,Germany,Gas_CCGT,51.8012,11.7544,66.0,1994.0
+1919,Germany,Gas_CCGT,51.802609,11.751511,140.5,1994.0
+1920,Germany,Gas_ST,51.82685,12.23003,39.0,1996.0
+1921,Germany,Gas_CCGT,51.8655,11.5738,132.0,1996.0
+1922,Germany,Gas_CCGT,51.865527,11.573813,100.0,2015.0
+1923,Germany,Gas_CCGT,51.9073,8.4088,22.0,1994.0
+1924,Germany,Gas_ST,51.907326,8.408835,25.0,1994.0
+1925,Germany,Gas_ST,51.983192,11.87656,17.8,1994.0
+1926,Germany,Gas_CCGT,51.9832,11.8766,18.0,1993.0
+1927,Germany,Gas_OCGT,51.98396,8.45139,55.0,1975.0
+1928,Germany,Gas_CCGT,51.9851,9.8225,20.0,1947.0
+1929,Germany,Gas_ST,51.98513,9.82246,11.0,1947.0
+1930,Germany,Gas_CCGT,51.9861,8.8073,10.2,1980.0
+1931,Germany,Gas_ST,51.98614,8.807319999999997,10.2,2017.0
+1932,Germany,Gas_CCGT,52.0262,8.8666,12.8,2002.0
+1933,Germany,Gas_ST,52.026244,8.866597,12.6,2001.0
+1934,Germany,Gas_ST,52.029657,8.907163,10.1,1980.0
+1935,Germany,Gas_CCGT,52.0333,8.5333,37.5,2005.0
+1936,Germany,Gas_ST,52.033503,8.539061,23.0,1977.0
+1937,Germany,Gas_ST,52.033503,8.539061,41.0,1966.0
+1938,Germany,Gas_CCGT,52.033503,8.539061,37.5,2005.0
+1939,Germany,Gas_ST,52.070093,11.385306,23.4,1994.0
+1940,Germany,Gas_ST,52.16921,9.7909,30.6,1953.0
+1941,Germany,Gas_ST,52.18696,8.93018,335.0,1975.0
+1942,Germany,Gas_OCGT,52.19004,8.93318,65.0,1974.0
+1943,Germany,Gas_CCGT,52.19507,8.6482,125.0,1981.0
+1944,Germany,Gas_CCGT,52.1951,8.6482,201.5,1980.0
+1945,Germany,Gas_OCGT,52.23015,13.30195,36.5,1987.0
+1946,Germany,Gas_OCGT,52.23015,13.30195,37.5,
+1947,Germany,Gas_OCGT,52.23015,13.30195,37.5,1989.0
+1948,Germany,Gas_OCGT,52.23015,13.30195,37.5,
+1949,Germany,Gas_OCGT,52.23015,13.30195,36.5,1987.0
+1950,Germany,Gas_OCGT,52.23015,13.30195,36.5,1987.0
+1951,Germany,Gas_OCGT,52.23015,13.30195,36.5,1987.0
+1952,Germany,Gas_OCGT,52.23015,13.30195,37.5,
+1953,Germany,Gas_CCGT,52.2302,13.3019,296.0,
+1954,Germany,Gas_ST,52.2321963,10.033285,17.11,2003.0
+1955,Germany,Gas_CCGT,52.2786,10.5147,137.3,
+1956,Germany,Gas_CCGT,52.278611,10.514722,20.0,1971.0
+1957,Germany,Gas_CCGT,52.278611,10.514722,74.0,2010.0
+1958,Germany,Gas_CCGT,52.2859,7.7461,33.4,1985.0
+1959,Germany,Gas_ST,52.295298,10.521672,10.4,2014.0
+1960,Germany,Gas_ST,52.29848,11.67963,27.0,1996.0
+1961,Germany,Gas_CCGT,52.2985,11.6796,52.0,1996.0
+1962,Germany,Gas_CCGT,52.346,14.546,48.0,1997.0
+1963,Germany,Gas_CCGT,52.3667,9.7167,102.0,1975.0
+1964,Germany,Gas_CCGT,52.3729,9.7142,230.0,
+1965,Germany,Gas_CCGT,52.372917,9.714194,230.0,1998.0
+1966,Germany,Gas_CCGT,52.399,9.681,100.0,
+1967,Germany,Gas_CCGT,52.4185,9.3681,19.0,1974.0
+1968,Germany,Gas_ST,52.41852,9.36815,11.0,1974.0
+1969,Germany,Gas_ST,52.42,9.648611,102.0,1975.0
+1970,Germany,Gas_ST,52.42224307,13.31271298,289.0,2019.0
+1971,Germany,Gas_CCGT,52.4252,13.3098,432.0,
+1972,Germany,Gas_ST,52.42520804,13.30976486,144.0,1972.0
+1973,Germany,Gas_ST,52.42520804,13.30976486,144.0,1974.0
+1974,Germany,Gas_ST,52.42520804,13.30976486,144.0,
+1975,Germany,Gas_CCGT,52.481878,7.306658,116.0,1974.0
+1976,Germany,Gas_CCGT,52.481878,7.306658,116.0,1973.0
+1977,Germany,Gas_CCGT,52.481878,7.306658,359.0,1973.0
+1978,Germany,Gas_CCGT,52.481878,7.306658,359.0,1974.0
+1979,Germany,Gas_CCGT,52.481878,7.306658,887.0,2010.0
+1980,Germany,Gas_CCGT,52.4819,7.3067,1837.0,
+1981,Germany,Gas_ST,52.48891639,13.49696159,164.0,1981.0
+1982,Germany,Gas_ST,52.52185624,13.31109524,144.0,1975.0
+1983,Germany,Gas_CCGT,52.5219,13.3111,633.0,1975.0
+1984,Germany,Gas_ST,52.53931,13.363904000000002,15.0,1972.0
+1985,Germany,Gas_OCGT,52.54585,9.11363,56.0,1973.0
+1986,Germany,Gas_ST,52.54585,9.11363,431.0,1973.0
+1987,Germany,Gas_CCGT,52.5895,13.5587,150.0,1990.0
+1988,Germany,Gas_OCGT,52.58950001,13.5586524,37.5,1990.0
+1989,Germany,Gas_OCGT,52.58950001,13.5586524,37.5,1990.0
+1990,Germany,Gas_OCGT,52.58950001,13.5586524,37.5,1990.0
+1991,Germany,Gas_OCGT,52.58950001,13.5586524,37.5,1990.0
+1992,Germany,Gas_CCGT,52.59,13.558,152.0,
+1993,Germany,Gas_CCGT,52.6087,11.8325,22.0,1994.0
+1994,Germany,Gas_ST,52.6087132,11.8324507,13.2,1994.0
+1995,Germany,Gas_ST,52.61796,7.86188,18.1,1996.0
+1996,Germany,Gas_CCGT,52.618,7.8619,18.1,1995.0
+1997,Germany,Gas_CCGT,52.83,11.1033,11.4,1995.0
+1998,Germany,Gas_ST,52.83005,11.10328,11.4,1999.0
+1999,Germany,Gas_CCGT,52.9,9.65,22.1,1912.0
+2000,Germany,Gas_ST,52.904778,9.658513,12.75,1969.0
+2001,Germany,Gas_ST,53.060080000000006,8.873280000000003,155.0,
+2002,Germany,Gas_CCGT,53.12099,8.734776,14.8,2002.0
+2003,Germany,Gas_CCGT,53.12891,8.68524,444.5,2016.0
+2004,Germany,Gas_ST,53.34217,7.206239999999998,433.0,1973.0
+2005,Germany,Gas_CCGT,53.3422,7.2062,50.0,1973.0
+2006,Germany,Gas_ST,53.40317,8.128210000000001,0.48,1968.0
+2007,Germany,Gas_ST,53.517684,9.950793,22.5,1993.0
+2008,Germany,Gas_CCGT,53.5177,9.9508,22.5,1992.0
+2009,Germany,Gas_CCGT,53.6519,9.5079,173.0,2014.0
+2010,Germany,Gas_ST,53.65191970000001,9.5078665,190.0,
+2011,Germany,Gas_CCGT,53.65191970000001,9.5078665,157.0,2015.0
+2012,Germany,Gas_OCGT,54.07039,13.39886,14.7,1996.0
+2013,Germany,Gas_CCGT,54.0973,13.385,14.7,1996.0
+2014,Germany,Gas_ST,54.137883,13.667148999999998,38.0,2013.0
+2015,Germany,Gas_CCGT,54.1379,13.6671,37.7,2014.0
+2016,Germany,Gas_CCGT,54.3275,10.1267,31.0,
+2017,Germany,Gas_ST,54.327536,10.12674,21.5,2005.0
+2018,Germany,Gas_ST,54.34283810000001,10.182981,188.0,2019.0
+2019,Germany,Gas_CCGT,54.804777,9.433357,78.0,2016.0
+2020,Germany,Gas_ST,54.80499185,9.430484771,29.0,2016.0
+2021,Greece,Gas_CCGT,35.488,24.0384,134.0,1998.0
+2022,Greece,Gas_CCGT,37.418,22.1083,811.0,
+2023,Greece,Gas_CCGT,37.7463,24.0666,723.0,
+2024,Greece,Gas_CCGT,37.747,24.068,173.0,
+2025,Greece,Gas_CCGT,37.9208,23.0665,437.0,2012.0
+2026,Greece,Gas_CCGT,37.9539,23.6104,360.0,
+2027,Greece,Gas_CCGT,38.2365,22.95,421.0,2010.0
+2028,Greece,Gas_CCGT,38.2792,23.3299,432.0,2010.0
+2029,Greece,Gas_CCGT,38.2801,23.3264,148.0,
+2030,Greece,Gas_CCGT,38.3585,22.6883,444.0,2011.0
+2031,Greece,Gas_CCGT,38.3896,24.0524,420.0,
+2032,Greece,Gas_CCGT,38.39,24.052,417.0,
+2033,Greece,Gas_CCGT,40.6872,22.885,390.0,2005.0
+2034,Greece,Gas_CCGT,41.0646,25.4899,485.0,2002.0
+2035,Ireland,Gas_CCGT,51.8161,-8.2511,445.0,
+2036,Ireland,Gas_CCGT,51.8347,-8.2362,528.0,
+2037,Ireland,Gas_CCGT,51.8347,-8.2362,435.0,
+2038,Ireland,Gas_CCGT,51.9,-8.4458,88.0,
+2039,Ireland,Gas_CCGT,52.621,-9.066,166.0,
+2040,Ireland,Gas_CCGT,52.6324,-9.0596,166.0,
+2041,Ireland,Gas_CCGT,53.1658,-8.381,388.5,
+2042,Ireland,Gas_CCGT,53.3396,-6.1867,480.0,
+2043,Ireland,Gas_CCGT,53.34,-6.2049,415.0,
+2044,Ireland,Gas_CCGT,53.406,-6.345,12.0,
+2045,Ireland,Gas_CCGT,53.4119,-6.3261,343.0,
+2046,Ireland,Gas_CCGT,53.4119,-6.3261,404.0,
+2047,Hungary,Gas_CCGT,46.0641,18.2646,45.8,
+2048,Hungary,Gas_CCGT,47.095,17.556,114.0,
+2049,Hungary,Gas_CCGT,47.328,18.918,58.0,
+2050,Hungary,Gas_CCGT,47.3283,18.9169,840.7,
+2051,Hungary,Gas_CCGT,47.335,19.022,49.0,
+2052,Hungary,Gas_CCGT,47.428,19.0525,401.0,
+2053,Hungary,Gas_CCGT,47.4568,19.1673,109.2,
+2054,Hungary,Gas_CCGT,47.462,19.056,17.1,
+2055,Hungary,Gas_CCGT,47.4624,19.0563,173.0,
+2056,Hungary,Gas_CCGT,47.464,19.056,173.0,
+2057,Hungary,Gas_CCGT,47.5185,21.6329,95.0,
+2058,Hungary,Gas_CCGT,47.548,19.073,63.1,
+2059,Hungary,Gas_CCGT,47.56,18.427,43.0,
+2060,Hungary,Gas_CCGT,47.7384,17.8033,426.6,
+2061,Hungary,Gas_CCGT,47.9178,21.0784,864.0,
+2062,Hungary,Gas_CCGT,48.095,20.742,107.6,
+2063,Hungary,Gas_CCGT,48.26,20.638,58.1,
+2064,Italy,Gas_CCGT,37.129,15.202,61.0,
+2065,Italy,Gas_CCGT,37.1313,15.2014,480.0,
+2066,Italy,Gas_CCGT,37.139,15.216,43.0,
+2067,Italy,Gas_CCGT,37.1399,15.2158,521.0,1998.0
+2068,Italy,Gas_CCGT,37.14,15.2159,750.0,
+2069,Italy,Gas_CCGT,37.179,15.182,480.0,
+2070,Italy,Gas_CCGT,37.221,15.179,44.0,
+2071,Italy,Gas_CCGT,37.2814,13.521,280.0,2001.0
+2072,Italy,Gas_CCGT,37.9684,13.7512,1235.0,
+2073,Italy,Gas_CCGT,37.969,13.748,1221.0,
+2074,Italy,Gas_CCGT,38.0,12.567,212.0,
+2075,Italy,Gas_CCGT,38.0158,12.5108,213.4,
+2076,Italy,Gas_CCGT,38.197,15.267,152.0,
+2077,Italy,Gas_CCGT,38.2212,15.2383,162.9,
+2078,Italy,Gas_CCGT,38.4453,15.99,760.0,
+2079,Italy,Gas_CCGT,38.8759,16.6569,760.0,
+2080,Italy,Gas_CCGT,39.1022,17.0325,826.0,
+2081,Italy,Gas_CCGT,39.1037,9.0063,630.0,2000.0
+2082,Italy,Gas_CCGT,39.7118,16.215,808.0,2006.0
+2083,Italy,Gas_CCGT,40.247,9.623,38.0,
+2084,Italy,Gas_CCGT,40.314,15.898,12.0,
+2085,Italy,Gas_CCGT,40.484,17.185,38.0,
+2086,Italy,Gas_CCGT,40.484,17.185,400.0,
+2087,Italy,Gas_CCGT,40.484,17.185,66.0,
+2088,Italy,Gas_CCGT,40.504,17.203,450.0,
+2089,Italy,Gas_CCGT,40.553,14.222,5.0,
+2090,Italy,Gas_CCGT,40.6293,18.0033,1260.0,
+2091,Italy,Gas_CCGT,40.648,14.409,41.0,
+2092,Italy,Gas_CCGT,40.8339,14.3006,400.0,2009.0
+2093,Italy,Gas_CCGT,40.939,14.368,75.0,
+2094,Italy,Gas_CCGT,41.0092,14.2281,400.0,2007.0
+2095,Italy,Gas_CCGT,41.0197,14.37,352.0,1977.0
+2096,Italy,Gas_CCGT,41.1025,16.756,800.0,2010.0
+2097,Italy,Gas_CCGT,41.1783,14.1129,760.0,
+2098,Italy,Gas_CCGT,41.2014,15.4762,400.0,
+2099,Italy,Gas_CCGT,41.498,13.781,12.0,
+2100,Italy,Gas_CCGT,41.5616,12.6337,787.0,
+2101,Italy,Gas_CCGT,41.719,13.613,42.0,
+2102,Italy,Gas_CCGT,41.736,12.97,44.0,
+2103,Italy,Gas_CCGT,41.741,15.054,11.0,
+2104,Italy,Gas_CCGT,41.8,12.246,10.0,
+2105,Italy,Gas_CCGT,41.8055,14.9193,250.0,1992.0
+2106,Italy,Gas_CCGT,41.8117,12.4228,223.0,
+2107,Italy,Gas_CCGT,41.813,12.424,18.0,
+2108,Italy,Gas_CCGT,41.9369,15.0004,769.0,2006.0
+2109,Italy,Gas_CCGT,42.0458,13.5475,180.0,1998.0
+2110,Italy,Gas_CCGT,42.046,13.547,175.0,
+2111,Italy,Gas_CCGT,42.0502,14.5639,840.0,2004.0
+2112,Italy,Gas_CCGT,42.1241,11.7624,1488.0,
+2113,Italy,Gas_CCGT,42.2002,13.8398,125.0,1994.0
+2114,Italy,Gas_CCGT,42.3496,14.4039,104.0,2013.0
+2115,Italy,Gas_CCGT,42.3572,11.5373,3446.0,
+2116,Italy,Gas_CCGT,42.498,12.474,56.0,
+2117,Italy,Gas_CCGT,42.554,12.6176,95.0,
+2118,Italy,Gas_CCGT,42.913,10.823,11.0,
+2119,Italy,Gas_CCGT,42.926,10.526,58.0,
+2120,Italy,Gas_CCGT,42.941,10.544,181.0,
+2121,Italy,Gas_CCGT,42.9954,12.1995,365.0,
+2122,Italy,Gas_CCGT,43.058,11.606,137.0,
+2123,Italy,Gas_CCGT,43.367,10.45,380.0,
+2124,Italy,Gas_CCGT,43.5537,13.285,140.0,2001.0
+2125,Italy,Gas_CCGT,43.565,11.4777,390.0,2006.0
+2126,Italy,Gas_CCGT,43.8235,10.6023,100.0,1996.0
+2127,Italy,Gas_CCGT,44.024,10.114,31.0,
+2128,Italy,Gas_CCGT,44.078,10.04,11.0,
+2129,Italy,Gas_CCGT,44.2755,8.4305,1353.0,2007.0
+2130,Italy,Gas_CCGT,44.37,11.704,86.0,
+2131,Italy,Gas_CCGT,44.384,7.543,48.0,
+2132,Italy,Gas_CCGT,44.384,7.543,27.0,
+2133,Italy,Gas_CCGT,44.4836,12.2652,750.0,2002.0
+2134,Italy,Gas_CCGT,44.5947,7.4858,140.0,
+2135,Italy,Gas_CCGT,44.703,8.027,50.0,
+2136,Italy,Gas_CCGT,44.824,10.376,35.0,
+2137,Italy,Gas_CCGT,44.9167,10.25,137.0,
+2138,Italy,Gas_CCGT,44.993,7.6755,780.0,
+2139,Italy,Gas_CCGT,45.0178,12.2408,125.0,
+2140,Italy,Gas_CCGT,45.022,11.311,54.0,
+2141,Italy,Gas_CCGT,45.0265,11.2522,1151.0,2004.0
+2142,Italy,Gas_CCGT,45.0296,8.9723,380.5,
+2143,Italy,Gas_CCGT,45.04,12.219,134.0,
+2144,Italy,Gas_CCGT,45.0522,9.5072,180.0,1998.0
+2145,Italy,Gas_CCGT,45.0543,9.7086,806.0,2006.0
+2146,Italy,Gas_CCGT,45.056,12.056,15.0,
+2147,Italy,Gas_CCGT,45.0603,11.1374,1457.0,2013.0
+2148,Italy,Gas_CCGT,45.072,7.679,395.0,
+2149,Italy,Gas_CCGT,45.074,6.696,18.0,
+2150,Italy,Gas_CCGT,45.0904,9.4805,1465.85,
+2151,Italy,Gas_CCGT,45.163,7.7505,379.5,2007.0
+2152,Italy,Gas_CCGT,45.1856,7.9016,1123.0,
+2153,Italy,Gas_CCGT,45.2268,9.6377,800.0,2011.0
+2154,Italy,Gas_CCGT,45.2372,8.1932,804.0,
+2155,Italy,Gas_CCGT,45.297,8.41,50.0,
+2156,Italy,Gas_CCGT,45.3325,9.4364,1520.0,2005.0
+2157,Italy,Gas_CCGT,45.391,7.781,15.0,
+2158,Italy,Gas_CCGT,45.3993,10.7142,400.0,
+2159,Italy,Gas_CCGT,45.416,9.284,61.0,
+2160,Italy,Gas_CCGT,45.434,10.998,11.0,
+2161,Italy,Gas_CCGT,45.437,9.169,19.0,
+2162,Italy,Gas_CCGT,45.4458,12.2552,752.5,1992.0
+2163,Italy,Gas_CCGT,45.4511,12.2239,240.0,1993.0
+2164,Italy,Gas_CCGT,45.452,9.276,18.0,
+2165,Italy,Gas_CCGT,45.457,8.65,97.0,
+2166,Italy,Gas_CCGT,45.462,12.238,236.0,
+2167,Italy,Gas_CCGT,45.463,8.829,88.0,
+2168,Italy,Gas_CCGT,45.5115,9.5098,969.0,
+2169,Italy,Gas_CCGT,45.512,9.509,972.0,2000.0
+2170,Italy,Gas_CCGT,45.529,9.279,53.0,
+2171,Italy,Gas_CCGT,45.615,8.402,18.0,
+2172,Italy,Gas_CCGT,45.62,8.74,80.0,
+2173,Italy,Gas_CCGT,45.756,12.314,5.0,
+2174,Italy,Gas_CCGT,45.793,13.583,120.0,
+2175,Italy,Gas_CCGT,45.817,13.2891,785.0,2006.0
+2176,Italy,Gas_CCGT,45.884,10.842,55.0,
+2177,Italy,Gas_CCGT,46.073,12.036,10.0,
+2178,Italy,Gas_CCGT,46.075,11.122,29.0,
+2179,Latvia,Gas_CCGT,56.918,24.2766,863.0,
+2180,Latvia,Gas_CCGT,56.9904,24.1788,138.0,
+2181,Lithuania,Gas_CCGT,54.667,25.152,360.0,
+2182,Lithuania,Gas_CCGT,54.6676,25.156,360.0,
+2183,Lithuania,Gas_CCGT,54.7701,24.6474,1800.0,
+2184,Lithuania,Gas_CCGT,54.9212,24.018,170.0,
+2185,Lithuania,Gas_CCGT,56.3843,22.1841,160.0,
+2186,Luxembourg,Gas_CCGT,49.5119,5.9646,385.0,
+2187,Netherlands,Gas_CCGT,51.3331,3.7787,456.0,
+2188,Netherlands,Gas_CCGT,51.4482,3.6928,870.0,2010.0
+2189,Netherlands,Gas_CCGT,51.89,4.355,426.0,
+2190,Netherlands,Gas_CCGT,51.8902,4.3552,427.0,
+2191,Netherlands,Gas_CCGT,51.891,4.342,130.0,
+2192,Netherlands,Gas_CCGT,51.891,4.342,130.0,
+2193,Netherlands,Gas_CCGT,51.893,4.347,790.0,
+2194,Netherlands,Gas_CCGT,51.958,4.094,422.0,
+2195,Netherlands,Gas_CCGT,52.1017,5.0794,227.0,
+2196,Netherlands,Gas_CCGT,52.3389,5.0213,684.0,1995.0
+2197,Netherlands,Gas_CCGT,52.468,6.1088,349.0,
+2198,Netherlands,Gas_CCGT,52.4758,4.6048,114.0,1997.0
+2199,Netherlands,Gas_CCGT,52.5772,5.53,999.0,2010.0
+2200,Netherlands,Gas_CCGT,52.5772,5.53,880.0,2010.0
+2201,Netherlands,Gas_CCGT,53.21,6.03,131.0,
+2202,Netherlands,Gas_CCGT,53.3185,6.9544,530.0,
+2203,Netherlands,Gas_CCGT,53.4441,6.856,2465.0,1996.0
+2204,Netherlands,Gas_CCGT,53.4502,6.8548,1311.0,2013.0
+2205,Norway,Gas_CCGT,59.275,5.506,420.0,
+2206,Norway,Gas_CCGT,59.2751,5.5129,520.0,
+2207,Norway,Gas_CCGT,59.839,10.857,31.0,
+2208,Norway,Gas_CCGT,60.226,10.34,0.6,
+2209,Norway,Gas_CCGT,60.431,6.429,12.7,
+2210,Norway,Gas_CCGT,60.8085,5.0374,382.0,
+2211,Norway,Gas_CCGT,60.815,5.033,328.0,
+2212,Norway,Gas_CCGT,60.85199999999999,11.274,17.5,
+2213,Norway,Gas_CCGT,62.839,6.924,215.10000000000002,
+2214,Norway,Gas_CCGT,62.8489,6.9433,253.0,
+2215,Norway,Gas_CCGT,63.321,9.883,31.0,
+2216,Norway,Gas_CCGT,63.409,8.686,166.60000000000002,
+2217,Norway,Gas_CCGT,63.409,8.686,37.5,
+2218,Norway,Gas_CCGT,69.2306,18.0889,49.0,
+2219,Norway,Gas_CCGT,69.236,18.094,48.900000000000006,
+2220,Norway,Gas_CCGT,70.684,23.5929,250.0,
+2221,Norway,Gas_CCGT,71.569,21.226,230.0,
+2222,Poland,Gas_CCGT,49.8123,19.0538,77.0,1973.0
+2223,Poland,Gas_CCGT,49.9672,18.6943,14.0,
+2224,Poland,Gas_CCGT,50.0468,18.7609,11.0,
+2225,Poland,Gas_CCGT,50.0646,22.0294,129.0,
+2226,Poland,Gas_CCGT,50.067,22.067,101.0,
+2227,Poland,Gas_CCGT,50.1576,18.6505,16.0,
+2228,Poland,Gas_CCGT,50.3172,22.3237,116.0,2000.0
+2229,Poland,Gas_CCGT,50.34,19.331,113.6,
+2230,Poland,Gas_CCGT,50.35,18.283,158.0,
+2231,Poland,Gas_CCGT,50.3562,18.2907,158.0,
+2232,Poland,Gas_CCGT,51.2161,22.5583,231.0,2002.0
+2233,Poland,Gas_CCGT,51.9514,15.4879,188.0,1974.0
+2234,Poland,Gas_CCGT,52.1572,22.3061,51.0,2002.0
+2235,Poland,Gas_CCGT,52.588,19.678,630.0,
+2236,Poland,Gas_CCGT,52.7074,18.9589,453.0,2017.0
+2237,Poland,Gas_CCGT,52.75,15.27,138.0,
+2238,Poland,Gas_CCGT,52.7504,15.2712,243.0,
+2239,Poland,Gas_CCGT,53.0475,18.6932,106.0,
+2240,Poland,Gas_CCGT,53.055,18.69,100.6,
+2241,Poland,Gas_CCGT,54.7921,18.4228,11.0,2002.0
+2242,Portugal,Gas_CCGT,39.0118,-8.9521,1176.0,2005.0
+2243,Portugal,Gas_CCGT,39.4689,-8.1113,837.0,
+2244,Portugal,Gas_CCGT,39.47,-8.116,836.0,
+2245,Portugal,Gas_CCGT,40.1245,-8.775,826.0,2009.0
+2246,Portugal,Gas_CCGT,41.068,-8.457,990.0,
+2247,Portugal,Gas_CCGT,41.07,-8.4587,990.0,
+2248,Romania,Gas_CCGT,44.372,26.1073,184.0,
+2249,Romania,Gas_CCGT,44.373,26.107,184.0,
+2250,Romania,Gas_CCGT,44.4233,25.979,280.0,
+2251,Romania,Gas_CCGT,44.4233,25.979,298.0,
+2252,Romania,Gas_CCGT,44.864,26.019,196.0,
+2253,Romania,Gas_CCGT,44.8802,25.9988,220.0,2007.0
+2254,Romania,Gas_CCGT,44.8802,25.9988,860.0,2012.0
+2255,Romania,Gas_CCGT,45.165,27.924,437.0,
+2256,Romania,Gas_CCGT,45.166,27.9235,413.0,
+2257,Romania,Gas_CCGT,45.436,27.9814,346.0,
+2258,Romania,Gas_CCGT,46.248,26.837,194.0,
+2259,Romania,Gas_CCGT,46.4677,24.1833,751.0,
+2260,Slovakia,Gas_CCGT,48.1775,17.1548,218.0,
+2261,Slovakia,Gas_CCGT,48.2022,18.597,80.0,
+2262,Slovakia,Gas_CCGT,48.4296,17.6978,430.0,
+2263,Slovenia,Gas_CCGT,45.9975,15.4796,297.0,
+2264,Slovenia,Gas_OCGT,45.99757,15.47853,23.0,1975.0
+2265,Slovenia,Gas_OCGT,45.99757,15.47853,23.0,1975.0
+2266,Slovenia,Gas_OCGT,45.99757,15.47853,23.0,1975.0
+2267,Slovenia,Gas_OCGT,45.99757,15.47853,114.0,2000.0
+2268,Slovenia,Gas_OCGT,45.99757,15.47853,114.0,2000.0
+2269,Slovenia,Gas_OCGT,45.99757,15.47853,53.0,
+2270,Spain,Gas_CCGT,0.7046,42.8025,14.95,1999.0
+2271,Spain,Gas_CCGT,7.5732,-0.9392,1199.25,2006.0
+2272,Spain,Gas_CCGT,36.1829,-5.3905,731.0,1970.0
+2273,Spain,Gas_CCGT,36.1829,-5.3905,820.536,2009.0
+2274,Spain,Gas_CCGT,36.1834,-5.3933,780.6600000000001,2004.0
+2275,Spain,Gas_CCGT,36.1955,-5.4131,791.6800000000001,2002.0
+2276,Spain,Gas_CCGT,36.6721,-5.8164,1585.39,2005.0
+2277,Spain,Gas_CCGT,36.7334,-3.5413,48.8,2001.0
+2278,Spain,Gas_CCGT,36.7495,-4.5631,415.509,2009.0
+2279,Spain,Gas_CCGT,37.1843,-6.8857,1167.0,2004.0
+2280,Spain,Gas_CCGT,37.2156,-6.943,390.94,2006.0
+2281,Spain,Gas_CCGT,37.2583,-6.9508,10.0,2009.0
+2282,Spain,Gas_CCGT,37.2583,-6.9508,50.0,2012.0
+2283,Spain,Gas_CCGT,37.5624,-5.1254,18.0,
+2284,Spain,Gas_CCGT,37.5732,-0.9392,815.64,2006.0
+2285,Spain,Gas_CCGT,37.5732,-0.9392,1248.82,2006.0
+2286,Spain,Gas_CCGT,37.6051,-0.9862,21.666,2012.0
+2287,Spain,Gas_CCGT,38.6478,-4.1214,80.5,1994.0
+2288,Spain,Gas_CCGT,38.679,-4.056,80.5,
+2289,Spain,Gas_CCGT,38.8167,-0.6167,12.68,
+2290,Spain,Gas_CCGT,39.5672,2.6895,429.0,2009.0
+2291,Spain,Gas_CCGT,39.6426,-0.2344,1232.19,2007.0
+2292,Spain,Gas_CCGT,39.8964,4.2597,50.0,2008.0
+2293,Spain,Gas_CCGT,39.9427,-3.8548,758.74,2006.0
+2294,Spain,Gas_CCGT,39.9592,-0.001,839.35,2008.0
+2295,Spain,Gas_CCGT,39.9592,-0.001,782.0,2002.0
+2296,Spain,Gas_CCGT,40.0667,-0.2,17.763,
+2297,Spain,Gas_CCGT,40.0667,-0.2,14.071,
+2298,Spain,Gas_CCGT,40.8125,0.5216,39.58,2011.0
+2299,Spain,Gas_CCGT,40.8436,-1.8876,10.0,2000.0
+2300,Spain,Gas_CCGT,40.9596,0.8692,819.03,2007.0
+2301,Spain,Gas_CCGT,41.1081,1.1912,802.84,2004.0
+2302,Spain,Gas_CCGT,41.2167,-0.2928,790.68,2006.0
+2303,Spain,Gas_CCGT,41.256,1.651,505.5,
+2304,Spain,Gas_CCGT,41.281,-0.218,274.6,
+2305,Spain,Gas_CCGT,41.2977,-0.3376,274.635,2007.0
+2306,Spain,Gas_CCGT,41.2977,-0.3376,804.36,2008.0
+2307,Spain,Gas_CCGT,41.3366,2.1594,866.3,2010.0
+2308,Spain,Gas_CCGT,41.4196,2.2294,1670.81,2010.0
+2309,Spain,Gas_CCGT,41.6333,0.9,10.0,2005.0
+2310,Spain,Gas_CCGT,41.6552,-4.7237,46.0,
+2311,Spain,Gas_CCGT,41.6561,-0.8773,22.0,
+2312,Spain,Gas_CCGT,41.67,-0.869,189.2,
+2313,Spain,Gas_CCGT,41.6704,-3.6892,31.866,2003.0
+2314,Spain,Gas_CCGT,41.673,-3.68,139.4,
+2315,Spain,Gas_CCGT,42.1519,0.2225,23.92,1999.0
+2316,Spain,Gas_CCGT,42.1718,-1.6773,424.91,2002.0
+2317,Spain,Gas_CCGT,42.1718,-1.6773,797.41,2007.0
+2318,Spain,Gas_CCGT,42.2793,-1.7463,13.5,
+2319,Spain,Gas_CCGT,42.4167,-8.6667,26.62,2008.0
+2320,Spain,Gas_CCGT,42.4194,-2.2511,784.7,2005.0
+2321,Spain,Gas_CCGT,42.5273,-8.0086,93.0,
+2322,Spain,Gas_CCGT,42.5741,0.1824,10.0,
+2323,Spain,Gas_CCGT,42.85,-2.6667,47.0,
+2324,Spain,Gas_CCGT,42.8805,-8.5457,23.96,2002.0
+2325,Spain,Gas_CCGT,43.2347,-2.7497,786.42,2005.0
+2326,Spain,Gas_CCGT,43.2596,-1.9688,79.918,
+2327,Spain,Gas_CCGT,43.3048,-8.5075,12.0,1999.0
+2328,Spain,Gas_CCGT,43.3161,-5.8777,854.1700000000001,2011.0
+2329,Spain,Gas_CCGT,43.324,-3.104,80.9,
+2330,Spain,Gas_CCGT,43.329,-8.503,391.31,2008.0
+2331,Spain,Gas_CCGT,43.34,-3.0539,396.4,2005.0
+2332,Spain,Gas_CCGT,43.4451,-7.8621,855.67,2008.0
+2333,Spain,Gas_CCGT,43.5354,-6.7193,24.0,
+2334,Sweden,Gas_CCGT,55.625626,13.040265,448.0,
+2335,Sweden,Gas_CCGT,55.6261,13.0404,440.0,
+2336,Sweden,Gas_CCGT,57.6924,11.8905,261.0,
+2337,Sweden,Gas_CCGT,57.692831000000005,11.890257,260.0,
+2338,Sweden,Gas_CCGT,59.3532,18.0985,639.0,1980.0
+2339,United Kingdom,Gas_CCGT,50.3882,-4.0118,905.0,
+2340,United Kingdom,Gas_CCGT,50.7469,-1.2862,140.0,
+2341,United Kingdom,Gas_CCGT,50.818,-1.329,150.0,
+2342,United Kingdom,Gas_CCGT,50.8292,-0.2311,420.0,
+2343,United Kingdom,Gas_CCGT,50.83,-0.232,420.0,
+2344,United Kingdom,Gas_CCGT,50.8998,-1.4384,842.0,
+2345,United Kingdom,Gas_CCGT,51.3875,-3.4068,51.0,
+2346,United Kingdom,Gas_CCGT,51.4089,-3.2301,235.0,
+2347,United Kingdom,Gas_CCGT,51.4249,0.6014,805.0,
+2348,United Kingdom,Gas_CCGT,51.4396,0.6894,700.0,
+2349,United Kingdom,Gas_CCGT,51.4444,0.7114,56.0,
+2350,United Kingdom,Gas_CCGT,51.46,-2.1247,10.0,
+2351,United Kingdom,Gas_CCGT,51.5119,0.5079,800.0,
+2352,United Kingdom,Gas_CCGT,51.5392,-2.67,410.0,
+2353,United Kingdom,Gas_CCGT,51.5392,-2.67,812.0,
+2354,United Kingdom,Gas_CCGT,51.5459,-0.2575,144.0,
+2355,United Kingdom,Gas_CCGT,51.5475,-2.975,850.0,
+2356,United Kingdom,Gas_CCGT,51.5924,-3.7802,32.3,
+2357,United Kingdom,Gas_CCGT,51.6145,-3.8352,520.0,
+2358,United Kingdom,Gas_CCGT,51.615,-3.828,32.0,
+2359,United Kingdom,Gas_CCGT,51.6246,-1.2683,1470.0,
+2360,United Kingdom,Gas_CCGT,51.6246,-1.2683,100.0,
+2361,United Kingdom,Gas_CCGT,51.6625,-0.0225,408.0,
+2362,United Kingdom,Gas_CCGT,51.685,-4.99,2180.0,
+2363,United Kingdom,Gas_CCGT,51.7626,0.0094,715.0,
+2364,United Kingdom,Gas_CCGT,52.2046,-0.2693,720.0,
+2365,United Kingdom,Gas_CCGT,52.2046,-0.2693,17.0,
+2366,United Kingdom,Gas_CCGT,52.5104,-0.6814,401.0,
+2367,United Kingdom,Gas_CCGT,52.5769,-0.204,240.0,
+2368,United Kingdom,Gas_CCGT,52.5839,1.7338,420.0,
+2369,United Kingdom,Gas_CCGT,52.754,-1.913,50.0,
+2370,United Kingdom,Gas_CCGT,52.7579,0.1923,819.0,
+2371,United Kingdom,Gas_CCGT,52.773,-0.1441,880.0,
+2372,United Kingdom,Gas_CCGT,52.862,-1.25,34.0,
+2373,United Kingdom,Gas_CCGT,52.8653,-1.255,34.0,
+2374,United Kingdom,Gas_CCGT,53.073,-0.8585,1772.0,
+2375,United Kingdom,Gas_CCGT,53.1623,-2.4037,56.0,
+2376,United Kingdom,Gas_CCGT,53.2317,-3.0815,1380.0,
+2377,United Kingdom,Gas_CCGT,53.2332,-3.0547,515.0,
+2378,United Kingdom,Gas_CCGT,53.3051,-0.7858,395.0,
+2379,United Kingdom,Gas_CCGT,53.3147,-2.7232,810.0,
+2380,United Kingdom,Gas_CCGT,53.361,-0.812,40.0,
+2381,United Kingdom,Gas_CCGT,53.3631,-0.7976,40.0,
+2382,United Kingdom,Gas_CCGT,53.3631,-0.7976,1332.0,
+2383,United Kingdom,Gas_CCGT,53.373,-2.688,34.0,
+2384,United Kingdom,Gas_CCGT,53.4366,-2.4077,900.0,
+2385,United Kingdom,Gas_CCGT,53.5411,-0.5055,150.0,
+2386,United Kingdom,Gas_CCGT,53.5944,-0.7504,25.0,
+2387,United Kingdom,Gas_CCGT,53.6008,-0.1446,1310.0,
+2388,United Kingdom,Gas_CCGT,53.6535,-0.2556,600.0,
+2389,United Kingdom,Gas_CCGT,53.6908,-1.6291,50.0,
+2390,United Kingdom,Gas_CCGT,53.717,-1.282,34.0,
+2391,United Kingdom,Gas_CCGT,53.7259,-1.3626,56.0,
+2392,United Kingdom,Gas_CCGT,53.735,-0.2432,1200.0,
+2393,United Kingdom,Gas_CCGT,53.7364,-0.9981,75.0,
+2394,United Kingdom,Gas_CCGT,53.737,-0.997,96.0,
+2395,United Kingdom,Gas_CCGT,53.75,-2.4833,59.0,
+2396,United Kingdom,Gas_CCGT,54.7251,-5.7643,142.0,
+2397,United Kingdom,Gas_CCGT,54.8428,-5.7853,616.0,
+2398,United Kingdom,Gas_CCGT,54.845,-5.787,116.0,
+2399,United Kingdom,Gas_CCGT,54.845,-5.787,540.0,
+2400,United Kingdom,Gas_CCGT,55.0437,-7.2487,53.0,
+2401,United Kingdom,Gas_CCGT,55.0437,-7.2487,408.0,
+2402,United Kingdom,Gas_CCGT,55.044,-7.245,53.0,
+2403,United Kingdom,Gas_CCGT,56.01,-3.692,144.0,
+2404,United Kingdom,Gas_CCGT,57.4772,-1.7889,1180.0,

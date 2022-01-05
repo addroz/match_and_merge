@@ -17,7 +17,7 @@ def read_and_prepare_data():
     cpp_db = remove_trailing_whitespaces(pd.read_csv(config.CPP_FILE_PATH, low_memory = False))
 
     jrc_db = jrc_db[(jrc_db['year_commissioned'].isna()) |
-                    jrc_db['year_commissioned'] >= config.DATA_YEAR]
+                    (jrc_db['year_commissioned'] >= config.DATA_YEAR)]
     jrc_db = jrc_db[['eic_p', 'country', 'type_g', 'lat', 'lon', 'capacity_g', 'year_commissioned']]
     wri_db = wri_db[['country_long', 'primary_fuel', 'latitude', 'longitude', 'capacity_mw',
         'commissioning_year']]
@@ -67,18 +67,18 @@ def is_the_same(plant1,  plant2):
         plant1.iloc[0]['commissioned'] != plant2.iloc[0]['commissioned']:
         return False
 
-    return(True)
+    return True
 
-def get_row_with_better_information(row1, row2):
+def get_row_with_better_information(row1, row2, prefered_second_type = False):
+    if prefered_second_type:
+        row1['type'] = row2['type']
+
     if row1.iloc[0]['commissioned'] is not None:
         return row1
     return row2
 
-def merge_db_by_type_and_country(db1, db2):
+def merge_two_sorted_db(db1, db2, prefered_second_type = False):
     result = pd.DataFrame(columns = db1.columns)
-
-    db1 = db1.sort_values(by = ['lat'])
-    db2 = db2.sort_values(by = ['lat'])
 
     i = 0
     j = 0
@@ -87,7 +87,7 @@ def merge_db_by_type_and_country(db1, db2):
         row2 = db2.iloc[[j]]
 
         if(is_the_same(row1, row2)):
-            result.append(get_row_with_better_information(row1, row2))
+            result.append(get_row_with_better_information(row1, row2, prefered_second_type))
             i = i + 1
             j = j + 1
         elif row1.iloc[0]['lat'] < row2.iloc[0]['lat']:
@@ -97,22 +97,46 @@ def merge_db_by_type_and_country(db1, db2):
             result = result.append(row2)
             j = j + 1
 
-    return db1
+    if i < db1.shape[0]:
+        result = result.append(db1.tail(db1.shape[0] - i))
+    elif j < db2.shape[0]:
+        result = result.append(db2.tail(db2.shape[0] - j))
 
-def merge_db_by_type(db1, db2):
+    return result
+
+def merge_db_by_type_and_country(db1, db2, db3):
+    db1 = db1.sort_values(by = ['lat'])
+    db2 = db2.sort_values(by = ['lat'])
+    db3 = db3.sort_values(by = ['lat'])
+
+    #print(f"{len(db1['lat'])}-{len(db2['lat'])}-{len(db3['lat'])}")
+
+    db12 = merge_two_sorted_db(db1, db2)
+    result = merge_two_sorted_db(db12, db3, prefered_second_type = True)
+
+    return result
+
+def fill_dictionary(dictionary, keys_list, filler):
+    for key in keys_list:
+        if key not in dictionary.keys():
+            dictionary[key] = filler
+
+    return dictionary
+
+def merge_db_by_type(db1, db2, db3):
     db1_by_country = dict([(y, x) for y, x in db1.groupby(db1['country'])])
     db2_by_country = dict([(y, x) for y, x in db2.groupby(db2['country'])])
+    db3_by_country = dict([(y, x) for y, x in db3.groupby(db3['country'])])
+
+    db1_by_country = fill_dictionary(db1_by_country, config.COUNTRIES, pd.DataFrame(columns = db1.columns))
+    db2_by_country = fill_dictionary(db2_by_country, config.COUNTRIES, pd.DataFrame(columns = db1.columns))
+    db3_by_country = fill_dictionary(db3_by_country, config.COUNTRIES, pd.DataFrame(columns = db1.columns))
 
     db_merged_by_country = pd.DataFrame(columns = db1.columns)
     for country in config.COUNTRIES:
-        if country not in db1_by_country.keys():
-            if country in db2_by_country.keys():
-                db_merged_by_country = pd.concat([db_merged_by_country, db2_by_country[country]])
-        elif country not in db2_by_country.keys():
-            db_merged_by_country = pd.concat([db_merged_by_country, db1_by_country[country]])
-        else:
-            db_merged_by_country = pd.concat([db_merged_by_country,
-                merge_db_by_type_and_country(db1_by_country[country], db2_by_country[country])])
+        #print(f"COUNTRY: {country}")
+        db_merged_by_country = pd.concat([db_merged_by_country,
+            merge_db_by_type_and_country(db1_by_country[country], db2_by_country[country], db3_by_country[country])])
 
     return db_merged_by_country
 
@@ -130,6 +154,9 @@ def remove_nans(db):
     db = db[db['cap'].notna()]
     return db
 
+def get_type_category(types):
+    return types.replace(config.TYPES_TO_GROUPS)
+
 def merge_db(db1, db2, db3):
     db1 = remove_nans(db1)
     db2 = remove_nans(db2)
@@ -137,22 +164,22 @@ def merge_db(db1, db2, db3):
 
     db3.to_csv('cpp_db.csv')
 
-    db1_by_type = dict([(y, x) for y, x in db1.groupby(db1['type'])])
-    db2_by_type = dict([(y, x) for y, x in db2.groupby(db2['type'])])
+    db1_by_type = dict([(y, x) for y, x in db1.groupby(get_type_category(db1['type']))])
+    db2_by_type = dict([(y, x) for y, x in db2.groupby(get_type_category(db2['type']))])
+    db3_by_type = dict([(y, x) for y, x in db3.groupby(get_type_category(db3['type']))])
+
+    db1_by_type = fill_dictionary(db1_by_type, config.TYPES_GROUPS, pd.DataFrame(columns = db1.columns))
+    db2_by_type = fill_dictionary(db2_by_type, config.TYPES_GROUPS, pd.DataFrame(columns = db1.columns))
+    db3_by_type = fill_dictionary(db3_by_type, config.TYPES_GROUPS, pd.DataFrame(columns = db1.columns))
 
     db_merged_by_type = pd.DataFrame(columns = db1.columns)
 
-    n = len(config.TYPES)
-    for (type, i) in zip(config.TYPES, list(range(n))):
+    n = len(config.TYPES_GROUPS)
+    for (t, i) in zip(config.TYPES_GROUPS, list(range(n))):
         show_progress_bar(i, n)
-        if type not in db1_by_type.keys():
-            if type in db2_by_type.keys():
-                db_merged_by_type = pd.concat([db_merged_by_type, db2_by_type[type]])
-        elif type not in db2_by_type.keys():
-            db_merged_by_type = pd.concat([db_merged_by_type, db1_by_type[type]])
-        else:
-            db_merged_by_type = pd.concat([db_merged_by_type,
-                merge_db_by_type(db1_by_type[type], db2_by_type[type])])
+        #print(f"TYPE: {t}")
+        db_merged_by_type = pd.concat([db_merged_by_type,
+                merge_db_by_type(db1_by_type[t], db2_by_type[t], db3_by_type[t])])
 
     print('\n')
     return db_merged_by_type
@@ -188,8 +215,3 @@ if __name__ == '__main__':
 
     print('Results saved to: grouped.xlsx')
     writer.save()
-
-    print(cpp_db.head())
-    print(set(cpp_db['country']))
-    print(set(cpp_db['type']))
-    # print(set((cpp_db[cpp_db['energy_source'] == 'Natural gas'])['technology']))

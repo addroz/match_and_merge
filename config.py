@@ -102,6 +102,13 @@ YEARS = [1960, 1965, 1970, 1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015,
 # year of the data
 DATA_YEAR = 2020
 
+TYPES_TO_GROUPS = {'Gas_OCGT': 'Gas',
+    'Gas_CCS': 'Gas',
+    'Gas_CCGT': 'Gas',
+    'Gas_ST': 'Gas'}
+
+TYPES_GROUPS = list(set([TYPES_TO_GROUPS.get(t, t) for t in TYPES]))
+
 # Relative paths to original databases
 JRC_FILE_PATH = './jrc_db_original/JRC_OPEN_UNITS.csv'
 WRI_FILE_PATH = './wri_db_original/global_power_plant_database.csv'
