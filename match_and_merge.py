@@ -4,7 +4,6 @@ import geopy.distance
 import numpy as np
 import pandas as pd
 from pandas.core.reshape import concat
-
 import config
 
 
@@ -17,7 +16,9 @@ def read_and_prepare_data():
     cpp_db = remove_trailing_whitespaces(pd.read_csv(config.CPP_FILE_PATH, low_memory = False))
 
     jrc_db = jrc_db[(jrc_db['year_commissioned'].isna()) |
-                    (jrc_db['year_commissioned'] >= config.DATA_YEAR)]
+                    (jrc_db['year_commissioned'] <= config.DATA_YEAR)]
+    jrc_db = jrc_db[(jrc_db['year_decommissioned'].isna()) |
+                    (jrc_db['year_decommissioned'] >= config.DATA_YEAR)]
     jrc_db = jrc_db[['eic_p', 'country', 'type_g', 'lat', 'lon', 'capacity_g', 'year_commissioned']]
     wri_db = wri_db[['country_long', 'primary_fuel', 'latitude', 'longitude', 'capacity_mw',
         'commissioning_year']]
@@ -49,30 +50,31 @@ def read_and_prepare_data():
 
     return jrc_db, wri_db, cpp_db
 
-def is_the_same(plant1,  plant2):
+def is_the_same(plant1, plant2):
     coord1 = (plant1.iloc[0]['lat'], plant1.iloc[0]['lon'])
     coord2 = (plant2.iloc[0]['lat'], plant2.iloc[0]['lon'])
 
     distance = geopy.distance.distance(coord1, coord2).km
 
-    if distance > 1:
+    if distance > 5:
         return False
 
-    if plant1.iloc[0]['cap']/plant2.iloc[0]['cap'] < 0.9 or \
+    if plant1.iloc[0]['cap'] == 0 and plant2.iloc[0]['cap'] != 0:
+        return False
+    elif plant2.iloc[0]['cap'] == 0 and plant1.iloc[0]['cap'] != 0:
+        return False
+    elif plant1.iloc[0]['cap']/plant2.iloc[0]['cap'] < 0.9 or \
         plant1.iloc[0]['cap']/plant2.iloc[0]['cap'] > 1.1:
         return False
 
     if plant1.iloc[0]['commissioned'] is not None and \
         plant2.iloc[0]['commissioned'] is not None and \
-        plant1.iloc[0]['commissioned'] != plant2.iloc[0]['commissioned']:
+        abs(plant1.iloc[0]['commissioned'] - plant2.iloc[0]['commissioned']) < 3:
         return False
 
     return True
 
-def get_row_with_better_information(row1, row2, prefered_second_type = False):
-    if prefered_second_type:
-        row1['type'] = row2['type']
-
+def get_row_with_better_information(row1, row2):
     if row1.iloc[0]['commissioned'] is not None:
         return row1
     return row2
@@ -87,7 +89,9 @@ def merge_two_sorted_db(db1, db2, prefered_second_type = False):
         row2 = db2.iloc[[j]]
 
         if(is_the_same(row1, row2)):
-            result.append(get_row_with_better_information(row1, row2, prefered_second_type))
+            result = result.append(get_row_with_better_information(row1, row2))
+            if prefered_second_type:
+                result.iloc[-1, 1] = db2.iloc[j, 1]
             i = i + 1
             j = j + 1
         elif row1.iloc[0]['lat'] < row2.iloc[0]['lat']:
@@ -109,9 +113,8 @@ def merge_db_by_type_and_country(db1, db2, db3):
     db2 = db2.sort_values(by = ['lat'])
     db3 = db3.sort_values(by = ['lat'])
 
-    #print(f"{len(db1['lat'])}-{len(db2['lat'])}-{len(db3['lat'])}")
-
     db12 = merge_two_sorted_db(db1, db2)
+    db12 = db1.sort_values(by = ['lat'])
     result = merge_two_sorted_db(db12, db3, prefered_second_type = True)
 
     return result
@@ -134,7 +137,6 @@ def merge_db_by_type(db1, db2, db3):
 
     db_merged_by_country = pd.DataFrame(columns = db1.columns)
     for country in config.COUNTRIES:
-        #print(f"COUNTRY: {country}")
         db_merged_by_country = pd.concat([db_merged_by_country,
             merge_db_by_type_and_country(db1_by_country[country], db2_by_country[country], db3_by_country[country])])
 
@@ -177,7 +179,6 @@ def merge_db(db1, db2, db3):
     n = len(config.TYPES_GROUPS)
     for (t, i) in zip(config.TYPES_GROUPS, list(range(n))):
         show_progress_bar(i, n)
-        #print(f"TYPE: {t}")
         db_merged_by_type = pd.concat([db_merged_by_type,
                 merge_db_by_type(db1_by_type[t], db2_by_type[t], db3_by_type[t])])
 
@@ -186,9 +187,15 @@ def merge_db(db1, db2, db3):
 
 def group_db(db, years):
     cap_by_year = pd.DataFrame(columns=['year', 'ID-year'] + config.TYPES)
+    previous_row = None
     for year in years:
         row = (db[(db['commissioned'].isna()) | (db['commissioned'] <= year)]\
-                .groupby(['type']).sum())['cap']
+                .groupby(['type']).sum())['cap']/1000
+        if previous_row is not None:
+            row, previous_row = row - previous_row, row
+        else:
+            previous_row = row
+
         row['ID-year'] = year
         cap_by_year = cap_by_year.append(row)
 
