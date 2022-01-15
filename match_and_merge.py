@@ -159,6 +159,13 @@ def remove_nans(db):
 def get_type_category(types):
     return types.replace(config.TYPES_TO_GROUPS)
 
+def get_dbs_by_type(t, db1, db2, db3):
+    if t == 'Nuclear':
+        return (db1, pd.DataFrame(columns = db1.columns), pd.DataFrame(columns = db1.columns))
+    if t in ('Coal', 'Lignite'):
+        return (db1, pd.DataFrame(columns = db1.columns), db3)
+    return (db1, db2, db3)
+
 def merge_db(db1, db2, db3):
     db1 = remove_nans(db1)
     db2 = remove_nans(db2)
@@ -179,8 +186,9 @@ def merge_db(db1, db2, db3):
     n = len(config.TYPES_GROUPS)
     for (t, i) in zip(config.TYPES_GROUPS, list(range(n))):
         show_progress_bar(i, n)
+        db1_of_type, db2_of_type, db3_of_type = get_dbs_by_type(t, db1_by_type[t], db2_by_type[t], db3_by_type[t])
         db_merged_by_type = pd.concat([db_merged_by_type,
-                merge_db_by_type(db1_by_type[t], db2_by_type[t], db3_by_type[t])])
+                merge_db_by_type(db1_of_type, db2_of_type, db3_of_type)])
 
     print('\n')
     return db_merged_by_type
