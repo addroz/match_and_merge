@@ -1,3 +1,4 @@
+import dis
 import sys
 
 import geopy.distance
@@ -51,71 +52,63 @@ def read_and_prepare_data():
     return jrc_db, wri_db, cpp_db
 
 def is_the_same(plant1, plant2):
-    coord1 = (plant1.iloc[0]['lat'], plant1.iloc[0]['lon'])
-    coord2 = (plant2.iloc[0]['lat'], plant2.iloc[0]['lon'])
+    coord1 = (plant1['lat'], plant1['lon'])
+    coord2 = (plant2['lat'], plant2['lon'])
 
     distance = geopy.distance.distance(coord1, coord2).km
+
+    if distance < 0.5:
+        return True
 
     if distance > 5:
         return False
 
-    if plant1.iloc[0]['cap'] == 0 and plant2.iloc[0]['cap'] != 0:
+    if plant1['cap'] == 0 and plant2['cap'] != 0:
         return False
-    elif plant2.iloc[0]['cap'] == 0 and plant1.iloc[0]['cap'] != 0:
+    elif plant2['cap'] == 0 and plant1['cap'] != 0:
         return False
-    elif plant1.iloc[0]['cap']/plant2.iloc[0]['cap'] < 0.9 or \
-        plant1.iloc[0]['cap']/plant2.iloc[0]['cap'] > 1.1:
+    elif plant1['cap']/plant2['cap'] < 0.9 or \
+        plant1['cap']/plant2['cap'] > 1.1:
         return False
 
-    if plant1.iloc[0]['commissioned'] is not None and \
-        plant2.iloc[0]['commissioned'] is not None and \
-        abs(plant1.iloc[0]['commissioned'] - plant2.iloc[0]['commissioned']) < 3:
+    if plant1['commissioned'] is not None and \
+        plant2['commissioned'] is not None and \
+        abs(plant1['commissioned'] - plant2['commissioned']) < 3:
         return False
 
     return True
 
 def get_row_with_better_information(row1, row2):
-    if row1.iloc[0]['commissioned'] is not None:
+    if row1['commissioned'] is not None:
         return row1
     return row2
 
-def merge_two_sorted_db(db1, db2, prefered_second_type = False):
+def merge_two_db(db1, db2, prefered_second_type = False):
     result = pd.DataFrame(columns = db1.columns)
 
-    i = 0
-    j = 0
-    while i < db1.shape[0] and j < db2.shape[0]:
-        row1 = db1.iloc[[i]]
-        row2 = db2.iloc[[j]]
-
-        if(is_the_same(row1, row2)):
-            result = result.append(get_row_with_better_information(row1, row2))
-            if prefered_second_type:
-                result.iloc[-1, 1] = db2.iloc[j, 1]
-            i = i + 1
-            j = j + 1
-        elif row1.iloc[0]['lat'] < row2.iloc[0]['lat']:
-            result = result.append(row1)
-            i = i + 1
+    for _, row in db1.iterrows():
+        id_to_remove = []
+        row2_to_append = None
+        for index2, row2 in db2.iterrows():
+            if is_the_same(row, row2):
+                row2_to_append = row2
+                id_to_remove.append(index2)
+        
+        if row2_to_append is None:
+            result = result.append(row)
+        elif prefered_second_type:
+            result = result.append(row2_to_append)
         else:
-            result = result.append(row2)
-            j = j + 1
+            result = result.append(get_row_with_better_information(row, row2_to_append))
 
-    if i < db1.shape[0]:
-        result = result.append(db1.tail(db1.shape[0] - i))
-    elif j < db2.shape[0]:
-        result = result.append(db2.tail(db2.shape[0] - j))
+        db2.drop(id_to_remove, inplace = True)
 
+    result = result.append(db2)
     return result
 
 def merge_db_by_type_and_country(db1, db2, db3):
-    db1 = db1.sort_values(by = ['lat'])
-    db2 = db2.sort_values(by = ['lat'])
-    db3 = db3.sort_values(by = ['lat'])
-
-    db12 = merge_two_sorted_db(db1, db2)
-    db12 = db1.sort_values(by = ['lat'])
-    result = merge_two_sorted_db(db12, db3, prefered_second_type = True)
+    db12 = merge_two_db(db1, db2)
+    result = merge_two_db(db12, db3, prefered_second_type = True)
 
     return result
 
@@ -167,6 +160,9 @@ def get_dbs_by_type(t, db1, db2, db3):
     return (db1, db2, db3)
 
 def merge_db(db1, db2, db3):
+    n = len(config.TYPES_GROUPS)
+    show_progress_bar(0, n + 1)
+
     db1 = remove_nans(db1)
     db2 = remove_nans(db2)
     db3 = remove_nans(db3)
@@ -183,12 +179,11 @@ def merge_db(db1, db2, db3):
 
     db_merged_by_type = pd.DataFrame(columns = db1.columns)
 
-    n = len(config.TYPES_GROUPS)
     for (t, i) in zip(config.TYPES_GROUPS, list(range(n))):
-        show_progress_bar(i, n)
         db1_of_type, db2_of_type, db3_of_type = get_dbs_by_type(t, db1_by_type[t], db2_by_type[t], db3_by_type[t])
         db_merged_by_type = pd.concat([db_merged_by_type,
                 merge_db_by_type(db1_of_type, db2_of_type, db3_of_type)])
+        show_progress_bar(i + 1, n + 1)
 
     print('\n')
     return db_merged_by_type
@@ -226,7 +221,10 @@ if __name__ == '__main__':
         grouped = group_db(merged[merged['country'] == country], config.YEARS)
         grouped = grouped.reset_index()
         grouped = grouped.drop(columns = ['index'])
+        sum_for_country = grouped.drop(['year', 'ID-year'], axis=1).to_numpy().sum()
+        print(f'Sum of all available capacity for {country}: {sum_for_country}')
         grouped.to_excel(writer, sheet_name = config.COUNTRIES_NAME_TO_ABBR[country], index = False)
 
     print('Results saved to: grouped.xlsx')
     writer.save()
+
