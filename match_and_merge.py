@@ -49,13 +49,13 @@ def read_and_prepare_data():
 
     return jrc_db, wri_db, cpp_db
 
-def is_the_same(plant1, plant2):
+def is_the_same(plant1, plant2, dist = 0.5):
     coord1 = (plant1['lat'], plant1['lon'])
     coord2 = (plant2['lat'], plant2['lon'])
 
     distance = geopy.distance.distance(coord1, coord2).km
 
-    if distance < 0.5:
+    if distance < dist:
         return True
 
     if distance > 5:
@@ -81,14 +81,14 @@ def get_row_with_better_information(row1, row2):
         return row1
     return row2
 
-def merge_two_db(db1, db2, prefered_second_type = False):
+def merge_two_db(db1, db2, prefered_second_type = False, dist = 0.5):
     result = pd.DataFrame(columns = db1.columns)
 
     for _, row in db1.iterrows():
         id_to_remove = []
         row2_to_append = None
         for index2, row2 in db2.iterrows():
-            if is_the_same(row, row2):
+            if is_the_same(row, row2, dist):
                 row2_to_append = row2
                 id_to_remove.append(index2)
 
@@ -104,9 +104,9 @@ def merge_two_db(db1, db2, prefered_second_type = False):
     result = result.append(db2)
     return result
 
-def merge_db_by_type_and_country(db1, db2, db3):
-    db12 = merge_two_db(db1, db2)
-    result = merge_two_db(db12, db3, prefered_second_type = True)
+def merge_db_by_type_and_country(db1, db2, db3, dist = 0.5):
+    db12 = merge_two_db(db1, db2, dist = dist)
+    result = merge_two_db(db12, db3, dist = dist, prefered_second_type = True)
 
     return result
 
@@ -117,7 +117,7 @@ def fill_dictionary(dictionary, keys_list, filler):
 
     return dictionary
 
-def merge_db_by_type(db1, db2, db3):
+def merge_db_by_type(db1, db2, db3, dist = 0.5):
     db1_by_country = dict([(y, x) for y, x in db1.groupby(db1['country'])])
     db2_by_country = dict([(y, x) for y, x in db2.groupby(db2['country'])])
     db3_by_country = dict([(y, x) for y, x in db3.groupby(db3['country'])])
@@ -129,7 +129,8 @@ def merge_db_by_type(db1, db2, db3):
     db_merged_by_country = pd.DataFrame(columns = db1.columns)
     for country in config.COUNTRIES:
         db_merged_by_country = pd.concat([db_merged_by_country,
-            merge_db_by_type_and_country(db1_by_country[country], db2_by_country[country], db3_by_country[country])])
+            merge_db_by_type_and_country(db1_by_country[country], db2_by_country[country], db3_by_country[country],
+                dist = dist)])
 
     return db_merged_by_country
 
@@ -157,7 +158,7 @@ def get_dbs_by_type(t, db1, db2, db3):
         return (db1, pd.DataFrame(columns = db1.columns), db3)
     return (db1, db2, db3)
 
-def merge_db(db1, db2, db3):
+def merge_db(db1, db2, db3, dist = 0.5):
     n = len(config.TYPES_GROUPS)
     show_progress_bar(0, n + 1)
 
@@ -180,7 +181,7 @@ def merge_db(db1, db2, db3):
     for (t, i) in zip(config.TYPES_GROUPS, list(range(n))):
         db1_of_type, db2_of_type, db3_of_type = get_dbs_by_type(t, db1_by_type[t], db2_by_type[t], db3_by_type[t])
         db_merged_by_type = pd.concat([db_merged_by_type,
-                merge_db_by_type(db1_of_type, db2_of_type, db3_of_type)])
+                merge_db_by_type(db1_of_type, db2_of_type, db3_of_type, dist)])
         show_progress_bar(i + 1, n + 1)
 
     print('\n')
@@ -208,20 +209,30 @@ if __name__ == '__main__':
     print('Merging databases')
     jrc_db, wri_db, cpp_db = read_and_prepare_data()
 
-    merged = merge_db(jrc_db, wri_db, cpp_db)
-    merged = merged.reset_index()
-    merged = merged.drop(columns = ['index'])
-    merged.to_csv('merged.csv')
+    countries_scores = {}
 
-    writer = pd.ExcelWriter('grouped.xlsx', engine='xlsxwriter')
     for country in config.COUNTRIES:
-        print(f'Preparing output for {country}')
-        grouped = group_db(merged[merged['country'] == country], config.YEARS)
-        grouped = grouped.reset_index()
-        grouped = grouped.drop(columns = ['index'])
-        sum_for_country = grouped.drop(['year', 'ID-year'], axis=1).to_numpy().sum()
-        print(f'Sum of all available capacity for {country}: {sum_for_country}')
-        grouped.to_excel(writer, sheet_name = config.COUNTRIES_NAME_TO_ABBR[country], index = False)
+        countries_scores[country] = []
 
-    print('Results saved to: grouped.xlsx')
-    writer.save()
+    for dist in (0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.75, 1, 1.5, 2, 3, 4, 5):
+        print(dist)
+        merged = merge_db(jrc_db, wri_db, cpp_db, dist = dist)
+        merged = merged.reset_index()
+        merged = merged.drop(columns = ['index'])
+
+        for country in config.COUNTRIES:
+            grouped = group_db(merged[merged['country'] == country], config.YEARS)
+            grouped = grouped.reset_index()
+            grouped = grouped.drop(columns = ['index'])
+            sum_for_country = grouped.drop(['year', 'ID-year'], axis=1).to_numpy().sum()
+            print(f'Sum of all available capacity for {country}: {sum_for_country}')
+            countries_scores[country].append(sum_for_country)
+
+
+    df=pd.DataFrame.from_dict(countries_scores,orient='index').transpose()
+    df.set_index([pd.Index([0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.75, 1, 1.5, 2, 3, 4, 5])], inplace=True)
+    print(df)
+
+    plot = df[['Germany', 'France', 'Spain', 'Italy', 'United Kingdom', 'Poland']].plot()
+    fig = plot.get_figure()
+    fig.savefig("output.png")
