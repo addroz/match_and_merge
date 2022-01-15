@@ -1,10 +1,8 @@
-import dis
 import sys
 
 import geopy.distance
-import numpy as np
 import pandas as pd
-from pandas.core.reshape import concat
+
 import config
 
 
@@ -93,7 +91,7 @@ def merge_two_db(db1, db2, prefered_second_type = False):
             if is_the_same(row, row2):
                 row2_to_append = row2
                 id_to_remove.append(index2)
-        
+
         if row2_to_append is None:
             result = result.append(row)
         elif prefered_second_type:
@@ -227,4 +225,3 @@ if __name__ == '__main__':
 
     print('Results saved to: grouped.xlsx')
     writer.save()
-
