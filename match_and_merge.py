@@ -5,6 +5,7 @@ import pandas as pd
 
 import config
 
+# Helper functions
 
 def remove_trailing_whitespaces(df):
     return df.replace({"^\s*|\s*$":""}, regex = True)
@@ -25,6 +26,27 @@ def remove_nans(db):
 
 def get_type_category(types):
     return types.replace(config.TYPES_TO_GROUPS)
+
+def fill_dictionary(dictionary, keys_list, filler):
+    for key in keys_list:
+        if key not in dictionary.keys():
+            dictionary[key] = filler
+
+    return dictionary
+
+def get_row_with_better_information(row1, row2):
+    if row1['commissioned'] is not None:
+        return row1
+    return row2
+
+def get_dbs_by_type(t, db1, db2, db3):
+    if t == 'Nuclear':
+        return (db1, pd.DataFrame(columns = db1.columns), pd.DataFrame(columns = db1.columns))
+    if t in ('Coal', 'Lignite'):
+        return (db1, pd.DataFrame(columns = db1.columns), db3)
+    return (db1, db2, db3)
+
+# Data reading and preprocessing
 
 def read_and_prepare_data():
     jrc_db = remove_trailing_whitespaces(pd.read_csv(config.JRC_FILE_PATH, low_memory = False))
@@ -66,6 +88,8 @@ def read_and_prepare_data():
 
     return jrc_db, wri_db, cpp_db
 
+# Data merging
+
 def is_the_same(plant1, plant2):
     coord1 = (plant1['lat'], plant1['lon'])
     coord2 = (plant2['lat'], plant2['lon'])
@@ -93,11 +117,6 @@ def is_the_same(plant1, plant2):
         return False
 
     return True
-
-def get_row_with_better_information(row1, row2):
-    if row1['commissioned'] is not None:
-        return row1
-    return row2
 
 def merge_two_db(db1, db2, prefered_second_type = False):
     result = pd.DataFrame(columns = db1.columns)
@@ -128,13 +147,6 @@ def merge_db_by_type_and_country(db1, db2, db3):
 
     return result
 
-def fill_dictionary(dictionary, keys_list, filler):
-    for key in keys_list:
-        if key not in dictionary.keys():
-            dictionary[key] = filler
-
-    return dictionary
-
 def merge_db_by_type(db1, db2, db3):
     db1_by_country = dict([(y, x) for y, x in db1.groupby(db1['country'])])
     db2_by_country = dict([(y, x) for y, x in db2.groupby(db2['country'])])
@@ -150,15 +162,6 @@ def merge_db_by_type(db1, db2, db3):
             merge_db_by_type_and_country(db1_by_country[country], db2_by_country[country], db3_by_country[country])])
 
     return db_merged_by_country
-
-
-
-def get_dbs_by_type(t, db1, db2, db3):
-    if t == 'Nuclear':
-        return (db1, pd.DataFrame(columns = db1.columns), pd.DataFrame(columns = db1.columns))
-    if t in ('Coal', 'Lignite'):
-        return (db1, pd.DataFrame(columns = db1.columns), db3)
-    return (db1, db2, db3)
 
 def merge_db(db1, db2, db3):
     n = len(config.TYPES_GROUPS)
@@ -186,6 +189,8 @@ def merge_db(db1, db2, db3):
 
     print('\n')
     return db_merged_by_type
+
+# Grouping data by year and country
 
 def group_db(db, years):
     cap_by_year = pd.DataFrame(columns=['year', 'ID-year'] + config.TYPES)
