@@ -9,6 +9,23 @@ import config
 def remove_trailing_whitespaces(df):
     return df.replace({"^\s*|\s*$":""}, regex = True)
 
+def show_progress_bar(i, n):
+    j = (i + 1) / n
+    sys.stdout.write('\r')
+    sys.stdout.write('[%-50s] %d%%' % ('='*(int(50*j)), 100*j))
+    sys.stdout.flush()
+
+def remove_nans(db):
+    db = db[db['country'].notna()]
+    db = db[db['type'].notna()]
+    db = db[db['lat'].notna()]
+    db = db[db['lon'].notna()]
+    db = db[db['cap'].notna()]
+    return db
+
+def get_type_category(types):
+    return types.replace(config.TYPES_TO_GROUPS)
+
 def read_and_prepare_data():
     jrc_db = remove_trailing_whitespaces(pd.read_csv(config.JRC_FILE_PATH, low_memory = False))
     wri_db = remove_trailing_whitespaces(pd.read_csv(config.WRI_FILE_PATH, low_memory = False))
@@ -55,7 +72,7 @@ def is_the_same(plant1, plant2):
 
     distance = geopy.distance.distance(coord1, coord2).km
 
-    if distance < 0.5:
+    if distance < config.UNCONDITIONAL_DISTANCE_CRITERION:
         return True
 
     if distance > 5:
@@ -65,13 +82,14 @@ def is_the_same(plant1, plant2):
         return False
     elif plant2['cap'] == 0 and plant1['cap'] != 0:
         return False
-    elif plant1['cap']/plant2['cap'] < 0.9 or \
-        plant1['cap']/plant2['cap'] > 1.1:
+    elif plant1['cap']/plant2['cap'] < (1 - config.CONDITIONAL_CAPACITY_CRITERION) or \
+        plant1['cap']/plant2['cap'] > (1 + config.CONDITIONAL_CAPACITY_CRITERION):
         return False
 
     if plant1['commissioned'] is not None and \
         plant2['commissioned'] is not None and \
-        abs(plant1['commissioned'] - plant2['commissioned']) < 3:
+        abs(plant1['commissioned'] - plant2['commissioned']) < \
+            config.CONDITIONAL_COMISSIONING_CRITERION:
         return False
 
     return True
@@ -133,22 +151,7 @@ def merge_db_by_type(db1, db2, db3):
 
     return db_merged_by_country
 
-def show_progress_bar(i, n):
-    j = (i + 1) / n
-    sys.stdout.write('\r')
-    sys.stdout.write('[%-50s] %d%%' % ('='*(int(50*j)), 100*j))
-    sys.stdout.flush()
 
-def remove_nans(db):
-    db = db[db['country'].notna()]
-    db = db[db['type'].notna()]
-    db = db[db['lat'].notna()]
-    db = db[db['lon'].notna()]
-    db = db[db['cap'].notna()]
-    return db
-
-def get_type_category(types):
-    return types.replace(config.TYPES_TO_GROUPS)
 
 def get_dbs_by_type(t, db1, db2, db3):
     if t == 'Nuclear':
@@ -164,8 +167,6 @@ def merge_db(db1, db2, db3):
     db1 = remove_nans(db1)
     db2 = remove_nans(db2)
     db3 = remove_nans(db3)
-
-    db3.to_csv('cpp_db.csv')
 
     db1_by_type = dict([(y, x) for y, x in db1.groupby(get_type_category(db1['type']))])
     db2_by_type = dict([(y, x) for y, x in db2.groupby(get_type_category(db2['type']))])

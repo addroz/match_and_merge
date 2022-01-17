@@ -1,3 +1,4 @@
+### Basic config
 
 # Countries for which the merging is performed and data saved
 COUNTRIES = ['Austria', 'Belgium', 'Bulgaria', 'Croatia', 'Czechia', 'Denmark', 'Estonia', 'Finland',
@@ -12,12 +13,32 @@ COUNTRIES_NAME_TO_ABBR = {'Austria':'AT', 'Belgium':'BE', 'Bulgaria':'BG', 'Croa
     'Malta':'MT', 'Netherlands':'NL', 'Norway':'NO', 'Poland':'PL', 'Portugal':'PT', 'Romania':'RO',
     'Slovakia':'SK', 'Slovenia':'SI', 'Spain':'ES', 'Sweden':'SE', 'United Kingdom':'UK'}
 
-# Reverse of the COUNTRIES_NAME_TO_ABBR: map of countries abbreviations to their coresponding names
-COUNTRIES_ABBR_TO_NAME = {v: k for k, v in COUNTRIES_NAME_TO_ABBR.items()}
-
 # Names of all the types of plants/fuels used in the output file
 TYPES = ['Bio_CCS', 'Bioenergy', 'Coal', 'Coal_CCS', 'Gas_CCGT', 'Gas_CCS', 'Gas_OCGT',
     'Gas_ST', 'Geothermal', 'Lignite', 'Nuclear', 'OilOther']
+
+
+# years for which the ouptut is generated
+YEARS = [1960, 1965, 1970, 1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2020]
+
+# year of the data
+DATA_YEAR = 2020
+
+# Relative paths to original databases
+JRC_FILE_PATH = './jrc_db_original/JRC_OPEN_UNITS.csv'
+WRI_FILE_PATH = './wri_db_original/global_power_plant_database.csv'
+CPP_FILE_PATH = './cpp_db_original/opsd-conventional_power_plants-2020-10-01/conventional_power_plants_EU.csv'
+
+# links to the websites from which we download both databases
+WRI_DB_LINK = 'https://wri-dataportal-prod.s3.amazonaws.com/manual/global_power_plant_database_v_1_3.zip?download=1'
+JRC_DB_LINK = 'https://zenodo.org/record/3574566/files/JRC-PPDB-OPEN.ver1.0.zip?download=1'
+CPP_DB_LINK = 'https://data.open-power-system-data.org/conventional_power_plants/opsd-conventional_power_plants-2020-10-01.zip'
+
+# the distance, below which two plants in the same type group and in the same country,
+# will be considered the same plant regardless of their other characteristics (in km)
+UNCONDITIONAL_DISTANCE_CRITERION = 0.5
+
+### Advanced config
 
 # Map of types of plants/fuels used in JRC database and their output file counterparts
 TYPES_JRC_DICT = {
@@ -96,25 +117,31 @@ TYPES_CPP_DICT = {
     'Bioenergy Steam turbine': 'Bioenergy',
     'Hydro Pumped storage with natural inflow': 'Hydro'}
 
-# years for which the ouptut is generated
-YEARS = [1960, 1965, 1970, 1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2020]
-
-# year of the data
-DATA_YEAR = 2020
-
+# if some, distinct, types of power plants can be merged, they should be marked as the same
+# type group. These groups are specified here.
 TYPES_TO_GROUPS = {'Gas_OCGT': 'Gas',
     'Gas_CCS': 'Gas',
     'Gas_CCGT': 'Gas',
     'Gas_ST': 'Gas'}
 
+# the distance, below which two plants in the same type group and in the same country,
+# will be considered the same plant, if and only if other conditional criteria are met (in km)
+CONDITIONAL_DISTANCE_CRITERION = 5
+
+# the relative difference in capacity, below which two plants in the same type group and in
+# the same country, will be considered the same plant,
+# if and only if other conditional criteria are met
+CONDITIONAL_CAPACITY_CRITERION = 0.1
+
+# the difference in comissioning year, below which two plants in the same type group and in
+# the same country, will be considered the same plant,
+# if and only if other conditional criteria are met (in years)
+CONDITIONAL_COMISSIONING_CRITERION = 3
+
+### Constants based on config
+
+# List of all types groups, constructed according to the dictionary
 TYPES_GROUPS = list(set([TYPES_TO_GROUPS.get(t, t) for t in TYPES]))
 
-# Relative paths to original databases
-JRC_FILE_PATH = './jrc_db_original/JRC_OPEN_UNITS.csv'
-WRI_FILE_PATH = './wri_db_original/global_power_plant_database.csv'
-CPP_FILE_PATH = './cpp_db_original/opsd-conventional_power_plants-2020-10-01/conventional_power_plants_EU.csv'
-
-# links to the websites from which we download both databases
-WRI_DB_LINK = 'https://wri-dataportal-prod.s3.amazonaws.com/manual/global_power_plant_database_v_1_3.zip?download=1'
-JRC_DB_LINK = 'https://zenodo.org/record/3574566/files/JRC-PPDB-OPEN.ver1.0.zip?download=1'
-CPP_DB_LINK = 'https://data.open-power-system-data.org/conventional_power_plants/opsd-conventional_power_plants-2020-10-01.zip'
+# Reverse of the COUNTRIES_NAME_TO_ABBR: map of countries abbreviations to their coresponding names
+COUNTRIES_ABBR_TO_NAME = {v: k for k, v in COUNTRIES_NAME_TO_ABBR.items()}
