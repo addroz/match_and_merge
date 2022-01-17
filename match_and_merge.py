@@ -62,7 +62,7 @@ def read_and_prepare_data():
         'commissioning_year']]
 
     cpp_db = cpp_db[['country', 'energy_source', 'technology', 'lat', 'lon', 'capacity', 'commissioned']]
-    cpp_db = cpp_db.replace(config.COUNTRIES_ABBR_TO_NAME)
+    cpp_db.replace(config.COUNTRIES_ABBR_TO_NAME, inplace=True)
     cpp_db['energy_source'] = cpp_db['energy_source'] + ' ' + cpp_db['technology']
     cpp_db.drop(columns=['technology'], inplace=True)
     cpp_db = cpp_db[~cpp_db['energy_source'].isna()]
@@ -82,9 +82,9 @@ def read_and_prepare_data():
     jrc_db = jrc_db[jrc_db['country'].isin(config.COUNTRIES)]
     cpp_db = cpp_db[cpp_db['country'].isin(config.COUNTRIES)]
 
-    jrc_db = jrc_db.replace({'type': config.TYPES_JRC_DICT})
-    wri_db = wri_db.replace({'type': config.TYPES_WRI_DICT})
-    cpp_db = cpp_db.replace({'type': config.TYPES_CPP_DICT})
+    jrc_db.replace({'type': config.TYPES_JRC_DICT}, inplace=True)
+    wri_db.replace({'type': config.TYPES_WRI_DICT}, inplace=True)
+    cpp_db.replace({'type': config.TYPES_CPP_DICT}, inplace=True)
 
     return jrc_db, wri_db, cpp_db
 
@@ -215,16 +215,14 @@ if __name__ == '__main__':
     jrc_db, wri_db, cpp_db = read_and_prepare_data()
 
     merged = merge_db(jrc_db, wri_db, cpp_db)
-    merged = merged.reset_index()
-    merged = merged.drop(columns = ['index'])
+    merged.reset_index(inplace=True, drop = True)
     merged.to_csv('merged.csv')
 
     writer = pd.ExcelWriter('grouped.xlsx', engine='xlsxwriter')
     for country in config.COUNTRIES:
         print(f'Preparing output for {country}')
         grouped = group_db(merged[merged['country'] == country], config.YEARS)
-        grouped = grouped.reset_index()
-        grouped = grouped.drop(columns = ['index'])
+        grouped.reset_index(inplace=True, drop = True)
         sum_for_country = grouped.drop(['year', 'ID-year'], axis=1).to_numpy().sum()
         print(f'Sum of all available capacity for {country}: {sum_for_country}')
         grouped.to_excel(writer, sheet_name = config.COUNTRIES_NAME_TO_ABBR[country], index = False)
