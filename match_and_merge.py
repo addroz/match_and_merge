@@ -99,7 +99,7 @@ def is_the_same(plant1, plant2):
     if distance < config.UNCONDITIONAL_DISTANCE_CRITERION:
         return True
 
-    if distance > 5:
+    if distance > config.CONDITIONAL_DISTANCE_CRITERION:
         return False
 
     if plant1['cap'] == 0 and plant2['cap'] != 0:
@@ -110,9 +110,7 @@ def is_the_same(plant1, plant2):
         plant1['cap']/plant2['cap'] > (1 + config.CONDITIONAL_CAPACITY_CRITERION):
         return False
 
-    if plant1['commissioned'] is not None and \
-        plant2['commissioned'] is not None and \
-        abs(plant1['commissioned'] - plant2['commissioned']) < \
+    if abs(plant1['commissioned'] - plant2['commissioned']) > \
             config.CONDITIONAL_COMISSIONING_CRITERION:
         return False
 
