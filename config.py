@@ -10,13 +10,13 @@ CPP_DB_LINK = 'https://data.open-power-system-data.org/conventional_power_plants
 # Countries for which the merging is performed and data saved
 COUNTRIES = ['Austria', 'Belgium', 'Bulgaria', 'Croatia', 'Czechia', 'Denmark', 'Estonia', 'Finland',
     'France', 'Germany', 'Greece', 'Ireland', 'Hungary', 'Italy', 'Latvia', 'Lithuania', 'Luxembourg',
-    'Malta', 'Netherlands', 'Norway', 'Poland', 'Portugal', 'Romania', 'Slovakia', 'Slovenia', 'Spain',
+    'Netherlands', 'Norway', 'Poland', 'Portugal', 'Romania', 'Slovakia', 'Slovenia', 'Spain',
     'Sweden', 'United Kingdom']
 
 # The map of countries names to their coresponding abbreviations, used in the output excel file
 COUNTRIES_NAME_TO_ABBR = {'Austria':'AT', 'Belgium':'BE', 'Bulgaria':'BG', 'Croatia':'CH', 'Czechia':'CZ',
-    'Denmark':'DK', 'Estonia':'ET', 'Finland':'FI', 'France':'FR', 'Germany':'DE', 'Greece':'EL',
-    'Ireland':'IE', 'Hungary':'HU', 'Italy':'IT', 'Latvia':'LV', 'Lithuania':'LI', 'Luxembourg':'LU',
+    'Denmark':'DK', 'Estonia':'EE', 'Finland':'FI', 'France':'FR', 'Germany':'DE', 'Greece':'EL',
+    'Ireland':'IE', 'Hungary':'HU', 'Italy':'IT', 'Latvia':'LV', 'Lithuania':'LT', 'Luxembourg':'LU',
     'Malta':'MT', 'Netherlands':'NL', 'Norway':'NO', 'Poland':'PL', 'Portugal':'PT', 'Romania':'RO',
     'Slovakia':'SK', 'Slovenia':'SI', 'Spain':'ES', 'Sweden':'SE', 'United Kingdom':'UK'}
 
@@ -35,11 +35,17 @@ JRC_FILE_PATH = './jrc_db_original/JRC_OPEN_UNITS.csv'
 WRI_FILE_PATH = './wri_db_original/global_power_plant_database.csv'
 CPP_FILE_PATH = './cpp_db_original/opsd-conventional_power_plants-2020-10-01/conventional_power_plants_EU.csv'
 
+# name of the file with entsoe data
+ENTSOE_FILE_NAME = 'all_countries_entsoe.xlsx'
+
 # the distance, below which two plants in the same type group and in the same country,
 # will be considered the same plant regardless of their other characteristics (in km)
 UNCONDITIONAL_DISTANCE_CRITERION = 0.5
 
 ### Advanced config
+
+ADJUST_UP = False
+ADJUST_DOWN = True
 
 # Map of types of plants/fuels used in JRC database and their output file counterparts
 TYPES_JRC_DICT = {
@@ -120,7 +126,20 @@ TYPES_CPP_DICT = {
 
 # if some, distinct, types of power plants can be merged, they should be marked as the same
 # type group. These groups are specified here.
-TYPES_TO_GROUPS = {'Gas_OCGT': 'Gas',
+TYPES_TO_GROUPS = {
+    'Bio_CCS': 'Bio_CCS',
+    'Bioenergy': 'Bioenergy',
+    'Coal': 'Coal',
+    'Coal_CCS': 'Coal_CCS',
+    'Gas_CCGT': 'Gas_CCGT',
+    'Gas_CCS': 'Gas_CCS',
+    'Gas_OCGT': 'Gas_OCGT',
+    'Gas_ST': 'Gas_ST',
+    'Geothermal': 'Geothermal',
+    'Lignite': 'Lignite',
+    'Nuclear': 'Nuclear',
+    'OilOther': 'OilOther',
+    'Gas_OCGT': 'Gas',
     'Gas_CCS': 'Gas',
     'Gas_CCGT': 'Gas',
     'Gas_ST': 'Gas'}
@@ -146,3 +165,7 @@ TYPES_GROUPS = list(set([TYPES_TO_GROUPS.get(t, t) for t in TYPES]))
 
 # Reverse of the COUNTRIES_NAME_TO_ABBR: map of countries abbreviations to their coresponding names
 COUNTRIES_ABBR_TO_NAME = {v: k for k, v in COUNTRIES_NAME_TO_ABBR.items()}
+
+GROUPS_TO_TYPES = {}
+for k, v in TYPES_TO_GROUPS.items():
+    GROUPS_TO_TYPES.setdefault(v, []).append(k)

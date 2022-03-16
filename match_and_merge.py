@@ -2,6 +2,7 @@ import sys
 
 import geopy.distance
 import pandas as pd
+import numpy as np
 
 import config
 
@@ -208,6 +209,38 @@ def group_db(db, years):
     cap_by_year['year'] = config.DATA_YEAR
     return cap_by_year
 
+def adjust_by_entsoe(data, country, entsoe):
+    data.set_index(['year', 'ID-year'], inplace = True)
+    sum_for_country = data.to_numpy().sum()
+    entsoe = entsoe[entsoe.columns.intersection(config.TYPES + ['year'])]
+    entsoe = entsoe[entsoe['year'] == config.DATA_YEAR]
+    sum_for_country_entsoe = entsoe.drop(['year'], axis=1).to_numpy().sum()
+    print(f'MERGED: Sum of all available capacity for {country}: {sum_for_country}')
+    print(f'ENTSOE: Sum of all available capacity for {country}: {sum_for_country_entsoe}')
+
+    for type_group in config.TYPES_GROUPS:
+        entsoe_type_group = entsoe[entsoe.columns.intersection(config.GROUPS_TO_TYPES[type_group])]
+        data_type_group = data[data.columns.intersection(config.GROUPS_TO_TYPES[type_group])]
+        sum_for_country_type_group_entsoe = entsoe_type_group.to_numpy().sum()
+        sum_for_country_type_group = data_type_group.to_numpy().sum()
+
+        if sum_for_country_type_group_entsoe == np.NaN or sum_for_country_type_group_entsoe == 0:
+            sum_for_country_type_group_entsoe = sum_for_country_type_group
+
+        if sum_for_country_type_group < sum_for_country_type_group_entsoe:
+            print(f'For {country}, {type_group}: {sum_for_country_type_group_entsoe - sum_for_country_type_group}GW too little capacity ({(sum_for_country_type_group_entsoe - sum_for_country_type_group)/sum_for_country_type_group_entsoe*100}%)')
+            if config.ADJUST_UP:
+                data[data.columns.intersection(config.GROUPS_TO_TYPES[type_group])] = \
+                    data_type_group * (sum_for_country_type_group_entsoe/sum_for_country_type_group)
+        elif sum_for_country_type_group > sum_for_country_type_group_entsoe:
+            print(f'For {country}, {type_group}: {sum_for_country_type_group - sum_for_country_type_group_entsoe}GW too much capacity ({(sum_for_country_type_group - sum_for_country_type_group_entsoe)/sum_for_country_type_group_entsoe*100}%)')
+            if config.ADJUST_DOWN:
+                data[data.columns.intersection(config.GROUPS_TO_TYPES[type_group])] = \
+                    data_type_group * (sum_for_country_type_group_entsoe/sum_for_country_type_group)
+
+    data.reset_index(inplace = True)
+    return data
+
 if __name__ == '__main__':
     print('Merging databases')
     jrc_db, wri_db, cpp_db = read_and_prepare_data()
@@ -216,13 +249,15 @@ if __name__ == '__main__':
     merged.reset_index(inplace=True, drop = True)
     merged.to_csv('merged.csv')
 
+    entsoe = pd.read_excel(config.ENTSOE_FILE_NAME, sheet_name=None)
+
     writer = pd.ExcelWriter('grouped.xlsx', engine='xlsxwriter')
     for country in config.COUNTRIES:
-        print(f'Preparing output for {country}')
         grouped = group_db(merged[merged['country'] == country], config.YEARS)
         grouped.reset_index(inplace=True, drop = True)
+        grouped = adjust_by_entsoe(grouped, country, entsoe[config.COUNTRIES_NAME_TO_ABBR[country]])
         sum_for_country = grouped.drop(['year', 'ID-year'], axis=1).to_numpy().sum()
-        print(f'Sum of all available capacity for {country}: {sum_for_country}')
+        print(f'Sum of all available capacity for {country}: {sum_for_country} \n')
         grouped.to_excel(writer, sheet_name = config.COUNTRIES_NAME_TO_ABBR[country], index = False)
 
     print('Results saved to: grouped.xlsx')
