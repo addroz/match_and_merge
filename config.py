@@ -8,17 +8,18 @@ CPP_DB_LINK = 'https://data.open-power-system-data.org/conventional_power_plants
 ### Basic config
 
 # Countries for which the merging is performed and data saved
-COUNTRIES = ['Austria', 'Belgium', 'Bulgaria', 'Croatia', 'Czechia', 'Denmark', 'Estonia', 'Finland',
-    'France', 'Germany', 'Greece', 'Ireland', 'Hungary', 'Italy', 'Latvia', 'Lithuania', 'Luxembourg',
-    'Netherlands', 'Norway', 'Poland', 'Portugal', 'Romania', 'Slovakia', 'Slovenia', 'Spain',
-    'Sweden', 'United Kingdom']
+COUNTRIES = ['Austria', 'Belgium', 'Bulgaria', 'Switzerland', 'Czechia', 'Germany', 'Denmark', 'Estonia',
+    'Greece', 'Spain', 'Finland', 'France', 'Croatia', 'Hungary', 'Ireland', 'Italy', 'Lithuania',
+    'Luxembourg', 'Latvia', 'Netherlands', 'Norway', 'Poland', 'Portugal', 'Romania', 'Sweden', 'Slovenia',
+    'Slovakia', 'United Kingdom']
 
 # The map of countries names to their coresponding abbreviations, used in the output excel file
-COUNTRIES_NAME_TO_ABBR = {'Austria':'AT', 'Belgium':'BE', 'Bulgaria':'BG', 'Croatia':'CH', 'Czechia':'CZ',
+COUNTRIES_NAME_TO_ABBR = {'Austria':'AT', 'Belgium':'BE', 'Bulgaria':'BG', 'Croatia':'HR', 'Czechia':'CZ',
     'Denmark':'DK', 'Estonia':'EE', 'Finland':'FI', 'France':'FR', 'Germany':'DE', 'Greece':'EL',
     'Ireland':'IE', 'Hungary':'HU', 'Italy':'IT', 'Latvia':'LV', 'Lithuania':'LT', 'Luxembourg':'LU',
     'Malta':'MT', 'Netherlands':'NL', 'Norway':'NO', 'Poland':'PL', 'Portugal':'PT', 'Romania':'RO',
-    'Slovakia':'SK', 'Slovenia':'SI', 'Spain':'ES', 'Sweden':'SE', 'United Kingdom':'UK'}
+    'Slovakia':'SK', 'Slovenia':'SI', 'Spain':'ES', 'Sweden':'SE', 'United Kingdom':'UK',
+    'Switzerland': 'CH'}
 
 # Names of all the types of plants/fuels used in the output file
 TYPES = ['Bio_CCS', 'Bioenergy', 'Coal', 'Coal_CCS', 'Gas_CCGT', 'Gas_CCS', 'Gas_OCGT',
