@@ -251,7 +251,7 @@ if __name__ == '__main__':
 
     entsoe = pd.read_excel(config.ENTSOE_FILE_NAME, sheet_name=None)
 
-    writer = pd.ExcelWriter('grouped.xlsx', engine='xlsxwriter')
+    writer = pd.ExcelWriter('process_conv_inst-cap.xlsx', engine='xlsxwriter')
     for country in config.COUNTRIES:
         grouped = group_db(merged[merged['country'] == country], config.YEARS)
         grouped.reset_index(inplace=True, drop = True)
@@ -260,5 +260,5 @@ if __name__ == '__main__':
         print(f'Sum of all available capacity for {country}: {sum_for_country} \n')
         grouped.to_excel(writer, sheet_name = config.COUNTRIES_NAME_TO_ABBR[country], index = False)
 
-    print('Results saved to: grouped.xlsx')
+    print('Results saved to: process_conv_inst-cap.xlsx')
     writer.save()
